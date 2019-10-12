@@ -8,7 +8,7 @@ sudo pacman -Sy fontconfig ttf-hanazono ttf-inconsolata ttf-linux-libertine ttf-
 sudo pacman -Sy pulseaudio pulseaudio-alsa
 sudo pacman -Sy bluez bluez-utils
 sudo pacman -Sy gtk3 materia-gtk-theme faba-icon-theme
-sudo pacman -Sy libnotify dunst neovim bash-completion redshift htop pulsemixer connman wpa_supplicant acpid arandr unclutter
+sudo pacman -Sy libnotify neovim bash-completion redshift htop pulsemixer connman wpa_supplicant acpid arandr unclutter
 sudo pacman -Sy bspwm sxhkd dunst i3lock-color compton
 sudo pacman -Sy python python-pip python-pyperclip
 sudo pacman -Sy mpd mpc ncmpcpp
