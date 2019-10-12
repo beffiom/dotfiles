@@ -1,0 +1,49 @@
+#!/bin/bash
+## changes the files names of directory given user input
+## user input | season num && wiki link with episode names
+
+## variables used
+# $DIR = (directory of file name to be changed)
+# $titles = array of wikipedia episode titles
+# $newFileName = 0X0X Name of episode
+
+# read file path from first argument
+REPLACE_WHAT=" "
+REPLACE_WITH="\ "
+INPUT_DIR=${1//$REPLACE_WHAT/$REPLACE_WITH}
+FILES="*"
+DIR=($1$FILES)
+echo "$DIR"
+
+# read season number from third argument
+read -p "Enter season number: " SEASON_NUM
+read -p "Enter episode number to start at: " START_NUM
+
+# read wikipedia url from second argument
+read -p "Enter sauce: " WIKI_SAUCE
+mapfile -t titles < <(python ~/.scripts/tools/seriestitles.py $WIKI_SAUCE $START_NUM)
+
+# iterate through directory creating a newFileName and use it to rename each file in the directory
+for ((i=0; i<${#DIR[@]}; i++))
+do
+	let EPISODE_NUM=i+1
+
+	if  (("$SEASON_NUM" < 10)) && (("$EPISODE_NUM" < 10)); then
+		season="S0$SEASON_NUM"
+		episode="E0$EPISODE_NUM"
+	elif (("$SEASON_NUM" >= 10)) && (("$EPISODE_NUM" < 10)); then
+		season="S$SEASON_NUM"
+		episode="E0$EPISODE_NUM"
+	elif (("$SEASON_NUM" < 10)) && (("$EPISODE_NUM" >= 10)); then
+		season="S0$SEASON_NUM"
+		episode="E$EPISODE_NUM"
+	else
+		season="S$SEASON_NUM"
+		episode="E$EPISODE_NUM"
+	fi
+
+	newFileName="$season$episode ${titles[i]}"
+	#newFileName+=".mkv"
+
+	mv -v "${DIR[i]}" "$INPUT_DIR$newFileName"
+done

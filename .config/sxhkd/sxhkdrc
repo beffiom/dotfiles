@@ -1,0 +1,205 @@
+#######################
+### LAUNCH PROGRAMS ###
+#######################
+## global variables defined in ~/.config/bash/bash_profile
+
+super + Return
+	$TERMINAL
+
+super + d
+    	appmenu
+
+super + shift + d
+	$LAUNCHER
+
+# super + e
+#    	$EMAIL
+
+super + w
+    	$WEBBROWSER
+
+super + shift + Return
+    	$TERMINAL -e bash ~/.config/vifm/scripts/vifmrun
+
+super + n
+    	$MUSIC
+
+super + shift + n
+    	kunst --size 850x850
+
+# super + shift + s
+#    	$SOULSEEK
+
+super + t
+    	$YOUTUBE
+
+super + shift + t
+    	$TORRENT
+
+super + s
+    	$PROCESS
+
+super + shift + a
+    	$AUDIO
+
+# super + a
+# st -e calc
+
+########################
+### SYSTEM PROCESSES ###
+########################
+## spawn user manual
+super + question
+	$TERMINAL -e $EDITOR ~/README.md
+
+## reload desktop
+super + F1
+	bspc wm -r
+
+## lock screen
+super + F2
+	lockscreen
+
+## logout
+super + F3
+	prompt "Logout?" "sudo kill -9 -1"
+
+## prompt reboot
+super + F4
+    	prompt "Reboot computer?" "sudo -A shutdown -r now"
+
+## prompt shutdown
+super + F5
+    	prompt "Shutdown computer?" "sudo -A shutdown -h now"
+
+## manage passwords
+super + F6
+	passnotify
+
+# configure multi-monitor displays
+super + F7
+    	displaymenu
+
+## configure protonvpn
+super + F8
+    	vpnmenu
+
+
+## mount/unmount devices using dmenu
+super + {F9,F10}
+	{mountmenu,umountmenu}
+
+## audio control
+XF86Audio{LowerVolume,RaiseVolume}
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5
+#; volumenotify
+
+super + {minus,equal}
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5
+#; volumenotify
+
+XF86AudioMute
+	pulsemixer --toggle-mute
+#; volumenotify
+
+super + m
+	pulsemixer --toggle-mute
+#; volumenotify
+
+## shift music track
+XF86Audio{Prev,Next}
+	mpc {prev,next} && notify_currenttrack
+
+super + {comma,period}
+	mpc {prev,next} && notify_currenttrack
+
+## play/pause music
+XF86AudioPlay
+	mpc {play ; notify_currenttrack,pause ; dunstify -r 1 -u low -i ~/.config/appearance/icons/pause.png "Music Paused!"}
+
+super + p
+	mpc {play ; notify_currenttrack,pause ; dunstify -r 1 -u low -i ~/.config/appearance/icons/pause.png "Music Paused!"}
+
+## display backlight control
+XF86MonBrightness{Down,Up}
+	sudo light -{U,A} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(light -G)%"
+
+
+## keyboard backlight control
+## XF86KbdBrightness{Down,Up}
+##	sudo light -s "sysfs/leds/smc::kbd_backlight" -{U,A} 5 ; dunstify -u low -r 7 -i ~/.config/appearance/icons/preferences-desktop-keyboard.svg "Brightness: $(light -s 'sysfs/leds/smc::kbd_backlight' -G)%"
+
+## display clipboard contents
+super + c
+    	dunstify -i ~/.config/appearance/icons/clipboard.png -u low -r 5 "$(xclip -selection clipboard -o)"
+
+# screenshot tool
+super + shift + s
+    	scrotmenu
+
+## select and copy unicode characters
+## super + grave
+##	unicodemenu
+
+## select and edit config files
+super + shift + e
+	configmenu
+
+######################
+### WINDOW MANAGER ###
+######################
+## focus or send the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+## focus or send to the given desktop
+super + {_,shift + }{1-9}
+	bspc {desktop -f,node -d} '^{1-9}'
+
+## hide/show bars
+super + b
+    	{killall polybar ; bspc config top_padding 0,bspc config top_padding 25}
+
+## monocle layout
+super + shift + f
+	bspc desktop -l next
+
+##  fullscreen program
+super + f
+    	bspc node -t {fullscreen,tiled}
+
+## close or kill program
+super + {_,shift + }q
+    	bspc node -{c,k}
+
+## cycle window state values
+super + shift + space
+    	bspc node -t {pseudo_tiled,tiled,floating}
+
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+# preselect the direction
+super + alt + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# cancel the preselection for the focused node
+super + alt + space
+	bspc node -p cancel
+
+## expand a window by moving one of its sides outward
+super + {y,u,i,o}
+    	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+## contract a window by moving one of its sides inward
+super + shift + {y,u,i,o}
+    	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+## move a floating window
+super + shift + {Left,Down,Up,Right}
+    	bspc node -v {-20 0,0 20,0 -20,20 0}

@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# notify upon soulseek download start/completion
+
+# notify upon transmission torrent start/completion
+
+# notify upon qutebrowser download start/completion
+
+# notify upon youtube-dl download start/completion
+
+# suspend after screen locked for 20 minutes
+i3lock | entr bash -c (sleep 10m; xset dpms force off; sleep 50m; xset dpms force suspend)
+
+######################
+### Battery Alerts ###
+######################
+battery_state=0
+Battery() {
+    BATPERC="$(acpi --battery | cut -d, -f2)"
+    BATPERC=${BATPERC:1}
+    BAT=${BATPERC::-1}
+    if [[ $BAT == 100 && $(acpi)  == *"Charging"* && $battery_state != 1 ]]; then
+        dunstify -r 8964435 -i ~/.config/appearance/icons/battery.svg "Battery Fully Charged!"
+        battery_state=1
+    elif [[ $(acpi)  == *"Charging"* && $battery_state != 2 ]]; then
+        timeremaining=$(acpi --battery | cut -d, -f3)
+        timeremaining=${timeremaining:1}
+        dunstify -t 6 -r 8964435 -i ~/.config/appearance/icons/charging.svg "Battery Charging! [$BATPERC]\n$timeremaining"
+        battery_state=2
+    elif [[ $(acpi)  == *"Discharging"* && $battery_state == 2 ]]; then
+        timeleft=$(acpi --battery | cut -d, -f3)
+        timeleft=${timeleft:1}
+        dunstify -t 6 -r 8964435 -i ~/.config/appearance/icons/discharging.svg "Battery Discharging! [$BATPERC]\n$timeleft"
+        battery_state=3
+    elif [[ $(acpi)  == *"Discharging"* && $BAT == 20 $battery_state != 4 ]]; then
+        timeleft=$(acpi --battery | cut -d, -f3)
+        timeleft=${timeleft:1}
+        dunstify -t 9 -r 8964435 -i ~/.config/appearance/icons/battery-caution.svg "Battery Low! [$BATPERC]\n$timeleft"
+        battery_state=4
+    elif [[ $(acpi)  == *"Discharging"* && $BAT == 10 $battery_state != 5 ]]; then
+        timeleft=$(acpi --battery | cut -d, -f3)
+        timeleft=${timeleft:1}
+        dunstify -t 0 -r 8964435 -i ~/.config/appearance/icons/battery-low.svg "Battery Critical! [$BATPERC]\n$timeleft"
+        battery_state=5
+    elif [[ $(acpi)  == *"Discharging"* && $BAT == 5 $battery_state != 6 ]]; then
+        dunstify -t 0 -r 8964435 -i ~/.config/appearance/icons/battery-caution.svg "Battery Critical!!! [$BATPERC]\nShutdown Imminent!"
+        battery_state=6
+    else; then
+        echo ""
+    if
+}
+
+while true; do  
+    Battery()
+    sleep 1;
+done

@@ -1,0 +1,33 @@
+#!/usr/bin/sh
+
+######################
+### Battery Module ###
+######################
+Battery() {
+    BATPERC="$(acpi --battery | cut -d, -f2)"
+    BATPERC=${BATPERC:1}
+    BAT=${BATPERC::-1}
+    if [[ $(acpi)  == *"Full"* ]]; then
+        echo "$BATPERC  "
+    elif [[ $(acpi)  == *"Charging"* ]]; then
+        echo "$BATPERC  "
+    elif [[ $BAT > 85 ]]; then
+        echo "$BATPERC  "
+    elif [[ $BAT > 60 ]]; then
+        echo "$BATPERC  "
+    elif [[ $BAT > 35 ]]; then
+        echo "$BATPERC  "
+    elif [[ $BAT > 10 ]]; then
+        echo "$BATPERC  "
+    else
+        echo "$BATPERC  "
+    fi
+}
+
+########################
+### Echo To Lemonbar ###
+########################
+while true; do
+        echo "%{r}%{S1} $(Battery) %{F-}%{B-}"
+        sleep 1
+done

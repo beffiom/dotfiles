@@ -1,0 +1,7 @@
+#!/bin/sh
+
+currentsong=$(mpc -f '[%artist%]\n[%title%]' current)
+NOWPLAYING=${currentsong% (*}
+sleep 0.3
+dunstify -r 1 -u low -i /tmp/kunst.jpg "$NOWPLAYING"
+

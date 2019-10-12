@@ -1,0 +1,11 @@
+#!/bin/sh
+case "$(printf "connect\\ndisconnect\\nfastest\\np2p\\ntor\\nlast\\nmenu\\ninit" | dmenu -p protonvpn:)" in
+	"connect") st -e sudo protonvpn-cli -c && exit ;;
+	"disconnect") sudo protonvpn-cli -d ;;
+	"fastest") sudo protonvpn-cli -f ;;
+	"p2p") sudo protonvpn-cli -p2p ;;
+	"tor") sudo protonvpn-cli -tor ;;
+	"last") sudo protonvpn-cli -l ;;
+	"menu") st -e sudo protonvpn-cli -m && exit ;;
+	"init") st -e sudo protonvpn-cli --init && exit ;;
+esac

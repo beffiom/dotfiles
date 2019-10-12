@@ -1,0 +1,4 @@
+#!/bin/sh
+# Sets the background. If given an argument, will set file as background.
+[ ! -z "$1" ] && cp "$1" ~/.config/appearance/wallpaper.png ; dunstify -r 2 -u low -i ~/.config/appearance/wallpaper.png "Wallpaper Updated!"
+xwallpaper --zoom ~/.config/appearance/wallpaper.png

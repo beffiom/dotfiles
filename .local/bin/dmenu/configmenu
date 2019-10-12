@@ -1,0 +1,27 @@
+#!/bin/sh
+case "$(printf "bash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneovim\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
+	"bash_profile") $TERMINAL -e $EDITOR ~/.bash_profile ;;
+	"bashrc") $TERMINAL -e $EDITOR ~/.bashrc ;;
+	"bspwm") $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc ;;
+	"compton") $TERMINAL -e $EDITOR ~/.config/appearance/compton.conf ;;
+	"dmenu") $TERMINAL -e $EDITOR ~/.config/dmenu/config.h ;;
+	"dunst") $TERMINAL -e $EDITOR ~/.config/dunst/dunstrc ;;
+	"fonts") $TERMINAL -e $EDITOR ~/.config/fontconfig/fonts.conf ;;
+	"mpd") $TERMINAL -e $EDITOR ~/.config/mpd/mpd.conf ;;
+	"mpv-conf") $TERMINAL -e $EDITOR ~/.config/mpv/mpv.conf ;;
+	"mpv-input") $TERMINAL -e $EDITOR ~/.config/mpv/input.conf ;;
+	"ncmpcpp-bindings") $TERMINAL -e $EDITOR ~/.config/ncmpcpp/bindings ;;
+	"ncmpcpp-conf") $TERMINAL -e $EDITOR ~/.config/ncmpcpp/config ;;
+	"neovim") $TERMINAL -e $EDITOR ~/.config/nvim/init.vim ;;
+	"polybar") $TERMINAL -e $EDITOR ~/.config/polybar/config ;;
+	"qutebrowser-conf") $TERMINAL -e $EDITOR ~/.config/qutebrowser/config.py ;;
+	"qutebrowser-startpage") $TERMINAL -e $EDITOR ~/.config/qutebrowser/local/startpage.html ;;
+	"qutebrowser-theme") $TERMINAL -e $EDITOR ~/.config/qutebrowser/themes/darkstar.css ;;
+	"st") $TERMINAL -e $EDITOR ~/.config/st/config.h ;;
+	"sxhkd") $TERMINAL -e $EDITOR ~/.config/sxhkd/sxhkdrc ;;
+	"transmission-daemon") $TERMINAL -e $EDITOR ~/.config/transmission-daemon/settings.json ;;
+	"tremc") $TERMINAL -e $EDITOR ~/.config/tremc/settings.cfg ;;
+	"vifm") $TERMINAL -e $EDITOR ~/.config/vifm/vifmrc ;;
+	"Xresources") $TERMINAL -e $EDITOR ~/.Xresources ;;
+	"zathura") $TERMINAL -e $EDITOR ~/.config/zathura/zathurarc ;;
+esac

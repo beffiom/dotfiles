@@ -1,0 +1,31 @@
+#!/bin/bash
+
+MUSIC_DIR=$HOME/Music
+COVER=$XDG_CONFIG_HOME/ncmpcpp/cover.jpg
+
+function reset_background
+{
+    printf "\e]20;;100x100+1000+1000\a"
+}
+
+{
+    album="$(mpc --format %album% current)"
+    file="$(mpc --format %file% current)"
+    album_dir="${file%/*}"
+    [[ -z "$album_dir" ]] && exit 1
+    album_dir="$MUSIC_DIR/$album_dir"
+
+    covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \; )"
+    src="$(echo -n "$covers" | head -n1)"
+    rm -f "$COVER"
+    if [[ -n "$src" ]] ; then
+        convert "$src" -resize 3000x3000 "$COVER"
+        if [[ -f "$COVER" ]] ; then
+           printf "\e]20;${COVER};100x95+100+50:op=keep-aspect\a"
+        else
+            reset_background
+        fi
+    else
+        reset_background
+    fi
+} &

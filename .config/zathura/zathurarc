@@ -1,0 +1,26 @@
+set selection-clipboard clipboard
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set highlight-transparency 0.8
+set scroll-step 60
+set default-bg #002b36
+set font "monospace normal 14"
+set recolor
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map = zoom in
+map - zoom out
+map i recolor
+
+set highlight-color #82aaff
+set highlight-active-color #f07178
+set completion-fg "#292d3e"
+set completion-highlight-bg "#bbc5ff"
+set recolor-darkcolor "#bbc5ff"
+set recolor-lightcolor "#292d3e"
+set default-bg "#292d3e"
+set default-fg "#292d3e"

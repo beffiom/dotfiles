@@ -1,0 +1,17 @@
+#!/bin/bash
+
+killall wallwheel
+
+WALLS=(~/.config/appearance/wallwheel/*)
+# SCHEMES=(~/Pictures/Wallpapers/colorschemes/*)
+let max=${#WALLS[@]}-1
+
+while true
+do
+	for i in `seq 0 $max`
+	do
+		setbg "${WALLS[i]}"
+		# wal --theme "${SCHEMES[i]}"
+		sleep 7200
+	done
+done

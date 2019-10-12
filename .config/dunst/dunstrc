@@ -1,0 +1,77 @@
+[global]
+follow = keyboard
+geometry = "450x120-20+55"
+indicate_hidden = yes
+shrink = no
+transparency = 0
+notification_height = 5
+separator_height = 4
+padding = 16
+horizontal_padding = 16
+background = "#292d3e"
+foreground = "#fdf6e3"
+frame_width = 3
+frame_color = "#292d3e"
+separator_color = frame
+sort = yes
+font = Monospace 20
+line_height = 4
+markup = full
+alignment = left
+show_age_threshold = 60
+word_wrap = true
+ignore_newline = no
+stack_duplicates = false
+hide_duplicate_count = true
+show_indicators = false
+icon_position = left
+max_icon_size = 96
+icon_path = ~/.config/appearance/icons/
+sticky_history = yes
+history_length = 20
+browser = /usr/bin/qutebrowser --target tab
+always_run_script = truM
+corner_radius = 5
+mouse_left = close_current
+mouse_right = close_all
+timeout = 4
+
+[urgency_low]
+    background = "#292d3e"
+    foreground = "#bbc5ff"
+    frame_color = "#c792ea"
+    timeout = 5
+
+[urgency_normal]
+    background = "#292d3e"
+    foreground = "#bbc5ff"
+    frame_color = "#ffcb6b"
+    timeout = 10
+
+[urgency_critical]
+    background = "#292d3e"
+    foreground = "#fdf6e3"
+    frame_color = "#f07178"
+    timeout = 0
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+grave
+    context = ctrl+shift+period
+
+[music_nowplaying]
+icon = ~/.config/ncmpcpp/cover.jpg
+
+[music_pause]
+format = %s\n%b
+summary = "Music Paused"
+body = "Press '▶' or 'super+p' to continue playing"
+icon = ~/.config/appearance/icons/pause.png
+
+[mvp_appendurl]
+timeout = 3
+summary = "Video Added!"
+format = %s\n%b
+icon = ~/.config/appearance/icons/mpv.svg
+
