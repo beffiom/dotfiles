@@ -83,10 +83,8 @@ ncmpcpp keybindings | function
 h,j,k,l | left,down,up,right
 enter | choose selection/play song
 p | pause
-< | previous track
-> | next track
-, | seek backward
-. | seek forward
+< or > | previous or next track
+, or . | seek backward or forward
 space | add to main playlist
 c | clear main playlist
 z | randomize playlist
