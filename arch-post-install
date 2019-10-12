@@ -1,6 +1,12 @@
 #!/bin/sh
 # Arch Linux post-install script
 
+mkdir ~/.trash
+mkdir ~/Music
+mkdir ~/Downloads
+mkdir ~/Mount
+mkdir ~/Mount/A:A_Drive
+
 sudo pacman -Syuv
 
 sudo pacman -Sy linux-headers xorg xorg-server xorg-xmodmap xf86-video-intel xorg-xinit xwallpaper xclip light libxcursor
