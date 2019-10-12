@@ -2,11 +2,11 @@
 
 ## system information
 
-**distribution:** arch linux
-**window manager:** bspwm
-**panel:** polybar
-**keybinding daemon:** sxhkd
-**notification daemon:** dunst
+* **distribution:** arch linux
+* **window manager:** bspwm
+* **panel:** polybar
+* **keybinding daemon:** sxhkd
+* **notification daemon:** dunst
 
 ## universal keybindings
 ### programs
