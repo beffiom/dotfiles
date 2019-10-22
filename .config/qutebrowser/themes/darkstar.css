@@ -5,7 +5,7 @@
 	--link-color: #82aaff !important;
 	--link-hover-cover: #c792ea !important;
 	--border-color: #c792ea !important;
-	--font: Mononoki Nerd Font !important;
+	--font: Mononoki !important;
 }
 
 /* width */
@@ -17,7 +17,7 @@
   	color: #bbc5ff !important;
  	background-color: transparent !important;
   	border-color: transparent !important;
-  	font-family: Mononoki Nerd Font !important;
+  	font-family: Mononoki !important;
 }
 
 a,

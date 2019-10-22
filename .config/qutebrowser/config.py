@@ -1091,16 +1091,15 @@ c.url.open_base_url = True
 
 ## Search engines which can be used via the address bar. Maps a search engine name (such as DEFAULT, or ddg) to a URL with a {} placeholder. The placeholder will be replaced by the search term, use {{ and }} for literal {/} signs. The search engine named DEFAULT is used when url.auto_search is turned on and something else than a URL was entered to be opened. Other search engines can be used by prepending the search engine name to the search term, e.g. :open google qutebrowser.
 ## [Dict]
-c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
+c.url.searchengines = {"DEFAULT": "https://lite.qwant.com/?q={}&t=web",
         'w':        'https://en.wikipedia.org/wiki/{}',
-        'r':        'https://reddit.com/r/{}',
-        '4':        '4chan.org/{}/catalog',
         'v':       'https://invidio.us/search?q={}',
-        'i':       'https://duckduckgo.com/?q={}&iar=images&iax=images&ia=images',
+        'i':       'https://lite.qwant.com/?q={}&t=images',
         'tw':       'https://nitter.net/{}',
         'tws':      'https://nitter.net/search?kind=custom&q={}&since=&until=&near=',
         'aw':       'https://wiki.archlinux.org/index.php/{}',
         'gw':       'https://wiki.gentoo.org/wiki/{}',
+        'end':      'https://endchan.net/{}/catalog.html',
         }
 
 ## Page(s) to open at the start.

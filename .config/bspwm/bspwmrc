@@ -8,19 +8,19 @@ killall redshift
 killall dunst
 killall polybar
 killall unclutter
+rfkill unblock
+rfkill unblock bluetooth
 dunst &
 sxhkd &
 polybar main &
-# polybar mon1 &
-polybar mon2 &
+polybar mon1 &
 compton --config $XDG_CONFIG_HOME/appearance/compton.conf &
-xautolock -detectsleep -time 20 -locker lockscreen &
+xautolock -detectsleep -time 10 -locker slock &
 redshift -l 27.950575:-82.457176 -t 6500:3000 &
 xrdb ~/.Xresources
 xmodmap ~/.Xmodmap
-xrandr -output eDP1 --mode 1920x1200
+xrandr -output eDP1 --mode 1920x1080
 xrandr -output HDMI1 --mode 1920x1080
-xrandr -output HDMI2 --mode 1680x1050
 unclutter -idle 3 &
 setbg
 dunstify -u low -i ~/.config/appearance/wallpaper.png -r 2 "Welcome to ${HOSTNAME^^}!" "Press 'Super+?' to see manual"
@@ -29,7 +29,7 @@ dunstify -u low -i ~/.config/appearance/wallpaper.png -r 2 "Welcome to ${HOSTNAM
 ### MONITORS ###
 ################
 bspc monitor eDP1 -d  1 2 3
-bspc monitor HDMI2 -d 4 5 6
+bspc monitor HDMI1 -d 4 5 6
 
 ############################
 #### BSPWM configuration ###

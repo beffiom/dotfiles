@@ -53,9 +53,10 @@ padding-bottom = 5
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Mononoki Nerd Font:pixelsize=16;1
+font-0 = Mononoki:pixelsize=16;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
+font-3 = FontAwesome:pixelsize=14;1
 
 modules-left = mpd
 modules-center = bspwm
@@ -101,9 +102,10 @@ padding-bottom = 1
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Mononoki Nerd Font:pixelsize=12;1
+font-0 = Mononoki:pixelsize=12;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
+font-3 = FontAwesome:pixelsize=14;1
 
 ;modules-left = mpd
 modules-center = bspwm
@@ -152,6 +154,7 @@ module-margin-right = 2
 font-0 = Mononoki Nerd Font:pixelsize=12;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
+font-3 = FontAwesome:pixelsize=14;1
 
 ;modules-left = mpd
 modules-center = bspwm

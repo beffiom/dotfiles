@@ -21,11 +21,8 @@ super + w
 super + shift + Return
     	$TERMINAL -e bash ~/.config/vifm/scripts/vifmrun
 
-super + n
+super + m
     	$MUSIC
-
-super + shift + n
-    	kunst --size 850x850
 
 super + t
     	$YOUTUBE
@@ -36,7 +33,7 @@ super + shift + t
 super + s
     	$PROCESS
 
-super + shift + a
+super + a
     	$AUDIO
 
 # super + a
@@ -47,7 +44,7 @@ super + shift + a
 ########################
 ## spawn user manual
 super + question
-	$TERMINAL -e $EDITOR ~/README.md
+	zathura ~/README.md
 
 ## reload desktop
 super + F1
@@ -88,19 +85,19 @@ super + {F9,F10}
 
 ## audio control
 XF86Audio{LowerVolume,RaiseVolume}
-	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}2
 #; volumenotify
 
 super + {minus,equal}
-	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}2
 #; volumenotify
 
 XF86AudioMute
 	pulsemixer --toggle-mute
 #; volumenotify
 
-super + m
-	pulsemixer --toggle-mute
+#super + m
+#	pulsemixer --toggle-mute
 #; volumenotify
 
 ## shift music track
@@ -119,7 +116,7 @@ super + p
 
 ## display backlight control
 XF86MonBrightness{Down,Up}
-	sudo light -{U,A} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(light -G)%"
+	sudo xbacklight -{dec,inc} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
 
 
 ## keyboard backlight control
