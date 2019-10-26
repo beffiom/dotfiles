@@ -1,3 +1,7 @@
+!! Cursor
+Xcursor.theme: Breeze_Purple
+Xcursor.size: 16
+
 !! Font rendering
 Xft.antialias:	1
 Xft.hinting:	1

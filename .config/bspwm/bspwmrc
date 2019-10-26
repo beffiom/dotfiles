@@ -15,7 +15,7 @@ sxhkd &
 polybar main &
 polybar mon1 &
 compton --config $XDG_CONFIG_HOME/appearance/compton.conf &
-xautolock -detectsleep -time 10 -locker slock &
+xautolock -detectsleep -time 5 -locker slock &
 redshift -l 27.950575:-82.457176 -t 6500:3000 &
 xrdb ~/.Xresources
 xmodmap ~/.Xmodmap

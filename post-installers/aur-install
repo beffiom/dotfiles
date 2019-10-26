@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#install aur packages
+yay -S rtl8821ce-dkms-git
+yay -S ttf-mononoki
+yay -S signal
+yay -S matcha-gtk-theme
+yay -S breeze-purple-cursor-theme
+yay -S polybar
+#yay -S libreoffice-extension-languagetool
+#yay -S tremc
+#yay -S mullvad-vpn
+yay -Yc
+yay -Sua
+

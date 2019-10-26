@@ -83,7 +83,7 @@ config.bind('+', 'zoom')
 config.bind('o', 'set-cmd-text -s :open -s ')
 config.bind('O', 'set-cmd-text -s :open -s -t ')
 config.bind('pb', 'open -p ')
-config.bind('pw', 'spawn --userscript ~/.local/bin/programs/qutepass')
+config.bind('pw', 'spawn --userscript ~/.local/bin/programs/qute-keepass -p ~/.local/profile-5.kdbx')
 
 #################################################################
 # COLORS
@@ -1099,7 +1099,6 @@ c.url.searchengines = {"DEFAULT": "https://lite.qwant.com/?q={}&t=web",
         'tws':      'https://nitter.net/search?kind=custom&q={}&since=&until=&near=',
         'aw':       'https://wiki.archlinux.org/index.php/{}',
         'gw':       'https://wiki.gentoo.org/wiki/{}',
-        'end':      'https://endchan.net/{}/catalog.html',
         }
 
 ## Page(s) to open at the start.

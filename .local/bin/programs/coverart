@@ -17,7 +17,6 @@ function reset_background
 
     covers="$(find "$album_dir" -type d -exec find {} -maxdepth 1 -type f -iregex ".*/.*\(${album}\|cover\|folder\|artwork\|front\).*[.]\(jpe?g\|png\|gif\|bmp\)" \; )"
     src="$(echo -n "$covers" | head -n1)"
-    rm -f "$COVER"
     if [[ -n "$src" ]] ; then
         convert "$src" -resize 3000x3000 "$COVER"
         if [[ -f "$COVER" ]] ; then

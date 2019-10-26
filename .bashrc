@@ -4,26 +4,17 @@ shopt -s autocd #Allows you to cd into directory merely by typing the directory 
 HISTSIZE= HISTFILESIZE= # Infinite history.
 export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 
-#set powerline-shell
-# function _update_ps1() {
-#     PS1=$(powerline-shell $?)
-# }
-#
-# if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-#     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-# fi
-
 #aliases
-alias logout='prompt "Logout?" "sudo kill -9 -1"'
+alias logout='prompt "Logout?" "kill -9 -1"'
 alias mpv="mpv --input-ipc-server=/tmp/mpvsoc$(date +%s)"
 alias g="git"
 alias x="sxiv -ft *"
 alias v="nvim"
 alias e="nvim"
-alias kunst="killall kunst ; kunst"
+alias music="show_art & ncmpcpp -c ~/.config/ncmpcpp/config-art"
 alias f="bash ~/.config/vifm/scripts/vifmrun"
 alias vifm="bash ~/.config/vifm/scripts/vifmrun"
-alias sdn="sudo shutdown -h now"
+alias sdn="shutdown -h now"
 alias ls="ls -hN --color=auto --group-directories-first"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"

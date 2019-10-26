@@ -1,0 +1,74 @@
+#!/bin/sh
+# Arch Linux post-install script
+
+#cd ~/
+#git clone https://github.com/beffiom/linux-dotfiles
+#cd ~/linux-dotfiles
+#sudo pacman -Sy rsync
+#rsync -rav .* ~/
+#mkdir ~/.trash ~/Pictures ~/Pictures/Screenshots ~/Devices/A:A_Drive ~/Videos ~/Downloads
+
+sudo pacman -Syuv
+
+sudo pacman -Sy linux-headers xorg xorg-server xorg-xmodmap xorg-xinit xwallpaper xclip xorg-xbacklight xautolock xscreensaver xf86-input-synaptics
+sudo pacman -Sy xf86-video-intel libva-intel-driver intel-ucode
+sudo pacman -Sy fontconfig ttf-hanazono ttf-inconsolata ttf-linux-libertine ttf-font-awesome
+sudo pacman -Sy pulseaudio pulseaudio-alsa
+sudo pacman -Sy python python-pip python-pyperclip
+sudo pacman -Sy zip unzip p7zip
+#sudo pacman -Sy libcups cups cups-pdf cups-filters
+#sudo pacman -Sy gtk3 firefox libreoffice-fresh hunspell hunspell-en_US hyphen hyphen-en libmythes mythes-en gimp poppler-glib nicotine+
+#sudo pacman -Sy bluez bluez-utils
+#sudo pacman -Sy retroarch retroarch-assets-xmb libretro libretro-citra libretro-melonds libretro-mgba libretro-beetle-psx ppsspp dolphin-emu supertux supertuxkart minetest 0ad openttd wesnoth xonotic
+sudo pacman -Sy libnotify neovim bash-completion redshift htop pulsemixer connman wpa_supplicant acpid unclutter
+sudo pacman -Sy bspwm sxhkd dunst compton
+sudo pacman -Sy qutebrowser privoxy dnscrypt-proxy
+sudo pacman -Sy sxiv ffmpeg imagemagick maim
+#sudo pacman -Sy transmission-cli
+#sudo pacman -Sy neomutt
+sudo pacman -Sy mpd mpc ncmpcpp
+sudo pacman -Sy vifm ffmpegthumbnailer
+sudo pacman -Sy mpv youtube-dl
+sudo pacman -Sy zathura zathura-pdf-mupdf zathura-djvu zathura-cb
+
+sudo pip install bs4
+sudo pip install urllib5
+sudo pip install ueberzug
+sudo pip install keepmenu
+
+#install st
+cd ~/.config/st
+sudo make clean install
+
+#install dmenu
+cd ~/.config/dmenu
+sudo make clean install
+
+#install slock
+cd ~/.config/slock
+sudo make cleak install
+
+sudo systemctl enable acpid.service
+sudo systemctl enable connman.service
+sudo systemctl enable privoxy.service
+sudo systemctl enable dnscrypt-proxy.service
+sudo systemctl enable bluetooth.service
+
+sudo ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
+sudo hwclock --systohc --utc
+
+echo "LANG=en_US.UTF-8" >> /etc/locale.conf
+echo "LANG=en_US.UTF-8" >> /etc/environment
+locale-gen
+
+sudo chmod +x ~/.scripts/*
+sudo chmod +x ~/.config/bspwm/*
+sudo chmod +x ~/.config/sxhkd/*
+
+xmodmap ~/.xmodmap
+
+# Finish
+cd ~/
+sudo resolvconf -u
+
+sudo pacman -Syuv

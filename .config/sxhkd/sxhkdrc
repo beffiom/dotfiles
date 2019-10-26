@@ -25,9 +25,6 @@ super + m
     	$MUSIC
 
 super + t
-    	$YOUTUBE
-
-super + shift + t
     	$TORRENT
 
 super + s
@@ -47,37 +44,27 @@ super + question
 	zathura ~/README.md
 
 ## reload desktop
-super + F1
+super + shift + r
 	bspc wm -r
 
-## lock screen
-super + F2
-	lockscreen
+## prompt lockscreen, logout, reboot, and shutdown
+super + shift + x
+	logoutmenu
 
-## logout
-super + F3
-	prompt "Logout?" "sudo kill -9 -1"
-
-## prompt reboot
-super + F4
-    	prompt "Reboot computer?" "sudo -A shutdown -r now"
-
-## prompt shutdown
-super + F5
-    	prompt "Shutdown computer?" "sudo -A shutdown -h now"
-
+## wifi menu
+super + shift + w
+	sudo connmenu
 ## manage passwords
 super + F6
-	passnotify
+	keepmenu
 
-# configure multi-monitor displays
+## configure multi-monitor displays
 super + F7
     	displaymenu
 
 ## configure protonvpn
 super + F8
     	vpnmenu
-
 
 ## mount/unmount devices using dmenu
 super + {F9,F10}
@@ -116,7 +103,7 @@ super + p
 
 ## display backlight control
 XF86MonBrightness{Down,Up}
-	sudo xbacklight -{dec,inc} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
+	xbacklight {-,+} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
 
 
 ## keyboard backlight control

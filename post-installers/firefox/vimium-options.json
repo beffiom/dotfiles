@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.64.6",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": true,
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap x\nunmap X\nunmap J\nunmap K\nunmap yf\nunmap m\nunmap ge\nunmap gE\nmap q removeTab\nmap Q restoreTab\nmap K previousTab\nmap J nextTab\nmap yc LinkHints.activateModeToCopyLinkUrl\nmap go Vomnibar.activateEditUrl\nmap gO Vomnibar.activateEditUrlInNewTab",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "file:///home/shockman/.config/qutebrowser/local/startpage.html",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": false,
+  "grabBackFocus": true,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s wikipedia\nqw: https://www.qwant.com/?q=%s qwant\n4: http://4chan.org/%s/catalog 4chan\nv: https://invidio.us/search?q=%s videos\ni: https://lite.qwant.com/?q=%s&t=images images\ntw: https://nitter.net/%s nitter\ntws: https://nitter.net/search?kind=custom&q=%s&since=&until=&near= nitter search",
+  "searchUrl": "https://duckduckgo.com/?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#292d3e),\n  color-stop(100%,#82aaff));\nborder: 1px solid #9cc4ff;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: #bbc5ff;\nfont-weight: bold;\nfont-size: 16px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\ncolor: #292d3e;\nfont-weight: bold;\nfont-size: 16px;\n}\n\ninput#vomnibarInput.vimiumReset {\ncolor: #FFF !important;\nbackground-color: #111 !important;\n} \n\n#vomnibar {\nborder-color: black;\nbackground-color: black;\n}\n\n#vomnibar .vomnibarSearchArea {\nbackground-color: #222;\nborder-bottom: #3f3f3f;\n} \n\n#vomnibar input {\nborder-color: #393939; \n}\n\n#vomnibar ul{\nbackground-color: #222;\n} \n\n#vomnibar li {\nborder-bottom: #3f3f3f; \n} \n\n#vomnibar li .vomnibarUrl {\ncolor: #5287e3; \n} \n\n#vomnibar li .vomnibarMatch {\ncolor: white;\n}\n\n#vomnibar li.vomnibarSelected {\nbackground-color: #181D24; \n}\n\n#vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {\ncolor: white;\n} \n\n#vomnibar li em, #vomnibar li .vomnibarTitle {\ncolor: #ddd; \n}"
+}

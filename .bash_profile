@@ -14,11 +14,10 @@ export WEBBROWSER="qutebrowser"
 export YOUTUBE="qutebrowser https://invidio.us"
 export READER="zathura"
 export MUSIC="$TERMINAL -e ncmpcpp"
-# export SOULSEEK="$TERMINAL -e mucous"
 # export EMAIL="$TERMINAL -e neomutt"
 export AUDIO="$TERMINAL -e pulsemixer"
 export PROCESS="$TERMINAL -e htop"
-export TORRENT="$TERMINAL -e tremc"
+# export TORRENT="$TERMINAL -e tremc"
 
 # autologin on tty1
 if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then

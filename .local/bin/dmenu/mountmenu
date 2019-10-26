@@ -11,13 +11,13 @@ getmount() { \
 	[ "$mp" = "" ] && exit 1
 	if [ ! -d "$mp" ]; then
 		mkdiryn=$(printf "No\\nYes" | dmenu -p "$mp does not exist. Create it?")
-		[ "$mkdiryn" = "Yes" ] && (mkdir -p "$mp" || sudo -A mkdir -p "$mp")
+		[ "$mkdiryn" = "Yes" ] && (mkdir -p "$mp" || mkdir -p "$mp")
 	fi
 	}
 
 mountusb() { \
 	chosen="$(echo "$usbdrives" | dmenu -p "Mount which drive?" | awk '{print $1}')"
-	sudo -A mount "$chosen" && exit 0
+	mount "$chosen" && exit 0
 	getmount "/mnt /media /mount /home -maxdepth 5 -type d"
 	partitiontype="$(lsblk -no "fstype" "$chosen")"
 	case "$partitiontype" in

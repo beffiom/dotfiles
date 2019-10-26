@@ -1,29 +1,8 @@
 #!/bin/sh
-case "$(printf "qutebrowser\\nqutebrowser (incognito)\\nyoutube\\nmpv\\nncmpcpp\\nvifm\\ntransmission\\nretroarch\\npsp\\nsoulseek\\nvirt-manager\\nyugioh\\nrunescape\\nhtop\\npulsemixer\\nconnmenu\\nvpnmenu\\npassmenu\\ndisplaymenu\\nmountmenu\\numountmenu\\nscrotmenu\\nunicodemenu\\nlockscreen\\nrestart\\nshutdown" | dmenu)" in
-	"qutebrowser") qutebrowser ;;
-	"qutebrowser (incognito)") qutebrowser :"open -s -p" ;;
-	"youtube") qutebrowser https://invidio.us ;;
+case "$(printf "mpv\\nfirefox\\ninvidio.us\\nlibreoffice\\nsignal" | dmenu)" in
 	"mpv") mpv --player-operation-mode=pseudo-gui ;;
-	"ncmpcpp") st -e ncmpcpp ;;
-	"vifm") st -e vifm ;;
-	"transmission") st -e transmission-cli ;;
-	"retroarch") retroarch ;;
-	"psp") ppsspp ;;
-	"soulseek") nicotine+ ;;
-	"virt-manager") virt-manager ;;
-	"yugioh") ygopro ;;
-	"runescape") osbuddy ;;
-	"htop") st -e htop ;;
-	"pulsemixer") st -e pulsemixer ;;
-	"connmenu") connmenu ;;
-	"vpnmenu") vpnmenu ;;
-	"passmenu") passmenu ;;
-	"displaymenu") displaymenu ;;
-	"mountmenu") mountmenu ;;
-	"umountmenu") umountmenu ;;
-	"scrotmenu") scrotmenu ;;
-	"unicodemenu") unicodemenu ;;
-	"lockscreen") lockscreen ;;
-	"restart") prompt "Reboot computer?" "sudo -A shutdown -r now" ;;
-	"shutdown") prompt "Shutdown computer?" "sudo -A shutdown -h now" ;;
+	"firefox") firefox ;;
+	"invidio.us") qutebrowser :"open -w https://invidio.us" ;;
+	"libreoffice") libreoffice ;;
+	"signal") signal-desktop ;;
 esac

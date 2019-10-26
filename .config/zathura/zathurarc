@@ -14,7 +14,7 @@ map r reload
 map R rotate
 map = zoom in
 map - zoom out
-map i recolor
+map t recolor
 
 set highlight-color #82aaff
 set highlight-active-color #f07178

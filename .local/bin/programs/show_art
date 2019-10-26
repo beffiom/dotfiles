@@ -10,12 +10,13 @@ function ImageLayer {
 }
 
 COVER="$XDG_CONFIG_HOME/ncmpcpp/cover.jpg"
-X_PADDING=0
-Y_PADDING=0
+X_POS=69
+Y_POS=3
+SIZE=40
 
 function add_cover {
     if [ -e $COVER ]; then
-        echo "{\"action\": \"add\", \"identifier\": \"cover\", \"x\": $X_PADDING, \"y\": $Y_PADDING, \"path\": \"$COVER\"}";
+        echo "{\"action\": \"add\", \"identifier\": \"cover\", \"x\": $X_POS, \"y\": $Y_POS, \"width\": $SIZE, \"path\": \"$COVER\"}";
     fi
 }
 
@@ -26,3 +27,4 @@ ImageLayer -< <(
         add_cover
     done
 )
+

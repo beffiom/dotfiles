@@ -7,6 +7,8 @@
 * **panel:** polybar
 * **keybinding daemon:** sxhkd
 * **notification daemon:** dunst
+* **program launcher:** dmenu
+* **screenlocker:** slock
 
 ## universal keybindings
 ### programs
@@ -19,8 +21,7 @@ super+w | qutebrowser | web browser
 super+d | dmenu (key programs) | program launcher
 super+shift+d | dmenu (all programs) | program launcher
 super+n | ncmpcpp | music client
-super+t | youtube | opens invidio.us in qutebrowser
-super+shift+t | transmission-cli | torrent client
+super+t | transmission-cli | torrent client
 super+s | htop | system processes
 super+a | pulsemixer | audio mixer
 
@@ -28,12 +29,10 @@ super+a | pulsemixer | audio mixer
 keybinding | description
 ---------- | -----------
 super+? | help (opens this document)
-super+F1 | reloads bspwm
-super+F2 | lockscreen (i3lock-color)
-super+F3 | prompt logout
-super+F4 | prompt reboot
-super+F5 | prompt shutdown
-super+F6 | passmenu
+super+shift+r | reloads bspwm
+super+shift+x | menu prompt to lockscreen, logout, reboot, or shutdown
+super+shift+w | wifi menu
+super+F6 | keepmenu
 super+F7 | configure multi-monitor displays
 super+F8 | configure protonvpn
 super+{F9,F10} | {mount,unmount} devices
@@ -104,4 +103,3 @@ x | set crossfade
 3. press `space` to add a song to the main playlist
 4. once all songs have been added, press `1` to return to main playlist
 5. press `g`, press `v`, press `G`, press `ctrl-v`, press `a` and select create a new playlist
-
