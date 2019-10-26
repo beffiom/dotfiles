@@ -7,6 +7,7 @@ yay -S signal
 yay -S matcha-gtk-theme
 yay -S breeze-purple-cursor-theme
 yay -S polybar
+yay -S ttf-font-awesome-4
 #yay -S libreoffice-extension-languagetool
 #yay -S tremc
 #yay -S mullvad-vpn

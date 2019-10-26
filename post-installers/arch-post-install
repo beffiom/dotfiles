@@ -12,7 +12,7 @@ sudo pacman -Syuv
 
 sudo pacman -Sy linux-headers xorg xorg-server xorg-xmodmap xorg-xinit xwallpaper xclip xorg-xbacklight xautolock xscreensaver xf86-input-synaptics
 sudo pacman -Sy xf86-video-intel libva-intel-driver intel-ucode
-sudo pacman -Sy fontconfig ttf-hanazono ttf-inconsolata ttf-linux-libertine ttf-font-awesome
+sudo pacman -Sy fontconfig ttf-hanazono ttf-inconsolata ttf-linux-libertine
 sudo pacman -Sy pulseaudio pulseaudio-alsa
 sudo pacman -Sy python python-pip python-pyperclip
 sudo pacman -Sy zip unzip p7zip
