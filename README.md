@@ -1,7 +1,14 @@
 # darkstar | linux-dotfiles
 
-## system information
+## screenshots
+### ncmpcpp
+![ncmpcpp](https://raw.githubusercontent.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/ncmpcpp.png)
+### firefox
+![firefox](https://raw.githubusercontent.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/firefox.png)
+### vifm
+![vifm](https://raw.githubusercontent.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/vifm.png)
 
+## system information
 * **distribution:** arch linux
 * **window manager:** bspwm
 * **panel:** polybar
@@ -12,7 +19,6 @@
 
 ## universal keybindings
 ### programs
-
 keybinding | function | description
 ---------- | -------- | -----------
 super+enter | st | terminal emulator
