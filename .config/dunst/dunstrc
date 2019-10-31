@@ -39,14 +39,14 @@ timeout = 4
 [urgency_low]
     background = "#292d3e"
     foreground = "#bbc5ff"
-    frame_color = "#434758"
-    timeout = 5
+    frame_color = "#292d3e"
+    timeout = 3
 
 [urgency_normal]
     background = "#292d3e"
     foreground = "#bbc5ff"
     frame_color = "#434758"
-    timeout = 10
+    timeout = 6
 
 [urgency_critical]
     background = "#292d3e"
