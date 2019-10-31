@@ -6,7 +6,7 @@
 #cd ~/linux-dotfiles
 #sudo pacman -Sy rsync
 #rsync -rav .* ~/
-#mkdir ~/.trash ~/Pictures ~/Pictures/Screenshots ~/Devices/A:A_Drive ~/Videos ~/Downloads
+#mkdir ~/.trash ~/Devices/A:A_Drive ~/Videos ~/Downloads
 
 sudo pacman -Syuv
 
@@ -26,6 +26,7 @@ sudo pacman -Sy qutebrowser privoxy dnscrypt-proxy
 sudo pacman -Sy sxiv ffmpeg imagemagick maim
 #sudo pacman -Sy transmission-cli
 #sudo pacman -Sy neomutt
+#sudo pacman -Sy libvirt qemu libvirt
 sudo pacman -Sy mpd mpc ncmpcpp
 sudo pacman -Sy vifm ffmpegthumbnailer
 sudo pacman -Sy mpv youtube-dl
@@ -53,6 +54,9 @@ sudo systemctl enable connman.service
 sudo systemctl enable privoxy.service
 sudo systemctl enable dnscrypt-proxy.service
 sudo systemctl enable bluetooth.service
+sudo systemctl enable libvirtd.service
+
+#sudo usermod -aG libvirt $USER
 
 sudo ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 sudo hwclock --systohc --utc

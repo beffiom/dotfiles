@@ -1,8 +1,8 @@
 #!/bin/sh
-case "$(printf "mpv\\nfirefox\\ninvidio.us\\nlibreoffice\\nsignal" | dmenu)" in
+case "$(printf "mpv\\ninvidio.us\\nlibreoffice\\nsignal\\nvirt-manager" | dmenu)" in
 	"mpv") mpv --player-operation-mode=pseudo-gui ;;
-	"firefox") firefox ;;
-	"invidio.us") qutebrowser :"open -w https://invidio.us" ;;
+	"invidio.us") firefox --new-window https://invidio.us ;;
 	"libreoffice") libreoffice ;;
 	"signal") signal-desktop ;;
+	"virt-manager") virt-manager ;;
 esac

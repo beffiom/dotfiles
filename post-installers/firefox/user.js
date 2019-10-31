@@ -1620,7 +1620,7 @@ user_pref("_user.js.parrot", "5000 syntax error: this is an ex-parrot!");
 /* APPEARANCE ***/
    // user_pref("browser.download.autohideButton", false); // [FF57+]
    // user_pref("toolkit.cosmeticAnimations.enabled", false); // [FF55+]
-   // user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true); // [FF68+] allow userChrome/userContent
+   user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true); // [FF68+] allow userChrome/userContent
 /* CONTENT BEHAVIOR ***/
    // user_pref("accessibility.typeaheadfind", true); // enable "Find As You Type"
    // user_pref("clipboard.autocopy", false); // disable autocopy default [LINUX]
@@ -1669,3 +1669,11 @@ user_pref("plugins.click_to_play", true); // [DEFAULT: true in FF25+]
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
 
+/* Background Color */
+user_pref("browser.display.background_color", "#292d3e");
+user_pref("security.secure_connection_icon_color_gray", false);
+/* Material Fox ***/
+user_pref("browser.tabs.tabClipWidth", 83);
+user_pref("svg.context-properties.content.enabled", true);
+user_pref("materialFox.reduceTabOverflow", true);
+user_pref("security.insecure_connection_text.enabled", true);

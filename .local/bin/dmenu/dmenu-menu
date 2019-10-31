@@ -1,0 +1,17 @@
+#!/bin/sh
+case "$(printf "appmenu\\naskpassmenu\\nconfigmenu\\nconnmenu\\ndisplaymenu\\nlogoutmenu\\nmountmenu\\numountmenu\\nprompt\\nscrotmenu\\nvpnmenu\\nuserscripts\\ndmenu-menu\\nnotify-menu\\nprograms-menu" | dmenu)" in
+	"appmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/appmenu ;;
+	"askpassmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/askpassmenu ;;
+	"configmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/configmenu ;;
+	"connmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/connmenu ;;
+	"displaymenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/displaymenu ;;
+	"logoutmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/logoutmenu ;;
+	"mountmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/mountmenu ;;
+	"umountmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/umountmenu ;;
+	"prompt") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/prompt ;;
+	"scrotmenu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/scrotmenu ;;
+	"userscripts") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/userscripts ;;
+	"dmenu-menu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/dmenu-menu ;;
+	"notify-menu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/notify-menu ;;
+	"programs-menu") $TERMINAL -e $EDITOR ~/.local/bin/dmenu/programs-menu ;;
+esac

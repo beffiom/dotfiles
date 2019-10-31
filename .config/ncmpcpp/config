@@ -42,7 +42,7 @@ state_line_color = black
 [playlist]
 titles_visibility = no
 song_list_format = { $4%a - }{$2%t$9}|{$8%f$9}$R{$3%l$9 }
-song_columns_list_format = (33)[blue]{a} (62)[red]{t|f:Title} (3)[green]{l}
+song_columns_list_format = (25)[blue]{a} (72)[red]{t|f:Title} (3)[green]{l}
 playlist_separate_albums = no
 alternative_header_first_line_format = $b$1$aqqu$/a$9 {%t}|{%f} $1$atqq$/a$9$/b
 alternative_header_second_line_format = {{$5$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}

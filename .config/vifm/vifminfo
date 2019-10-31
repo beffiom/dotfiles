@@ -26,306 +26,306 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shockman/.icons/default
-	..
-0
-d/home/shockman
-	.local
-6
-d/home/shockman/.local
-	bin
-1
-d/home/shockman/.local/bin
-	dmenu
-1
-d/home/shockman/.local/bin/dmenu
-	emoji
-6
-d/home/shockman/.local/bin
-	dmenu
-1
-d/home/shockman/.local/bin/dmenu
-	umountmenu
-12
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman
-	Mount
-15
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman
-	.local
-6
-d/home/shockman/.local
-	bin
-1
-d/home/shockman/.local/bin
-	dmenu
-1
-d/home/shockman/.local/bin/dmenu
-	mountmenu
-9
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
 d/home/shockman/.config
-	ncmpcpp
-13
-d/home/shockman/.config/ncmpcpp
-	config-art
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	themes
 4
-d/home/shockman/Mount/A:A_Drive
-	Git
-2
-d/home/shockman/Mount/A:A_Drive/Git
-	Linux
-1
-d/home/shockman/Mount/A:A_Drive/Git/Linux
-	linux-dotfiles
-2
-d/home/shockman/Mount/A:A_Drive/Git/Linux/linux-dotfiles
-	.local
-3
-d/home/shockman/Mount/A:A_Drive/Git/Linux/linux-dotfiles/.local
-	bin
-1
-d/home/shockman/Mount/A:A_Drive/Git/Linux/linux-dotfiles/.local/bin
-	programs
-3
-d/home/shockman/Mount/A:A_Drive/Git/Linux/linux-dotfiles/.local/bin/programs
-	cover
+d/home/shockman/.config/qutebrowser/themes
+	solarized-dark
 4
+d/home/shockman/.config/qutebrowser
+	local
+3
+d/home/shockman/.config/qutebrowser/local
+	lists
+2
+d/home/shockman/.config/qutebrowser/local/lists
+	sitelist
+3
+d/home/shockman/.config/qutebrowser/local
+	lists
+2
+d/home/shockman/.config/qutebrowser
+	local
+3
+d/home/shockman/.config
+	qutebrowser
+21
 d/home/shockman
-	.local
-6
-d/home/shockman/.local
-	bin
-1
-d/home/shockman/.local/bin
-	programs
+	Downloads
 3
-d/home/shockman/.local/bin/programs
-	coverart
+d/home/shockman/Downloads
+	all-mangas-reader-beta-latest.xpi
+6
+d/home/shockman
+	Devices
+2
+d/home/shockman/Devices
+	Virtual Machines
+2
+d/home/shockman/Devices/Virtual Machines
+	isos
 4
-d/home/shockman/Videos
+d/home/shockman/Devices
+	A:A_Drive
+1
+d/home/shockman
+	Devices
+2
+d/home/shockman/Devices
+	A:A_Drive
+1
+d/home/shockman/Devices/A:A_Drive
 	..
 0
-d/home/shockman
-	.local
-6
-d/home/shockman/.local
-	bin
+d/home/shockman/Devices
+	A:A_Drive
 1
-d/home/shockman/.local/bin
-	dmenu
-1
-d/home/shockman/.local/bin/dmenu
-	logoutmenu
-8
 d/home/shockman
-	.local
-6
-d/home/shockman/.local
-	bin
-1
-d/home/shockman/.local/bin
-	dmenu
-1
-d/home/shockman/.local/bin/dmenu
-	logoutmenu
-8
-d/home/shockman
-	.config
-2
-d/home/shockman/.config
-	ncmpcpp
-16
-d/home/shockman
-	.local
+	Pictures
 5
-d/home/shockman/.local
-	bin
+d/home/shockman/Pictures
+	Screenshots
 1
-d/home/shockman/.local/bin
-	dmenu
-1
-d/home/shockman/.local/bin/dmenu
-	emoji
-6
-d/home/shockman/.local/bin
-	programs
-3
-d/home/shockman/.local/bin/programs
-	show_art
-12
-d/home/shockman/.config
-	ncmpcpp
-16
-d/home/shockman/.config/ncmpcpp
-	config-art
-4
-d/home/shockman
-	.local
-5
-d/home/shockman/.local
-	bin
-1
-d/home/shockman/.local/bin
-	programs
-3
-d/home/shockman/.local/bin/programs
-	show_art
-12
-d/home/shockman/Videos
-	RogersBase - Hunter X Hunter Arc Ranking LIVE w_ Brago (BDA Law), Nux Taku, BMC and King of Lightning.webm
-3
-d/home/shockman/Mount/A:A_Drive
+d/home/shockman/Pictures/Screenshots
 	..
 0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	..
-0
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman
-	Mount
-14
-d/home/shockman/Mount
-	A:A_Drive
-1
-d/home/shockman/Mount/A:A_Drive
-	Documents
-1
-d/home/shockman/Mount/A:A_Drive/Documents
-	..
-0
-d/home/shockman/Mount/A:A_Drive
+d/home/shockman/Devices/A:A_Drive
 	Multimedia
 4
-d/home/shockman/Mount/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Mount/A:A_Drive/Multimedia/Books
-	Textbooks
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Videos
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
+	Movies
 3
-d/home/shockman/Mount/A:A_Drive/Multimedia/Books/Textbooks
-	[Jamie_Chan]_Learn_Python_in_One_Day_and_Learn_It_(z-lib.org).epub
-3
-d/home/shockman/Mount/A:A_Drive/Multimedia/Books
-	Textbooks
-3
-d/home/shockman/Mount/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Mount/A:A_Drive/Multimedia/Books
-	Textbooks
-3
-d/home/shockman/Mount/A:A_Drive/Multimedia/Books/Textbooks
-	[Gallacher, Morris] ITIL Foundation Exam Study Guide.pdf
-2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Movies
+	[2018] Spiderman: Into the Spiderverse
+7
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
+	TV
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV
+	Dragon Ball Z
+10
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Dragon Ball Z
+	S3 Androids
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Dragon Ball Z/S3 Androids
+	S03E04 New Technique of Goku, Instant Movement! Special Training Staked on 3 Years From Now
+4
 d/home/shockman/Videos
-	DistroTube - A Comprehensive Guide To Tiling Window Managers.mp4
-1
-d/home/shockman/Mount/A:A_Drive
+	[Tekking101] Kozuki Oden & The Labors of Hercules - One Piece Discussion.mkv
+15
+d/home/shockman/Devices/A:A_Drive
 	Git
 2
-d/home/shockman/Mount/A:A_Drive/Git
-	Programming
+d/home/shockman/Devices/A:A_Drive/Git
+	Linux
+1
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	local
+3
+d/home/shockman/.config/qutebrowser/local
+	lists
 2
-d/home/shockman/Mount/A:A_Drive
+d/home/shockman/.config/qutebrowser/local/lists
+	sitelist
+3
+d/home/shockman/Devices/A:A_Drive
+	Notes
+5
+d/home/shockman/Devices/A:A_Drive/Notes
+	Courses
+2
+d/home/shockman/Devices/A:A_Drive/Notes/Courses
+	Database Design
+2
+d/home/shockman/Devices/A:A_Drive/Notes/Courses/Database Design
+	Week 3.md
+3
+d/home/shockman/Videos
+	misc
+1
+d/home/shockman/Videos/misc
+	..
+0
+d/home/shockman/Devices/A:A_Drive
 	Documents
 1
-d/home/shockman/Mount/A:A_Drive/Documents
+d/home/shockman/Devices/A:A_Drive/Documents
 	Media
 2
-d/home/shockman/Mount/A:A_Drive/Documents/Media
+d/home/shockman/Devices/A:A_Drive/Documents/Media
 	Yugioh Highlights
 5
-d/home/shockman/Mount/A:A_Drive/Documents/Media/Yugioh Highlights
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
 	forbidden_otks
 1
-d/home/shockman/Mount/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	[Sam🤖] Sam🤖 - The Cute &amp; Sexy @ella_hollywood pounding the MILF Goddess @CherieDeVille  Watch it all in @kinkdotcom.mp4
-41
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
+	D9IGFctXkAYv-Tv.jpg
+17
 d/home/shockman/Videos
-	DistroTube - A Comprehensive Guide To Tiling Window Managers.mp4
+	[Stingy IT] Introduction to DOS _ History of MS-DOS _ Using FreeDOS Today.mp4
+12
+d/home/shockman/Devices/A:A_Drive
+	Notes
+5
+d/home/shockman/Devices/A:A_Drive/Notes
+	Courses
+2
+d/home/shockman/Devices/A:A_Drive/Notes/Courses
+	Database Design
+2
+d/home/shockman/Devices/A:A_Drive/Notes/Courses/Database Design
+	Week 3.md
+3
+d/home/shockman/Devices/A:A_Drive/Notes/Courses
+	Database Design
+2
+d/home/shockman/Downloads
+	Database Design
 1
+d/home/shockman/Downloads/Database Design
+	Week 1.md
+1
+d/home/shockman/Downloads
+	Database Design
+1
+d/home/shockman/Downloads/Database Design
+	Week 3.md
+3
+d/home/shockman/Videos
+	[Earthling Ed] VEGAN ACTIVIST GETS TROLLED!.mkv
+6
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	local
+3
+d/home/shockman/.config/qutebrowser/local
+	lists
+2
+d/home/shockman/.config/qutebrowser/local/lists
+	sitelist
+3
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman/Devices/A:A_Drive/Documents
+	Media
+2
+d/home/shockman/Devices/A:A_Drive/Documents/Media
+	Yugioh Highlights
+5
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
+	forbidden_otks
+1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
+	NA - TWO CUTES JAPAN SHEMALE HAVIN SEX.mp4
+37
+d/home/shockman/Videos
+	[Luke Smith] zsh - Syntax Highlighting, vi-mode, Autocomplete, more.mkv
+7
+d/home/shockman/.config
+	appearance
+3
+d/home/shockman/.config/appearance
+	Xresources
+5
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	themes
+4
+d/home/shockman/.config/qutebrowser/themes
+	darkstar.css
+7
+d/home/shockman/.config
+	appearance
+3
+d/home/shockman/.config/appearance
+	Xresources
+5
+d/home/shockman
+	.mozilla
+6
+d/home/shockman/.mozilla
+	firefox
+2
+d/home/shockman/.mozilla/firefox
+	re3bxppl.ghacks
+3
+d/home/shockman/.mozilla/firefox/re3bxppl.ghacks
+	chrome
+3
+d/home/shockman/.mozilla/firefox/re3bxppl.ghacks/chrome
+	userChrome.css
+7
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	themes
+4
+d/home/shockman/.config/qutebrowser/themes
+	darkstar.css
+7
+d/home/shockman/.config/qutebrowser
+	themes
+4
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman
+	.mozilla
+6
+d/home/shockman/.mozilla
+	firefox
+2
+d/home/shockman/.mozilla/firefox
+	re3bxppl.ghacks
+3
+d/home/shockman/.mozilla/firefox/re3bxppl.ghacks
+	user.js
+41
+d/home/shockman
+	Downloads
+14
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	themes
+4
+d/home/shockman/.config/qutebrowser/themes
+	darkstar.css
+7
+d/home/shockman
+	Downloads
+14
+d/home/shockman/Downloads
+	Database Design
+1
+d/home/shockman/Downloads/Database Design
+	Week 3.md
+3
+d/home/shockman/.config
+	qutebrowser
+21
+d/home/shockman/.config/qutebrowser
+	themes
+4
+d/home/shockman/.config/qutebrowser/themes
+	darkstar.css
+7
 d
 
 # Right window history (oldest to newest):
@@ -335,20 +335,6 @@ D/home/shockman
 D
 
 # Command line history (oldest to newest):
-:!nvim config.rasi
-:!nvim Business\ Comminication\ Notes.md
-:!nvim Business\ Communication\ Notes.md
-:mkdir 
-:!git clone https://github.com/LukeSmithxyz/st
-:!zathura README.md
-:!nvim README.md
-:!nvim arch software
-:!nvim arch\ software.md
-:!nvim void-post-install
-:!nvim arch-post-install
-:!nvim config.py
-:!nvim input.conf
-:!compton-launch.sh
 :!nvim compton.conf
 :!nvim bspwmrc
 :!nvim sxhkdrc
@@ -412,10 +398,8 @@ D
 :!sudo art.sh
 :!sudo sh art.sh
 :!sh art.sh
-:mkdir Screenshots
 :mkdir Torrents
 :!sudo nvim hosts
-:mkdir misc
 :!nvim cleaning_products.md
 :!ud
 :!redshift -l 27.950575:-82.457176 -t 6500:3000 &
@@ -435,6 +419,22 @@ D
 :!nvim config-art
 :!sudo chmod 777 config-art
 :!chmod 777 show_art
+:!git clone https://github.com/beffiom/linux-dotfiles
+:mkdir post-installers
+:mkdir firefox
+:!nvim sudoers
+:mkdir Pictures
+:mkdir Screenshots
+:mkdir Bachelors
+:mkdir Database\ Design
+:mkdir Tech\ Law
+:mkdir misc
+:mkdir MIT\ OpenCourseWare
+:mkdir Computer\ Systems\ Security
+:mkdir Manjaro\ KDE
+:mkdir Kubuntu
+:mkdir isos
+:!touch Week\ 3.md
 
 # Search history (oldest to newest):
 /ico
@@ -462,8 +462,13 @@ D
 /xxx
 /kend
 /tripp
+/qut
+/qute
+/user
 
 # Prompt history (oldest to newest):
+pdisplaymenu
+pdmenu-menu
 pMusic
 pdevices.md
 pstudent-survey-of-instruction.png
@@ -527,11 +532,17 @@ pmononoki
 pcover.jpg
 puser
 p.xscreensaver
+pncmpcpp.png
+pfirefox.png
+pvifm.png
+pREADME.md
+pDevices
+parcolinuxb_deepin_11.3.iso
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/shockman/Mount/A:A_Drive/Git/Linux/linux-dotfiles/.local/bin/programs/cover
+""/home/shockman/Devices/A:A_Drive/Notes/Courses/Database Design
 
 # Directory stack (oldest to newest):
 
@@ -592,6 +603,8 @@ t/home/shockman/.trash/000_Software.rmd
 	/home/shockman/Mount/A:A_Drive/Notes/Digital Minimalism/Software.rmd
 t/home/shockman/.trash/000_Devices.rmd
 	/home/shockman/Mount/A:A_Drive/Notes/Digital Minimalism/Devices.rmd
+t/home/shockman/.trash/000_Notebooks
+	/home/shockman/Devices/A:A_Drive/Documents/School/SPC/New/Notebooks
 
 # State:
 f

@@ -10,7 +10,7 @@ export EDITOR="nvim"
 export TERMINAL="st"
 export LAUNCHER="dmenu_run"
 export FILEBROWSER="$TERMINAL -e bash $HOME/.config/vifm/scripts/vifmrun"
-export WEBBROWSER="qutebrowser"
+export WEBBROWSER="firefox"
 export YOUTUBE="qutebrowser https://invidio.us"
 export READER="zathura"
 export MUSIC="$TERMINAL -e ncmpcpp"
@@ -25,4 +25,4 @@ if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
 fi
 
 # source bashrc
-echo "$0" | grep "bash$" >/dev/null && [ -f $HOME/.bashrc ] && source "$HOME/.bashrc"
+echo "$0" | grep "bash$" >/dev/null && [ -f $HOME/.config/appearance/bashrc ] && source "$HOME/.config/appearance/bashrc"

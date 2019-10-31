@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Text
+Exec=/usr/local/bin/st -e nvim %u

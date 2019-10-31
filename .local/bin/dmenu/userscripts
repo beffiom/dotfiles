@@ -1,0 +1,6 @@
+#!/bin/sh
+case "$(printf "dmenu\\nnotify\\nprograms" | dmenu)" in
+	"dmenu") dmenu-menu ;;
+	"notify") notify-menu ;;
+	"programs") programs-menu ;;
+esac

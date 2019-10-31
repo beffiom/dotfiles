@@ -1,0 +1,6 @@
+#!/bin/sh
+case "$(printf "notify_currenttrack\\npassnotify\\nvolumenotify" | dmenu)" in
+	"notify_currenttrack") $TERMINAL -e $EDITOR ~/.local/bin/notify/notify_currenttrack ;;
+	"passnotify") $TERMINAL -e $EDITOR ~/.local/bin/notify/passnotify ;;
+	"volumenotify") $TERMINAL -e $EDITOR ~/.local/bin/notify/volumenotify ;;
+esac

@@ -1,4 +1,4 @@
 sxhkd &
 xrandr &&
-xrdb -merge ~/.Xresources &&
+xrdb -merge ~/.config/appearance/Xresources &&
 exec bspwm

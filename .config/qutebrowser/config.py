@@ -69,7 +69,7 @@ config.bind(';', 'set-cmd-text :')
 config.bind('t', 'config-cycle content.user_stylesheets themes/darkstar-alt.css themes/default.css themes/darkstar.css')
 config.bind('di', 'set downloads.location.directory ~/Pictures ;; hint images download')
 config.bind('dl', 'set downloads.location.directory ~/Downloads ;; hint links download')
-config.bind('dv', 'hint links spawn youtube-dl --add-metadata -i -o "~/Videos/%(uploader)s - %(title)s.%(ext)s" {hint-url}')
+config.bind('dv', 'hint links spawn youtube-dl --add-metadata -i -o "~/Videos/[%(uploader)s] %(title)s.%(ext)s" {hint-url}')
 config.bind('da', 'hint links spawn youtube-dl --add-metadata -i -o "~/Music/%(title)s.%(ext)s" -x -f bestaudio/best {hint-url}')
 config.bind('dt', 'hint links spawn transmission-remote -a {hint-url}')
 config.bind('gh', 'open ' + homePage)
@@ -83,7 +83,6 @@ config.bind('+', 'zoom')
 config.bind('o', 'set-cmd-text -s :open -s ')
 config.bind('O', 'set-cmd-text -s :open -s -t ')
 config.bind('pb', 'open -p ')
-config.bind('pw', 'spawn --userscript ~/.local/bin/programs/qute-keepass -p ~/.local/profile-5.kdbx')
 
 #################################################################
 # COLORS

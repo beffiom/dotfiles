@@ -1,5 +1,6 @@
 #!/bin/sh
-case "$(printf "bash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneovim\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
+case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneovim\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
+	"userscripts") userscripts ;;
 	"bash_profile") $TERMINAL -e $EDITOR ~/.bash_profile ;;
 	"bashrc") $TERMINAL -e $EDITOR ~/.bashrc ;;
 	"bspwm") $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc ;;

@@ -24,6 +24,8 @@ super + shift + Return
 super + m
     	$MUSIC
 
+super + v
+	mpv $(xclip -selection clipboard -o)
 super + t
     	$TORRENT
 

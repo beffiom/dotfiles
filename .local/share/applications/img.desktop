@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Image
+Exec=/usr/bin/sxiv %u

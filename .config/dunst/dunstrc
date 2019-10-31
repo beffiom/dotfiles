@@ -31,7 +31,7 @@ sticky_history = yes
 history_length = 20
 browser = /usr/bin/qutebrowser --target tab
 always_run_script = truM
-corner_radius = 5
+corner_radius = 3
 mouse_left = close_current
 mouse_right = close_all
 timeout = 4
@@ -39,19 +39,19 @@ timeout = 4
 [urgency_low]
     background = "#292d3e"
     foreground = "#bbc5ff"
-    frame_color = "#c792ea"
+    frame_color = "#434758"
     timeout = 5
 
 [urgency_normal]
     background = "#292d3e"
     foreground = "#bbc5ff"
-    frame_color = "#ffcb6b"
+    frame_color = "#434758"
     timeout = 10
 
 [urgency_critical]
     background = "#292d3e"
     foreground = "#fdf6e3"
-    frame_color = "#f07178"
+    frame_color = "#434758"
     timeout = 0
 
 [shortcuts]
