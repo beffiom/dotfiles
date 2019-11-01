@@ -6,3 +6,13 @@
 @import "personalbar/personalbar.css";
 @import "popup/popup.css";
 @import "popup/urlbar-results.css";
+
+::-moz-scrollbar {
+    display: none !important;
+}
+
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: red green;
+  scrollbar-width: thin;
+}

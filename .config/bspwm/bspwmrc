@@ -32,7 +32,6 @@ bspc monitor HDMI1 -d 4 5 6
 ############################
 #### BSPWM configuration ###
 ############################
-bspc config border_radius               25
 bspc config border_width                3
 bspc config top_padding			35
 bspc config bottom_padding		0
@@ -75,8 +74,4 @@ bspc config presel_feedback_color	"#c792ea"
 ###################
 ### BSPWM rules ###
 ###################
-bspc rule -a mpv state=pseudo_tiled desktop=^3 follow=on
-bspc rule -a 'st -e calc' state=floating
-bspc rule -a zathura state=tiled
-bspc rule -a sxiv border_width=0
-bspc rule -a kunst border_width=0
+bspc rule -a mpv state=pseudo_tiled desktop=^3
