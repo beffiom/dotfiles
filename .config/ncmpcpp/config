@@ -34,7 +34,7 @@ visualizer_look = ●▋
 
 [header]
 header_visibility = no
-#user_interface = "alternative"
+user_interface = "alternative"
 playlist_shorten_total_times = yes
 volume_color = default
 state_line_color = black

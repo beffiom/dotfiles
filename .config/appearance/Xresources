@@ -9,7 +9,7 @@ Xft.autohint:	0
 Xft.hintstyle:	hintslight
 Xft.rgba:	rgb
 Xft.lcdfilter:	lcddefault
-Xft.dpi:	104
+Xft.dpi:	157
 
 !! Terminal settings
 st.alpha:	1
@@ -52,4 +52,3 @@ st.borderpx:	2
 ! white
 *.color7:       #d0d0d0
 *.color15:      #ffffff
-

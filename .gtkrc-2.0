@@ -1,6 +1,6 @@
-gtk-theme-name=Matcha-dark-azul
+gtk-theme-name="Plata-Noir"
 gtk-application-prefer-dark-theme = true
-gtk-font-name=Monospace 10
+gtk-font-name="Monospace 10"
 gtk-cursor-theme-size=16
 gtk-toolbar-style=GTK_TOOLBAR_TEXT
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
@@ -12,4 +12,4 @@ gtk-xft-antialias=1
 gtk-xft-hinting=1
 gtk-xft-hintstyle=hintfull
 gtk-xft-rgba=rgb
-gtk-cursor-theme-name=Breeze_Purple
+gtk-cursor-theme-name="Breeze_Purple"

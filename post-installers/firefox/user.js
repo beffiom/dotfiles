@@ -1674,6 +1674,8 @@ user_pref("browser.display.background_color", "#292d3e");
 user_pref("security.secure_connection_icon_color_gray", false);
 /* Material Fox ***/
 user_pref("browser.tabs.tabClipWidth", 83);
+user_pref("layout.css.dpi", 157);
+user_pref("gfx.font_rendering.fontconfig.max_generic_substitutions", 127);
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("materialFox.reduceTabOverflow", true);
 user_pref("security.insecure_connection_text.enabled", true);

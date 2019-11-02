@@ -45,13 +45,13 @@ timeout = 4
 [urgency_normal]
     background = "#292d3e"
     foreground = "#bbc5ff"
-    frame_color = "#434758"
+    frame_color = "#292d3e"
     timeout = 6
 
 [urgency_critical]
     background = "#292d3e"
     foreground = "#fdf6e3"
-    frame_color = "#434758"
+    frame_color = "#292d3e"
     timeout = 0
 
 [shortcuts]
