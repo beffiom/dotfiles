@@ -1,5 +1,15 @@
 # darkstar | linux-dotfiles
 
+## screenshots
+ncmpcpp
+![ncmpcpp](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/ncmpcpp.png)
+
+firefox
+![firefox](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/firefox.png)
+
+vifm
+![vifm](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/vifm.png)
+
 ## system information
 
 * **distribution:** arch linux
