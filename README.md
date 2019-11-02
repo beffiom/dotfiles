@@ -6,7 +6,7 @@ ncmpcpp
 
 firefox
 ![firefox](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/firefox.png)
-**Source: [icyphox.sh](https://icyphox.sh/)**
+**source: [icyphox.sh](https://icyphox.sh/)**
 
 vifm
 ![vifm](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/vifm.png)
