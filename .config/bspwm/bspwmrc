@@ -14,7 +14,7 @@ polybar main &
 polybar mon1 &
 compton --config $XDG_CONFIG_HOME/appearance/compton.conf &
 xautolock -detectsleep -time 5 -locker slock &
-redshift -l 27.950575:-82.457176 -t 6500:3000 &
+#redshift -l 27.950575:-82.457176 -t 6500:3000 &
 xrdb ~/.config/appearance/Xresources
 xmodmap ~/.config/appearance/Xmodmap
 xrandr -output eDP1 --mode 1920x1080

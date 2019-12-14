@@ -1,4 +1,4 @@
-#################################################################
+################################################################
 # GENERAL
 #################################################################
 ## colors
@@ -69,7 +69,7 @@ config.bind(';', 'set-cmd-text :')
 config.bind('t', 'config-cycle content.user_stylesheets themes/darkstar-alt.css themes/default.css themes/darkstar.css')
 config.bind('di', 'set downloads.location.directory ~/Pictures ;; hint images download')
 config.bind('dl', 'set downloads.location.directory ~/Downloads ;; hint links download')
-config.bind('dv', 'hint links spawn youtube-dl --add-metadata -i -o "~/Videos/[%(uploader)s] %(title)s.%(ext)s" {hint-url}')
+config.bind('dv', 'hint links spawn youtube-dl --add-metadata --all-subs -i -o "~/Videos/[%(uploader)s] %(title)s.%(ext)s" {hint-url}')
 config.bind('da', 'hint links spawn youtube-dl --add-metadata -i -o "~/Music/%(title)s.%(ext)s" -x -f bestaudio/best {hint-url}')
 config.bind('dt', 'hint links spawn transmission-remote -a {hint-url}')
 config.bind('gh', 'open ' + homePage)
@@ -1098,6 +1098,9 @@ c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
         'tws':      'https://nitter.net/search?kind=custom&q={}&since=&until=&near=',
         'aw':       'https://wiki.archlinux.org/index.php/{}',
         'gw':       'https://wiki.gentoo.org/wiki/{}',
+        'r':        'https://reddit.com/r/{}',
+        'rs':       'https://reddit.com/search?q={}',
+        '4':        'https://4chan.org/{}/catalog'
         }
 
 ## Page(s) to open at the start.

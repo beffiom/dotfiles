@@ -1,17 +1,17 @@
 [Default Applications]
 x-scheme-handler/magnet=torrent.desktop
 application/x-bittorrent=torrent.desktop
-x-scheme-handler/http=web.desktop
-x-scheme-handler/https=web.desktop
-x-scheme-handler/ftp=web.desktop
-x-scheme-handler/chrome=web.desktop
-text/html=web.desktop
-application/x-extension-htm=web.desktop
-application/x-extension-html=web.desktop
-application/x-extension-shtml=web.desktop
-application/xhtml+xml=web.desktop
-application/x-extension-xhtml=web.desktop
-application/x-extension-xht=web.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/ftp=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
 video/mp4=video.desktop
 video/quicktime=video.desktop
 video/mpeg=video.desktop
@@ -26,3 +26,16 @@ image/jpeg=img.desktop;
 image/gif=img.desktop;
 x-scheme-handler/discord-431872723946438658=discord-431872723946438658.desktop
 x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/ftp=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;

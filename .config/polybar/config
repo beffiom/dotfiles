@@ -25,14 +25,14 @@ foreground = #bbc5ff
 foreground-alt = #d0d0d0
 primary = #82aaff
 secondary = #c792ea
-alert = #f07178
+alert = #ff8b92
 
 [bar/main]
 monitor = ${env:MONITOR:eDP1}
 width = 100%
 height = 30
 ;offset-x = 1%
-offset-y = 1%
+offset-y = 1.5%
 ;radius = 12.0
 fixed-center = true
 
@@ -216,7 +216,7 @@ label-occupied-foreground = ${colors.secondary}
 label-occupied-padding = 2
 
 label-urgent = 
-label-urgent-background = ${colors.alert}
+label-urgent-foreground = ${colors.alert}
 label-urgent-padding = 2
 
 ;label-empty = %index%

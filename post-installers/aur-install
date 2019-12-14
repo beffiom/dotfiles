@@ -3,8 +3,7 @@
 #install aur packages
 yay -S rtl8821ce-dkms-git
 yay -S ttf-mononoki
-yay -S signal
-yay -S matcha-gtk-theme
+yay -S plata-theme
 yay -S breeze-purple-cursor-theme
 yay -S polybar
 yay -S ttf-font-awesome-4

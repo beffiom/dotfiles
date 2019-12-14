@@ -26,70 +26,112 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	themes
-4
-d/home/shockman/.config/qutebrowser/themes
-	solarized-dark
-4
-d/home/shockman/.config/qutebrowser
-	local
-3
-d/home/shockman/.config/qutebrowser/local
-	lists
-2
-d/home/shockman/.config/qutebrowser/local/lists
-	sitelist
-3
-d/home/shockman/.config/qutebrowser/local
-	lists
-2
-d/home/shockman/.config/qutebrowser
-	local
-3
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman
-	Downloads
-3
-d/home/shockman/Downloads
-	all-mangas-reader-beta-latest.xpi
-6
-d/home/shockman
-	Devices
-2
-d/home/shockman/Devices
-	Virtual Machines
-2
-d/home/shockman/Devices/Virtual Machines
-	isos
-4
-d/home/shockman/Devices
-	A:A_Drive
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
+	forbidden_otks
 1
-d/home/shockman
-	Devices
-2
-d/home/shockman/Devices
-	A:A_Drive
-1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
+	tw_taftaj1_0.jpg
+39
 d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman/Music
+	Juice WRLD
+39
+d/home/shockman/Downloads
+	cb__xcherrycrushx__0.mp4
+16
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman/Devices/A:A_Drive/Documents
+	Media
+2
+d/home/shockman/Devices/A:A_Drive/Documents/Media
+	Yugioh Highlights
+5
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
+	forbidden_otks
+1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
+	r_xoChloe_4.jpg
+38
+d/home/shockman/Videos
+	[NA] Santa's Little Helper.mp4
+2
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman/Devices/A:A_Drive/Documents
+	Media
+2
+d/home/shockman/Devices/A:A_Drive/Documents/Media
+	Yugioh Highlights
+5
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
+	forbidden_otks
+1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
+	[NA] 1573250372903.webm
+4
+d/home/shockman/.config/appearance/wallpapers
 	..
 0
-d/home/shockman/Devices
-	A:A_Drive
+d/home/shockman/Downloads
+	Computer Security Notification Policy.docx
+6
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Videos
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
+	TV
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV
+	Bakuman
 1
-d/home/shockman
-	Pictures
-5
-d/home/shockman/Pictures
-	Screenshots
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman
+	Season 3
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman/Season 3
+	S03E01 Tenacity and Determination
 1
-d/home/shockman/Pictures/Screenshots
+d/home/shockman/Downloads
+	[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains.epub
+15
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Books
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
+	#dystopia
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books/#dystopia
+	[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains.epub
+3
+d/home/shockman/Downloads
+	[Marx] Capital.epub
+15
+d/home/shockman/Devices/A:A_Drive
+	Macbook Files
+3
+d/home/shockman/Videos
+	[Three Arrows] Fox News - How To Whitewash an Atrocity.mkv
+1
+d/home/shockman/Downloads
+	[Sowell, 2000] Basic Economics.epub
+16
+d/home/shockman/Devices/A:A_Drive
+	Macbook Files
+3
+d/home/shockman/Devices/A:A_Drive/Macbook Files
 	..
 0
 d/home/shockman/Devices/A:A_Drive
@@ -98,63 +140,129 @@ d/home/shockman/Devices/A:A_Drive
 d/home/shockman/Devices/A:A_Drive/Multimedia
 	Videos
 4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	Movies
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Movies
-	[2018] Spiderman: Into the Spiderverse
-7
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	TV
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV
-	Dragon Ball Z
-10
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Dragon Ball Z
-	S3 Androids
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Dragon Ball Z/S3 Androids
-	S03E04 New Technique of Goku, Instant Movement! Special Training Staked on 3 Years From Now
-4
-d/home/shockman/Videos
-	[Tekking101] Kozuki Oden & The Labors of Hercules - One Piece Discussion.mkv
-15
 d/home/shockman/Devices/A:A_Drive
-	Git
-2
-d/home/shockman/Devices/A:A_Drive/Git
-	Linux
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
 1
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	local
-3
-d/home/shockman/.config/qutebrowser/local
-	lists
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Books
 2
-d/home/shockman/.config/qutebrowser/local/lists
-	sitelist
-3
-d/home/shockman/Devices/A:A_Drive
-	Notes
-5
-d/home/shockman/Devices/A:A_Drive/Notes
-	Courses
-2
-d/home/shockman/Devices/A:A_Drive/Notes/Courses
-	Database Design
-2
-d/home/shockman/Devices/A:A_Drive/Notes/Courses/Database Design
-	Week 3.md
-3
-d/home/shockman/Videos
-	misc
-1
-d/home/shockman/Videos/misc
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
+	#finance
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books/#finance
 	..
 0
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
+	#finance
+4
+d/home/shockman
+	Devices
+2
+d/home/shockman/Devices
+	E:E_Reader
+2
+d/home/shockman/Devices/E:E_Reader
+	kbmenupngs
+1
+d/home/shockman/Devices/E:E_Reader/kbmenupngs
+	poweroff.png
+2
+d/home/shockman/Devices/E:E_Reader
+	.library
+5
+d/home/shockman/Devices
+	E:E_Reader
+2
+d/home/shockman
+	Devices
+16
+d/home/shockman/Devices
+	A:A_Drive
+1
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Books
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
+	#manga
+9
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Books
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
+	#finance
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Textbooks
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
+1
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices
+	E:E_Reader
+2
+d/home/shockman
+	Devices
+16
+d/home/shockman/Devices
+	E:E_Reader
+2
+d/home/shockman/Devices/E:E_Reader
+	.library
+5
+d/home/shockman/Devices/E:E_Reader/.library
+	#finance
+4
+d/home/shockman/Devices/E:E_Reader/.library/#finance
+	[Singh] Get Richer Sleeping.pdf
+6
+d/home/shockman/Devices/E:E_Reader/.library
+	#career
+1
+d/home/shockman/Devices/E:E_Reader
+	.library
+5
+d/home/shockman/Devices
+	E:E_Reader
+2
+d/home/shockman/Devices/E:E_Reader
+	.library
+5
+d/home/shockman/Devices/E:E_Reader/.library
+	#manga
+9
+d/home/shockman/Devices/E:E_Reader
+	.kobo-images
+4
+d/home/shockman/Devices
+	A:A_Drive
+1
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Books
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
+	#career
+1
+d/home/shockman/Videos
+	daisy_chanel.mp4
+7
 d/home/shockman/Devices/A:A_Drive
 	Documents
 1
@@ -168,53 +276,17 @@ d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
 	forbidden_otks
 1
 d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	D9IGFctXkAYv-Tv.jpg
-17
+	adi_lockheart.mp4
+15
+d/home/shockman/Pictures
+	Screenshots
+1
+d/home/shockman/Pictures/Screenshots
+	vifm.png
+7
 d/home/shockman/Videos
-	[Stingy IT] Introduction to DOS _ History of MS-DOS _ Using FreeDOS Today.mp4
-12
-d/home/shockman/Devices/A:A_Drive
-	Notes
-5
-d/home/shockman/Devices/A:A_Drive/Notes
-	Courses
+	[Pyrocynical] Jake Paul is worse than logan paul.mkv
 2
-d/home/shockman/Devices/A:A_Drive/Notes/Courses
-	Database Design
-2
-d/home/shockman/Devices/A:A_Drive/Notes/Courses/Database Design
-	Week 3.md
-3
-d/home/shockman/Devices/A:A_Drive/Notes/Courses
-	Database Design
-2
-d/home/shockman/Downloads
-	Database Design
-1
-d/home/shockman/Downloads/Database Design
-	Week 1.md
-1
-d/home/shockman/Downloads
-	Database Design
-1
-d/home/shockman/Downloads/Database Design
-	Week 3.md
-3
-d/home/shockman/Videos
-	[Earthling Ed] VEGAN ACTIVIST GETS TROLLED!.mkv
-6
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	local
-3
-d/home/shockman/.config/qutebrowser/local
-	lists
-2
-d/home/shockman/.config/qutebrowser/local/lists
-	sitelist
-3
 d/home/shockman/Devices/A:A_Drive
 	Documents
 1
@@ -228,104 +300,32 @@ d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
 	forbidden_otks
 1
 d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	NA - TWO CUTES JAPAN SHEMALE HAVIN SEX.mp4
-37
+	daisy_chanel.mp4
+20
 d/home/shockman/Videos
-	[Luke Smith] zsh - Syntax Highlighting, vi-mode, Autocomplete, more.mkv
-7
-d/home/shockman/.config
-	appearance
-3
-d/home/shockman/.config/appearance
-	Xresources
-5
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	themes
-4
-d/home/shockman/.config/qutebrowser/themes
-	darkstar.css
-7
-d/home/shockman/.config
-	appearance
-3
-d/home/shockman/.config/appearance
-	Xresources
-5
-d/home/shockman
-	.mozilla
-6
-d/home/shockman/.mozilla
-	firefox
-2
-d/home/shockman/.mozilla/firefox
-	re3bxppl.ghacks
-3
-d/home/shockman/.mozilla/firefox/re3bxppl.ghacks
-	chrome
-3
-d/home/shockman/.mozilla/firefox/re3bxppl.ghacks/chrome
-	userChrome.css
-7
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	themes
-4
-d/home/shockman/.config/qutebrowser/themes
-	darkstar.css
-7
-d/home/shockman/.config/qutebrowser
-	themes
-4
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman
-	.mozilla
-6
-d/home/shockman/.mozilla
-	firefox
-2
-d/home/shockman/.mozilla/firefox
-	re3bxppl.ghacks
-3
-d/home/shockman/.mozilla/firefox/re3bxppl.ghacks
-	user.js
-41
-d/home/shockman
-	Downloads
-14
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	themes
-4
-d/home/shockman/.config/qutebrowser/themes
-	darkstar.css
-7
-d/home/shockman
-	Downloads
-14
-d/home/shockman/Downloads
-	Database Design
+	[Asian Boss] We Visted a Chosun School in Japan _ ASIAN BOSS.mkv
 1
-d/home/shockman/Downloads/Database Design
-	Week 3.md
-3
-d/home/shockman/.config
-	qutebrowser
-21
-d/home/shockman/.config/qutebrowser
-	themes
+d/home/shockman/Downloads
+	how-did-you-first-get-into.mp4
+15
+d/home/shockman/.config/appearance/wallpapers
+	#landscape
+5
+d/home/shockman/.config/appearance/wallpapers/#landscape
+	boardwalk_ambient.jpg
+2
+d/home/shockman/.config/appearance/wallpapers
+	#cyber
 4
-d/home/shockman/.config/qutebrowser/themes
-	darkstar.css
-7
+d/home/shockman/.config/appearance/wallpapers/#cyber
+	virtue.jpg
+25
+d/home/shockman/.config/appearance/wallpapers
+	#spacescape
+8
+d/home/shockman/.config/appearance/wallpapers/#spacescape
+	mellow.jpg
+8
 d
 
 # Right window history (oldest to newest):
@@ -335,78 +335,6 @@ D/home/shockman
 D
 
 # Command line history (oldest to newest):
-:!nvim compton.conf
-:!nvim bspwmrc
-:!nvim sxhkdrc
-:!nvim .bash_profile
-:!nvim .profile
-:!nvim Downloads/
-:!sudo make install
-:!find transmission
-:!st -pixmap
-:!sh notify_nexttrack
-:!notify_currenttrack
-:!dl 'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fhw-img.datpiff.com%2Fm05efb34%2FTrippie_Redd_A_Love_Letter_To_You-front-large.jpg&f=1' 'cover.jpg'
-:!chmod +x passnotify
-:mkdir Elementary OS
-:cd ~/Mount/A:A_Drive
-:mkdir PrimeOS
-:mkdir papes
-:mkdir BlissOS
-:!mpv resort-boin-uncensored-re-release-1-720p-v1x.mp4
-:!nvim Devices.rmd
-:!nvim Daily-Routine.rmd
-:mkdir Music
-:!mpv Bulldog\ Mindset\ -\ Andrew\ Yang\'s\ Policies\ -\ BEST\ Presidential\ Candidate\ \(Pt.\ 2\).mkv
-:!mvp \[Bulldog\ Mindset\]\ Andrew\ Yang\'s\ Policies\ -\ BEST\ Presidential\ Candidate\ \(Pt.\ 2\).mkv
-:!mpv \[Bulldog\ Mindset\]\ Andrew\ Yang\'s\ Policies\ -\ BEST\ Presidential\ Candidate\ \(Pt.\ 2\).mkv
-:!mpv --fs * &
-:!mpv * &
-:mkdir Assignments
-:mkdir [2019]\ Graduation
-:mkdir [2019] Death Race For Love
-:mkdir [2019] We Love You Tecca
-:!7z Thrillville\ -\ Off\ the\ Rails\ \(USA\)\ \(v1.01\).zip
-:!unzip Thrillville\ -\ Off\ the\ Rails\ \(USA\)\ \(v1.01\).zip
-:!v twitterlist
-:!nvim twitterlist
-:!uzip DarkWaifuTrap.zip
-:!7z -u DarkWaifuTrap.zip
-:!unzip DarkWaifuTrap.zip
-:mkdir Docs
-:!unzip Pokemon\ -\ Black\ Version\ 2.zip Pokemon\ -\ White\ Version\ 2.zip Yu-Gi-Oh-Power-of-Chaos-Joey-the-Passion_Win_EN_ISO-Version.zip Yu-Gi-Oh-Power-of-Chaos-Yugi-the-Destiny_Win_EN_ISO-Version.zip
-:!unzip Pokemon\ -\ Black\ Version\ 2.zip
-:!unzip Pokemon\ -\ White\ Version\ 2.zip
-:!unzip Yu-Gi-Oh-Power-of-Chaos-Joey-the-Passion_Win_EN_ISO-Version.zip
-:!unzip Yu-Gi-Oh-Power-of-Chaos-Yugi-the-Destiny_Win_EN_ISO-Version.zip
-:!mpv * --start='2' --end='#4' &&
-:!mpv * --start='#2' --end='#4' &&
-:!mpv --start='#2' --end='#4' &&
-:!mpv --start='#2' --end='#4'
-:!mpv * --start='#2' --end='#4'
-:!rm -rf *
-:mkdir Rich\ Brian
-:mkdir NLE\ Choppa
-:mkdir Lil\ Tecca
-:!sudo chmod 777 art.sh
-:!nvim art.py
-:!nvim coverart_set.sh
-:!coverart.sh
-:!sh coverart.sh
-:!nvim art.sh
-:!coverart
-:!sudo art.sh
-:!sudo sh art.sh
-:!sh art.sh
-:mkdir Torrents
-:!sudo nvim hosts
-:!nvim cleaning_products.md
-:!ud
-:!redshift -l 27.950575:-82.457176 -t 6500:3000 &
-:!unzip
-:!unzip mononoki.zip
-:mkdir Mononoki
-:mkdir fonts
 :mkdir online\ privacy\ guide.md
 :!nvim online\ privacy\ guide.md
 :mkdir b00tpurrtyboi
@@ -435,8 +363,81 @@ D
 :mkdir Kubuntu
 :mkdir isos
 :!touch Week\ 3.md
+:touch Week\ 4.md
+:!touch what\ man\ needs.md
+:!touch why\ less\ can\ be\ more.md
+:!mpv * --start='#1' --end='4'
+:!mpv * --start='#1' --end='#4'
+:!mpv * --start='#2' --end='#4'
+:!mpv * --start='#3' --end='#5'
+:!mpv * --start='#3' --end='#4'
+:!mpv * --start='#3' --end='#6'
+:!sudo chmod 777 .library/
+:!sudo rm -rf %f
+:!sudo rsync -rav %f ~/Devices/E:E_Reader/.library/
+:!mpv * --start='#3' --end='#6' &
+:mkdir Programming
+:!touch [Petzold, 2000] Code
+:!touch Daily\ Stoic.md
+:!touch The\ Daily\ Stoic.md
+:!touch [Sadhguru,\ 2016]\ Inner\ Engineering.md
+:mkdir Learn\ Python\ The\ Hard\ Way
+:!ex1.py
+:!touch ex1.py
+:!touch ex2.py
+:!touch ex3.py
+:!touch ex4.py
+:!touch ex5.py
+:!touch README.md
+:k
+:!touch ex6.py
+:!touch ex7.py
+:!touch ex8.py
+:!touch ex9.py
+:!touch ex10.py
+:!touch ex11.py
+:!touch ex12.py
+:!touch ex13.py
+:!touch ex14.py
+:!touch ex15.py
+:!touch ex15_sample.txt
+:!youtube-dl https://is.sankakucomplex.com/data/04/a0/04a08e4a47287e0af963b7ea7dc5c77d.mp4?e=1574271503&m=HPe1T7hqRE7cp1hVsKECPw
+:!wget https://is.sankakucomplex.com/data/04/a0/04a08e4a47287e0af963b7ea7dc5c77d.mp4?e=1574271503&m=HPe1T7hqRE7cp1hVsKECPw
+:mkdir LP
+:mkdir [HeroVoltsy]\ Pokemon\ Sword\ LP
+:!for file in *; do mkvpropedit "$file" -s title=$filename; done
+:mkdir [HeroVoltsy]\ Yugioh\ Legacy\ Of\ The\ Duelist
+:mkdir VMs
+:mkdir MacOS\ Catalina
+:!./make.sh
+:!git clone https://github.com/foxlet/macOS-Simple-KVM
+:!./jumpstart.sh
+:!./make.sh --add
+:mkdir [SavinTheBees]\ Pokemon\ Shield\ LP
+:!touch McMindfulness
+:!unzip Spyro\ -\ Year\ of\ the\ Dragon\ \(USA\)\ \(v1.1\).zip
+:!unzip Spyro\ the\ Dragon\ \(USA\).zip
+:mkdir pucciboitrap
+:mkdir 4chan
+:mkdir sankaku
+:!ffmpeg -ss 01:36:42 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mp4
+:!ffmpeg -ss 01:31:42 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mkv
+:!ffmpeg -ss 01:21:42 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mkv
+:!ffmpeg -ss 01:41:42 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mkv
+:!ffmpeg -ss 01:36:42 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mkv
+:s
+:!ffmpeg -ss 01:39:52 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mkv
+:!ffmpeg -ss 01:33:32 -i \[Destiny\]\ \'I\ didn\'t\ think\ it\'d\ get\ to\ this\ level\ of\ degeneracy...\'\ -\ Destiny\ Debates\ Tree\ Of\ Logic.mkv -ss 00:03:10 -t 00:03:10 -c copy cringe_clip.mkv
+:mkdir [2019]\ Overtime
+:mkdir [2018]\ Hide
+:mkdir [2017]\ 9\ 9\ 9\
+:mkdir [2017]\ Affliction
+:mkdir [2018]\ Armed\ And\ Dangerous
+:sudo rm -rf #manga
+:!youtube-dl https://open.lbry.com/@Luke#7/friendship-ended-with-i3-bspwm-is-my#e
 
 # Search history (oldest to newest):
+/xx
 /ico
 /Post
 /bri
@@ -448,7 +449,6 @@ D
 /museekd
 /mucous
 /post
-/Juic
 /yu
 /.pdf
 /Whie 2
@@ -465,84 +465,119 @@ D
 /qut
 /qute
 /user
+/26
+/alice
+/Chaturbate
+/.txt
+/mgu
+/big
+/Juic
 
 # Prompt history (oldest to newest):
-pdisplaymenu
-pdmenu-menu
-pMusic
-pdevices.md
-pstudent-survey-of-instruction.png
-pstudent-survey-of-instruction
-pProviders
-pc
-pdarkstar-backup.css
-pnight
-pnight.css
-pdefault.css
-pdarculized
-pEndeavor Os
-pEndeavor OS
-pbspwmrc
-pDesktop
-pPictures
-pAkzel - elementary OS - The Best for Linux Newcomers.mkv
-pTemplates
-pVideos
-pSpreadsheets #3 - IF Statements-iFz82q4vHnk.webm
-pDistroTube - Vim Makes Everything Better, Especially Your File Manager And Shell!.webm
-pBusiness Communication Notes.md
-p.scripts
-p.bashrc
-pinspo_1.png
-pinspo_1
-pinspo_3
-pinspo_3.png
-pnotify_currenttrack
-pcalc
-pElementary OS
-pAir Japes - FIFA 13 Ultimate Team - Path to Power 10 - Another Free
-pKazooie94 - All 5 Star Skillers _ FIFA 20 Ultimate Team
-p[2018] Hollywood's Bleeding
-pGraduation.mp3
-p[2019] Death Race For Love
-p[2019] We Love You Tecca
-p17 - Lil Tecca - We Love You Tecca - Ransom (Remix)
-pGraduation.flac
-pThrillville - Off the Rails.iso
-pYu-Gi-Oh! Power of Chaos - Joey The Passion
-pYu-Gi-Oh! Power of Chaos - Yugi The Destiny.iso
-pYu-Gi-Oh! Power of Chaos - Joey The Passion.iso
-pPokémon Black 2.nds
-pPokémon White 2
-pPokémon White 2.nds
-pPokPokemon - White Version 2 (USA, Europe) (NDSi Enhanced).pngmon Black 2
-pPokémon Black 2
-pPokémon White 2.png
-pcoverart.sh
-pcoverart
-pcoverart_show
-pcoverart_set
-part
-pcover
-pcover.png
-pconfig-alt
-pconfig-art
-pononoki
-pmononoki
-pcover.jpg
-puser
-p.xscreensaver
-pncmpcpp.png
-pfirefox.png
-pvifm.png
-pREADME.md
-pDevices
-parcolinuxb_deepin_11.3.iso
+pcb-vanniall_0
+pcb-buddhaxs_0
+pcb-blondelashes19_0
+pcb-bigdicktrannynicole_0
+pcb-buddhax_0.mp4
+pcb-aliceblitz9_0.mp4
+pcb-aliceblitz9_1
+pcb-highschool_tranny_0
+pcb-aliceblitz9_2
+ptw-vannialll_0
+pcb-sasha_amour_0
+pcb-sexy_kimberlyxx_0
+pviikas Cam Show @ Chaturbate 02102018.mp
+pcb-viika_0
+pcb-lovebird94_0
+pcb-noshavebabe_0
+pcb-noshavebabe_1
+pcb-alicalpaca_0
+ptw_ArianaAngelsxo_0
+pcb_viika_1
+ptw_ArianaAngelsxo_1
+pcb_novafrey_0
+pcb_novafrey_1
+pcb_renatinha_trans_0
+pcb_renatinha_trans_0.mp4
+ptw_ArianaAngelsxo_2.mp4
+ptw_sashimishush_0
+pkyliemaria
+ptw_alexis_why_0
+ptw_alexis_why_1
+ptw_Cutiepii33Quinn_0
+plunyank0_0
+plunyank0_1
+ptw_lunyank0_0.jpg
+ptw_lunyank0_1.jpg
+ptw_lunyank0_2
+ptw_lunyank0_3
+pcb_vicats_0
+ptscandice.mp4
+ptw_Cutiepii33Quinn_1
+p[Héléa Fauvel] Teen fuck her ass with dildo ! -
+pph_Héléa Fauvel_0
+ptw_ella_hollywood_0
+ptw_ella_hollywood_1
+ptw_MajorLosse_0
+ptw_ella_hollywood_2
+ptw_ella_hollywood_3
+ptw_ella_hollywood_4
+ptw_ella_hollywood_5
+ptw_ella_hollywood_6
+pr_Avocadobabies_0
+pr_Acocadobabies_1
+pr_Avocadobabies_0.jpg
+pr_Avocadobabies_1
+ptw_EmilyYunicorn_0
+ptw_EmilyYunicorn_1
+ptw_chibijessjess_0
+pr_somelittlecrumbs_0
+ptw_
+ptw_EmilyYunicorn_2
+pr_herroci_0
+pr_herroci_1
+pr_xoChloe_1
+pr_xoChloe_0
+pr_imnotacatipromise_0
+ptw_MsTessMcGill_0
+ptw_MsTessMcGill_1
+ptw_MsTessMcGill_2.jpg
+ptw_MsTessMcGill_2
+ptw_MsTessMcGill_3
+pcb_alicealpaca_0
+ptw_MsTessMcGill_4
+ptw_MsTessMcGill_5
+pasht_TWO CUTES JAPAN SHEMALE HAVIN SEX
+ptw_SublimeySadPup_0
+pph_Trish-Collins_0
+pasht_Ella Venus_0
+ptw_MsTessMcGill_6
+ptw_MsTessMcGill_7
+ptw_MsTessMcGill_8
+ptw_MsTessMcGill_9
+ptw_MsTessMcGill_10
+ptw_SublimeySadPup_1
+ptw_aubreykatexxx_0
+pr_ErinAshford_0
+ptw_chibijessjess_1
+p[Destiny] 'I didn't think it'd get to this level of degeneracy...' - Destiny Debates Tree Of Logic.mkv
+p[2018] Armed & Dangerous
+p[Kacyznski] Anti-Tech Revolution.pdf
+p[Chomsky, 1988] Manufacturing Consent.epub
+ptw_haydenalexei_0
+ptw_haydenalexei_1
+ptw_haydenalexei_2
+ptw_haydenalexei_3
+pcb__xcherrycrushx__0
+pcb_haydenaleksi_0
+p[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains
+pvannialll.mp4
+padi_lockheart.mp4
+pdaisy_chanel.mp4
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/shockman/Devices/A:A_Drive/Notes/Courses/Database Design
 
 # Directory stack (oldest to newest):
 

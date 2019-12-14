@@ -22,13 +22,13 @@ sudo pacman -Sy zip unzip p7zip
 #sudo pacman -Sy retroarch retroarch-assets-xmb libretro libretro-citra libretro-melonds libretro-mgba libretro-beetle-psx ppsspp dolphin-emu supertux supertuxkart minetest 0ad openttd wesnoth xonotic
 sudo pacman -Sy libnotify neovim bash-completion redshift htop pulsemixer connman wpa_supplicant acpid unclutter
 sudo pacman -Sy bspwm sxhkd dunst compton
-sudo pacman -Sy qutebrowser privoxy dnscrypt-proxy
+sudo pacman -Sy qutebrowser privoxy dnscrypt-proxy newsboat
 sudo pacman -Sy sxiv ffmpeg imagemagick maim
 #sudo pacman -Sy transmission-cli
 #sudo pacman -Sy neomutt
-#sudo pacman -Sy libvirt qemu libvirt
+#sudo pacman -Sy libvirt qemu libvirt ebtables dnsmasq firewalld
 sudo pacman -Sy mpd mpc ncmpcpp
-sudo pacman -Sy vifm ffmpegthumbnailer
+sudo pacman -Sy vifm ffmpegthumbnailer inotify-tools
 sudo pacman -Sy mpv youtube-dl
 sudo pacman -Sy zathura zathura-pdf-mupdf zathura-djvu zathura-cb
 
@@ -54,7 +54,8 @@ sudo systemctl enable connman.service
 sudo systemctl enable privoxy.service
 sudo systemctl enable dnscrypt-proxy.service
 sudo systemctl enable bluetooth.service
-sudo systemctl enable libvirtd.service
+#sudo systemctl enable firewalld
+#sudo systemctl enable libvirtd.service
 
 #sudo usermod -aG libvirt $USER
 
