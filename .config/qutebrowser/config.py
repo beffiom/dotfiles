@@ -1098,9 +1098,6 @@ c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
         'tws':      'https://nitter.net/search?kind=custom&q={}&since=&until=&near=',
         'aw':       'https://wiki.archlinux.org/index.php/{}',
         'gw':       'https://wiki.gentoo.org/wiki/{}',
-        'r':        'https://reddit.com/r/{}',
-        'rs':       'https://reddit.com/search?q={}',
-        '4':        'https://4chan.org/{}/catalog'
         }
 
 ## Page(s) to open at the start.
