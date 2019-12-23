@@ -21,12 +21,11 @@ xrandr -output eDP1 --mode 1920x1080
 xrandr -output HDMI1 --mode 1920x1080
 unclutter -idle 3 &
 setbg
-dunstify -u low -i ~/.config/appearance/wallpaper.png -r 2 "Welcome to ${HOSTNAME^^}!" "Press 'Super+?' to see manual"
 
 ################
 ### MONITORS ###
 ################
-bspc monitor eDP1 -d  1 2 3
+bspc monitor eDP1 -d 1 2 3
 bspc monitor HDMI1 -d 4 5 6
 
 ############################

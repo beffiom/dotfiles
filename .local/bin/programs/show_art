@@ -10,9 +10,9 @@ function ImageLayer {
 }
 
 COVER="$XDG_CONFIG_HOME/ncmpcpp/cover.jpg"
-X_POS=69
-Y_POS=3
-SIZE=40
+X_POS=68.5
+Y_POS=3.5
+SIZE=38
 
 function add_cover {
     if [ -e $COVER ]; then

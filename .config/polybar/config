@@ -337,7 +337,7 @@ label = %date% %time%
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> <bar-volume>
+format-volume = <label-volume>
 # format-volume-underline = #82aaff
 label-volume =  %percentage%%
 label-volume-foreground = ${root.foreground}

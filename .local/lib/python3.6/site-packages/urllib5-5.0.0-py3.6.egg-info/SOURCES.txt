@@ -1,0 +1,7 @@
+README
+setup.py
+urllib5.py
+urllib5.egg-info/PKG-INFO
+urllib5.egg-info/SOURCES.txt
+urllib5.egg-info/dependency_links.txt
+urllib5.egg-info/top_level.txt

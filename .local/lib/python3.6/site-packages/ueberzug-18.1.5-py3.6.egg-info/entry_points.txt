@@ -1,0 +1,3 @@
+[console_scripts]
+ueberzug = ueberzug.__main__:main
+

@@ -1,0 +1,174 @@
+"""This module contains x11 utils"""
+import os
+import sys
+import functools
+import asyncio
+
+import Xlib
+import Xlib.display as Xdisplay
+import psutil
+
+import ueberzug.tmux_util as tmux_util
+import ueberzug.terminal as terminal
+
+
+Xdisplay.Display.__enter__ = lambda self: self
+Xdisplay.Display.__exit__ = lambda self, *args: self.close()
+
+PREPARED_DISPLAYS = []
+DISPLAY_SUPPLIES = 5
+
+
+class Events:
+    """Async iterator class for x11 events"""
+
+    def __init__(self, loop, display: Xdisplay.Display):
+        self._loop = loop
+        self._display = display
+
+    @staticmethod
+    async def receive_event(loop, display):
+        """Waits asynchronously for an x11 event and returns it"""
+        return await loop.run_in_executor(None, display.next_event)
+
+    def __aiter__(self):
+        return self
+
+    async def __anext__(self):
+        return await Events.receive_event(self._loop, self._display)
+
+
+class TerminalWindowInfo(terminal.TerminalInfo):
+    def __init__(self, window_id, fd_pty=None):
+        super().__init__(fd_pty)
+        self.window_id = window_id
+
+
+async def prepare_display():
+    """Fills up the display supplies."""
+    PREPARED_DISPLAYS.append(Xdisplay.Display())
+
+
+def get_display():
+    """Unfortunately, Xlib tends to produce death locks
+    on requests with an expected reply.
+    (e.g. Drawable#get_geometry)
+    Use for each request a new display as workaround.
+    """
+    for i in range(len(PREPARED_DISPLAYS) - 1, DISPLAY_SUPPLIES):
+        # TODO subtract the already scheduled display creations
+        asyncio.ensure_future(prepare_display())
+    if not PREPARED_DISPLAYS:
+        return Xdisplay.Display()
+    return PREPARED_DISPLAYS.pop()
+
+
+@functools.lru_cache()
+def get_parent_pids(pid=None):
+    pids = []
+    process = psutil.Process(pid=pid)
+
+    while (process is not None and
+           process.pid > 1):
+        pids.append(process.pid)
+        process = process.parent()
+
+    return pids
+
+
+def get_pid_by_window_id(display: Xdisplay.Display, window_id: int):
+    window = display.create_resource_object('window', window_id)
+    prop = window.get_full_property(display.intern_atom('_NET_WM_PID'),
+                                    Xlib.X.AnyPropertyType)
+    return (prop.value[0] if prop
+            else None)
+
+
+def get_pid_window_id_map():
+    """Determines the pid of each mapped window.
+
+    Returns:
+        dict of {pid: window_id}
+    """
+    with get_display() as display:
+        root = display.screen().root
+        visible_window_ids = \
+            (root.get_full_property(
+                display.intern_atom('_NET_CLIENT_LIST'),
+                Xlib.X.AnyPropertyType)
+             .value)
+        return {**{
+            get_pid_by_window_id(display, window.id): window.id
+            for window in root.query_tree().children
+        }, **{
+            get_pid_by_window_id(display, window_id): window_id
+            for window_id in visible_window_ids
+        }}
+
+
+def get_first_window_id(pid_window_id_map: dict, pids: list):
+    """Determines the window id of the youngest
+    parent owning a window.
+    """
+    win_ids_res = [None] * len(pids)
+
+    for pid, window_id in pid_window_id_map.items():
+        try:
+            win_ids_res[pids.index(pid)] = window_id
+        except ValueError:
+            pass
+
+    try:
+        return next(i for i in win_ids_res if i)
+    except StopIteration:
+        # Window needs to be mapped,
+        # otherwise it's not listed in _NET_CLIENT_LIST
+        return None
+
+
+def get_first_pty(pids: list):
+    """Determines the pseudo terminal of
+    the first parent process which owns one.
+    """
+    for pid in pids:
+        pty_candidate = '/proc/{pid}/fd/1'.format(pid=pid)
+        with open(pty_candidate) as pty:
+            if os.isatty(pty.fileno()):
+                return pty_candidate
+
+    return None
+
+
+def get_parent_window_infos():
+    """Determines the window id of each
+    terminal which displays the program using
+    this layer.
+
+    Returns:
+        list of TerminalWindowInfo
+    """
+    window_infos = []
+    clients_pid_tty = {}
+
+    if tmux_util.is_used():
+        clients_pid_tty = tmux_util.get_client_ttys_by_pid()
+    else:
+        clients_pid_tty = {psutil.Process().pid: None}
+
+    if clients_pid_tty:
+        pid_window_id_map = get_pid_window_id_map()
+
+        for pid, pty in clients_pid_tty.items():
+            ppids = get_parent_pids(pid)
+            wid = get_first_window_id(pid_window_id_map, ppids)
+
+            if pty is None and not os.isatty(sys.stdout.fileno()):
+                # note: this method won't return the desired pseudo tty
+                #       if ueberzug runs in tmux
+                #       (pty shouldn't be None in this case anyways)
+                pty = get_first_pty(ppids)
+
+            if wid:
+                window_infos.append(TerminalWindowInfo(wid, pty))
+
+    return window_infos

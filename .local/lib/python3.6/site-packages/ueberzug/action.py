@@ -1,0 +1,186 @@
+import abc
+import enum
+import os.path
+
+import attr
+
+import ueberzug.geometry as geometry
+import ueberzug.scaling as scaling
+import ueberzug.conversion as conversion
+
+
+@attr.s
+class Action(metaclass=abc.ABCMeta):
+    """Describes the structure used to define actions classes.
+
+    Defines a general interface used to implement the building of commands
+    and their execution.
+    """
+    action = attr.ib(type=str, default=attr.Factory(
+        lambda self: self.get_action_name(), takes_self=True))
+
+    @staticmethod
+    @abc.abstractmethod
+    def get_action_name():
+        """Returns the constant name which is associated to this action."""
+        raise NotImplementedError()
+
+    @abc.abstractmethod
+    async def apply(self, windows, view, tools):
+        """Executes the action on  the passed view and windows."""
+        raise NotImplementedError()
+
+
+@attr.s(kw_only=True)
+class Drawable:
+    """Defines the attributes of drawable actions."""
+    draw = attr.ib(default=True, converter=conversion.to_bool)
+    synchronously_draw = attr.ib(default=False, converter=conversion.to_bool)
+
+
+@attr.s(kw_only=True)
+class Identifiable:
+    """Defines the attributes of actions
+    which are associated to an identifier.
+    """
+    identifier = attr.ib(type=str)
+
+
+@attr.s(kw_only=True)
+class DrawAction(Action, Drawable, metaclass=abc.ABCMeta):
+    """Defines actions which redraws all windows."""
+    # pylint: disable=abstract-method
+    __redraw_scheduled = False
+
+    @staticmethod
+    def schedule_redraw(windows):
+        """Creates a async function which redraws every window
+        if there is no unexecuted function
+        (returned by this function)
+        which does the same.
+
+        Args:
+            windows (batch.BatchList of ui.OverlayWindow):
+                the windows to be redrawn
+
+        Returns:
+            function: the redraw function or None
+        """
+        if not DrawAction.__redraw_scheduled:
+            DrawAction.__redraw_scheduled = True
+
+            async def redraw():
+                windows.draw()
+                DrawAction.__redraw_scheduled = False
+            return redraw()
+        return None
+
+    async def apply(self, windows, view, tools):
+        if self.draw:
+            import asyncio
+            if self.synchronously_draw:
+                windows.draw()
+                # force coroutine switch
+                await asyncio.sleep(0)
+                return
+
+            function = self.schedule_redraw(windows)
+            if function:
+                asyncio.ensure_future(function)
+
+
+@attr.s(kw_only=True)
+class ImageAction(DrawAction, Identifiable, metaclass=abc.ABCMeta):
+    """Defines actions which are related to images."""
+    # pylint: disable=abstract-method
+    pass
+
+
+@attr.s(kw_only=True)
+class AddImageAction(ImageAction):
+    """Displays the image according to the passed option.
+    If there's already an image with the given identifier
+    it's going to be replaced.
+    """
+
+    x = attr.ib(type=int, converter=int)
+    y = attr.ib(type=int, converter=int)
+    path = attr.ib(type=str)
+    width = attr.ib(type=int, converter=int, default=0)
+    height = attr.ib(type=int, converter=int, default=0)
+    scaling_position_x = attr.ib(type=float, converter=float, default=0)
+    scaling_position_y = attr.ib(type=float, converter=float, default=0)
+    scaler = attr.ib(
+        type=str, default=scaling.ContainImageScaler.get_scaler_name())
+    # deprecated
+    max_width = attr.ib(type=int, converter=int, default=0)
+    max_height = attr.ib(type=int, converter=int, default=0)
+
+    @staticmethod
+    def get_action_name():
+        return 'add'
+
+    async def apply(self, windows, view, tools):
+        try:
+            import ueberzug.ui as ui
+            old_placement = view.media.pop(self.identifier, None)
+            cache = old_placement and old_placement.cache
+            image = old_placement and old_placement.image
+            last_modified = old_placement and old_placement.last_modified
+            current_last_modified = os.path.getmtime(self.path)
+            width = self.max_width or self.width
+            height = self.max_height or self.height
+            scaler_class = scaling.ScalerOption(self.scaler).scaler_class
+
+            if (not image
+                    or last_modified < current_last_modified
+                    or self.path != old_placement.path):
+                last_modified = current_last_modified
+                upper_bound_size = None
+                max_font_width = max(map(
+                    lambda i: i or 0, windows.parent_info.font_width))
+                max_font_height = max(map(
+                    lambda i: i or 0, windows.parent_info.font_height))
+                if (scaler_class != scaling.CropImageScaler and
+                        max_font_width and max_font_height):
+                    upper_bound_size = (
+                        max_font_width * width, max_font_height * height)
+                image = tools.loader.load(self.path, upper_bound_size)
+                cache = None
+
+            view.media[self.identifier] = ui.OverlayWindow.Placement(
+                self.x, self.y, width, height,
+                geometry.Point(self.scaling_position_x,
+                               self.scaling_position_y),
+                scaler_class(),
+                self.path, image, last_modified, cache)
+        finally:
+            await super().apply(windows, view, tools)
+
+
+@attr.s(kw_only=True)
+class RemoveImageAction(ImageAction):
+    """Removes the image with the passed identifier."""
+
+    @staticmethod
+    def get_action_name():
+        return 'remove'
+
+    async def apply(self, windows, view, tools):
+        try:
+            if self.identifier in view.media:
+                del view.media[self.identifier]
+        finally:
+            await super().apply(windows, view, tools)
+
+
+@enum.unique
+class Command(str, enum.Enum):
+    ADD = AddImageAction
+    REMOVE = RemoveImageAction
+
+    def __new__(cls, action_class):
+        inst = str.__new__(cls)
+        inst._value_ = action_class.get_action_name()
+        inst.action_class = action_class
+        return inst

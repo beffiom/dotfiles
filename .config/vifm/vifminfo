@@ -26,84 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
-	forbidden_otks
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	tw_taftaj1_0.jpg
-39
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Music
-	Juice WRLD
-39
-d/home/shockman/Downloads
-	cb__xcherrycrushx__0.mp4
-16
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Yugioh Highlights
-5
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
-	forbidden_otks
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	r_xoChloe_4.jpg
-38
-d/home/shockman/Videos
-	[NA] Santa's Little Helper.mp4
-2
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Yugioh Highlights
-5
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
-	forbidden_otks
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	[NA] 1573250372903.webm
-4
-d/home/shockman/.config/appearance/wallpapers
-	..
-0
-d/home/shockman/Downloads
-	Computer Security Notification Policy.docx
-6
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	TV
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV
-	Bakuman
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman
-	Season 3
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman/Season 3
-	S03E01 Tenacity and Determination
-1
-d/home/shockman/Downloads
-	[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains.epub
-15
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
 d/home/shockman/Devices/A:A_Drive/Multimedia
 	Books
 1
@@ -324,8 +246,86 @@ d/home/shockman/.config/appearance/wallpapers
 	#spacescape
 8
 d/home/shockman/.config/appearance/wallpapers/#spacescape
-	mellow.jpg
+	moon_rosa.jpg
+10
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman
+	.local
+5
+d/home/shockman/.local
+	bin
+1
+d/home/shockman/.local/bin
+	programs
+3
+d/home/shockman/.local/bin/programs
+	show_art
 8
+d/home/shockman
+	post-installers
+13
+d/home/shockman/post-installers
+	rtl8821ce
+2
+d/home/shockman
+	post-installers
+13
+d/home/shockman/post-installers
+	rtl8821ce
+2
+d/home/shockman/post-installers/rtl8821ce
+	..
+0
+d/home/shockman/post-installers
+	rtl8821ce
+2
+d/home/shockman
+	..
+0
+d/home/shockman/.config
+	nvim
+15
+d/home/shockman/.config/nvim
+	plugged
+1
+d/home/shockman/.config/nvim/plugged
+	nerdtree
+3
+d/home/shockman/.config/nvim
+	plugged
+1
+d/home/shockman/.config
+	nvim
+15
+d/home/shockman
+	void-post-installer
+13
+d/home/shockman/void-post-installer
+	install.sh
+4
+d/home/shockman
+	.Xauthority
+14
+d/home/shockman/Devices/A:A_Drive
+	Git
+2
+d/home/shockman/Devices/A:A_Drive/Git
+	Linux
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	void-post-installer
+4
+d/home/shockman/Devices/A:A_Drive/Git/Linux/void-post-installer
+	.git
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	void-post-installer
+4
+d/home/shockman/Devices/A:A_Drive/Git/Linux/void-post-installer
+	README.md
+2
 d
 
 # Right window history (oldest to newest):
@@ -435,6 +435,7 @@ D
 :mkdir [2018]\ Armed\ And\ Dangerous
 :sudo rm -rf #manga
 :!youtube-dl https://open.lbry.com/@Luke#7/friendship-ended-with-i3-bspwm-is-my#e
+:mkdir plugged
 
 # Search history (oldest to newest):
 /xx
