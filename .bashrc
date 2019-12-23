@@ -27,7 +27,7 @@ alias da="youtube-dl --add-metadata -i -o '%(title)s.%(ext)s' -x -f bestaudio/be
 alias dl="wget --backups"
 alias vpi="sudo xbps-install -Sy"
 alias vpu="sudo xbps-install -Syu"
-alias vpr="sudo xbps-remove -ROo"
+alias vpr="sudo xbps-remove -R"
 alias vps="sudo xbps-query -R"
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"

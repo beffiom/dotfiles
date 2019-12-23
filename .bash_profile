@@ -25,4 +25,4 @@ if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
 fi
 
 # source bashrc
-echo "$0" | grep "bash$" >/dev/null && [ -f $HOME/.config/appearance/bashrc ] && source "$HOME/.config/appearance/bashrc"
+echo "$0" | grep "bash$" >/dev/null && [ -f $HOME/.bashrc ] && source "$HOME/.bashrc"
