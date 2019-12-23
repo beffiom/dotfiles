@@ -13,7 +13,7 @@ vifm
 
 ## system information
 
-* **distribution:** arch linux
+* **distribution:** void linux
 * **window manager:** bspwm
 * **panel:** polybar
 * **keybinding daemon:** sxhkd

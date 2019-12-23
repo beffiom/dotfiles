@@ -1,4 +1,0 @@
-# add to /etc/sudoers
-%sudo ALL=(ALL) NOPASSWD: /bin/xbacklight, /bin/reboot, /bin/shutdown, /bin/kill, /bin/mount, /bin/umount, /bin/rfkill
-
-Defaults !tty_tickets
