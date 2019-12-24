@@ -4,9 +4,9 @@
 ncmpcpp
 ![ncmpcpp](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/ncmpcpp.png)
 
-firefox
-![firefox](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/firefox.png)
-**source: [icyphox.sh](https://icyphox.sh/)**
+qutebrowser
+![qutebrowser](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/firefox.png)
+**source: [beffiom.github.io/site/blog.html](https://beffiom.github.io/site/blog.html)**
 
 vifm
 ![vifm](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/vifm.png)
