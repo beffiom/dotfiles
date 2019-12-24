@@ -5,7 +5,7 @@ ncmpcpp
 ![ncmpcpp](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/ncmpcpp.png)
 
 qutebrowser
-![qutebrowser](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/firefox.png)
+![qutebrowser](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/qutebrowser.png)
 **source: [beffiom.github.io/site/blog.html](https://beffiom.github.io/site/blog.html)**
 
 vifm
