@@ -80,8 +80,6 @@ config.bind('yc', 'hint links yank')
 config.bind('yi', 'hint images yank')
 config.bind('=', 'zoom-in')
 config.bind('+', 'zoom')
-config.bind('o', 'set-cmd-text -s :open -s ')
-config.bind('O', 'set-cmd-text -s :open -s -t ')
 config.bind('pb', 'open -p ')
 
 #################################################################
@@ -321,7 +319,7 @@ c.completion.use_best_match = False
 
 ## Number of URLs to show in the web history. 0: no history / -1: unlimited
 ## [Int]
-c.completion.web_history.max_items = -1
+c.completion.web_history.max_items = 10
 
 #################################################################
 # content
@@ -399,7 +397,7 @@ c.content.headers.do_not_track = True
 ## Enable host blocking aka adblock.
 ## This setting supports URL patterns.
 ## [Bool]
-c.content.host_blocking.enabled = True
+c.content.host_blocking.enabled = False
 
 ## List of URLs of lists which contain hosts to block.
 ## The file can be in one of the following formats: An /etc/hosts-like file; One host per line; A zip-file of any of the above, with either only one file, or a file named hosts (with any extension).
@@ -550,7 +548,7 @@ c.content.webgl = False
 ##      - default-public-interface-only: WebRTC should only use the default route used by http. This doesn’t expose any local addresses.
 ##      - disable-non-proxied-udp: WebRTC should only use TCP to contact peers or servers unless the proxy server supports UDP. This doesn’t expose any local addresses either.
 ## [String]
-# c.content.webrtc_ip_handling_policy = 'disabled-non-proxied-udp'
+c.content.webrtc_ip_handling_policy = 'disable-non-proxied-udp'
 
 ## Limit fullscreen to the browser window (does not expand to fill the screen).
 ## [Bool]
@@ -650,7 +648,7 @@ c.fonts.messages.warning = '12pt monospace'
 
 ## Default monospace fonts. Whenever "monospace" is used in a font setting, it’s replaced with the fonts listed here.
 ## [Font]
-c.fonts.monospace = 'monospace'
+## c.fonts.monospace = 'monospace'
 
 ## Font used for prompts.
 ## [Font]
@@ -1067,6 +1065,13 @@ c.tabs.width = 35
 c.tabs.wrap = True
 
 #################################################################
+# UBLOCK
+#################################################################
+import sys, os
+sys.path.append(os.path.join(sys.path[0], 'jmatrix'))
+config.source("jmatrix/jmatrix/integrations/qutebrowser.py")
+
+#################################################################
 # URL
 #################################################################
 
@@ -1090,14 +1095,13 @@ c.url.open_base_url = True
 
 ## Search engines which can be used via the address bar. Maps a search engine name (such as DEFAULT, or ddg) to a URL with a {} placeholder. The placeholder will be replaced by the search term, use {{ and }} for literal {/} signs. The search engine named DEFAULT is used when url.auto_search is turned on and something else than a URL was entered to be opened. Other search engines can be used by prepending the search engine name to the search term, e.g. :open google qutebrowser.
 ## [Dict]
-c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
+c.url.searchengines = {"DEFAULT": "https://lite.qwant.com/?q={}&t=web",
         'w':        'https://en.wikipedia.org/wiki/{}',
         'v':       'https://invidio.us/search?q={}',
         'i':       'https://lite.qwant.com/?q={}&t=images',
-        'tw':       'https://nitter.net/{}',
-        'tws':      'https://nitter.net/search?kind=custom&q={}&since=&until=&near=',
         'aw':       'https://wiki.archlinux.org/index.php/{}',
         'gw':       'https://wiki.gentoo.org/wiki/{}',
+        '8':       'https://8kun.top/{}/catalog.html?PageSpeed=noscript',
         }
 
 ## Page(s) to open at the start.
@@ -1141,4 +1145,5 @@ c.zoom.mouse_divider = 512
 ## This setting is only available with the QtWebKit backend.
 ## [Bool]
 ## c.zoom.text_only = False
+
 

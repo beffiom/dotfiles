@@ -1,0 +1,109 @@
+
+* jmatrix - j's matrix
+
+jmatrix is a [[https://github.com/gorhill/uMatrix][uMatrix]] library written in python. It operates on uMatrix style
+config files, to make switching easier. It also has a qutebrowser integration.
+
+It tries to mirror uMatrix's behavior as close as possible. If you find a
+discrepancy that's not accounted for, please let me know.
+
+Here's a [[https://www.youtube.com/watch?v=UPxq8zkHXrg][small demo]], although it's rather outdated.
+
+* Usage
+
+If you are using jmatrix as an API, please see [[file:jmatrix/integrations/qutebrowser.py::def%20_jmatrix_intercept_request(info:%20interceptor.Request)%20->%20None:][the qutebrowser integration]] for
+an example on how to use everything.
+
+The qutebrowser integration reads from (or creates) a file at
+~<config-dir>/jmatrix-rules~, which is
+~$HOME/.config/qutebrowser/jmatrix-rules~ on Linux. It accepts most of the
+[[https://github.com/gorhill/uMatrix/wiki/Rules-syntax][uMatrix rules syntax]].
+
+After installing into qutebrowser, you will get a ~:jmatrix-read-config~ command
+to re-load the config on disk.
+
+* Caveats
+
+Right now, all we do is block incoming requests. uMatrix does a bit more than
+this, such [[https://github.com/gorhill/uMatrix/issues/319][as spoofing noscript tags when js is blocked]]. It also means we cannot
+block cookies (so those rules will be ignored).
+
+* Performance
+
+Right now, latency added seems to be around 0.015 ms. It's possible this can be improved.
+
+#+begin_example
+------------------------------------------------------------------------------------------- benchmark: 3 tests -------------------------------------------------------------------------------------------
+Name (time in us)                         Min                Max               Mean            StdDev             Median               IQR            Outliers  OPS (Kops/s)            Rounds  Iterations
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_benchmark_complex_block           9.1600 (1.0)      21.7500 (1.0)       9.4876 (1.0)      0.2709 (1.0)       9.4700 (1.0)      0.1100 (1.0)       364;943      105.4009 (1.0)       42106           1
+test_benchmark_complex_null_match     11.3500 (1.24)     23.5000 (1.08)     11.8284 (1.25)     0.4077 (1.51)     11.7300 (1.24)     0.3700 (3.36)     1080;393       84.5421 (0.80)      55773           1
+test_benchmark_null_match             14.4300 (1.58)     48.9900 (2.25)     14.8810 (1.57)     0.5540 (2.05)     14.8200 (1.56)     0.1600 (1.45)      263;640       67.1999 (0.64)      16910           1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#+end_example
+
+* Correctness
+
+The matching algorithm is almost entirely lifted from uMatrix (since it has a
+very weird hierarchy that was not easy to replicate without it).
+
+If you find an issue, please report it!
+
+Right now, we support these rules:
+
+- ~rule:~
+- ~matrix-off:~
+- ~https-strict:~
+
+* Installation
+** qutebrowser
+Right now, this extension is loaded through the config system, using
+unstable api's. That means this is prone to break at any time, and you may
+get qutebrowser crashes.
+
+If you are installing into qutebrowser, you already have all the needed
+dependencies, assuming you are using the version from git master.
+
+Once you are completely set up with that, place this repo in your config dir,
+and add this to your ~config.py~.
+
+#+begin_src python
+  import sys, os
+  sys.path.append(os.path.join(sys.path[0], 'jmatrix'))
+  config.source("jmatrix/jmatrix/integrations/qutebrowser.py")
+#+end_src
+
+If you run ~:config-source~ it will cause double-initialization, which will
+double your latency and make it impossible to reload the jmatrix config. Please
+don't do that!
+
+** Dependencies
+- ~python3~ or ~pypy3~
+** Tests
+- ~pytest-benchmark~
+
+If you pass pep8, you fail the style tests.
+
+There are make targets for common operations.
+
+* Design
+
+The matrix is stored as a:
+
+#+begin_example
+Dict[str, Dict[str, Dict[Type, Action]]]
+#+end_example
+
+Because of this, we make a ludicrous amount of calls to dict get. This is
+amplified quite a bit due to the poor design of the matcher currently (creating
+a lot of unneeded hashtable lookups).
+
+[[file:jmatrix/rule.py::class%20Action(enum.Enum):][Take a look at rule.py]] if you would like more information about the high level
+design.
+
+* Support
+
+Let me know in ~#qutebrowser~ on freenode if you see any issues, or send me a mail.
+
+* License
+jmatrix is licensed under the GPLv3+.

@@ -26,165 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books
-	Books
-2
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
-	#dystopia
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books/#dystopia
-	[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains.epub
-3
-d/home/shockman/Downloads
-	[Marx] Capital.epub
-15
-d/home/shockman/Devices/A:A_Drive
-	Macbook Files
-3
-d/home/shockman/Videos
-	[Three Arrows] Fox News - How To Whitewash an Atrocity.mkv
-1
-d/home/shockman/Downloads
-	[Sowell, 2000] Basic Economics.epub
-16
-d/home/shockman/Devices/A:A_Drive
-	Macbook Files
-3
-d/home/shockman/Devices/A:A_Drive/Macbook Files
-	..
-0
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books
-	Books
-2
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
-	#finance
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books/#finance
-	..
-0
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
-	#finance
-4
-d/home/shockman
-	Devices
-2
-d/home/shockman/Devices
-	E:E_Reader
-2
-d/home/shockman/Devices/E:E_Reader
-	kbmenupngs
-1
-d/home/shockman/Devices/E:E_Reader/kbmenupngs
-	poweroff.png
-2
-d/home/shockman/Devices/E:E_Reader
-	.library
-5
-d/home/shockman/Devices
-	E:E_Reader
-2
-d/home/shockman
-	Devices
-16
-d/home/shockman/Devices
-	A:A_Drive
-1
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books
-	Books
-2
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
-	#manga
-9
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books
-	Books
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
-	#finance
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books
-	Textbooks
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices
-	E:E_Reader
-2
-d/home/shockman
-	Devices
-16
-d/home/shockman/Devices
-	E:E_Reader
-2
-d/home/shockman/Devices/E:E_Reader
-	.library
-5
-d/home/shockman/Devices/E:E_Reader/.library
-	#finance
-4
-d/home/shockman/Devices/E:E_Reader/.library/#finance
-	[Singh] Get Richer Sleeping.pdf
-6
-d/home/shockman/Devices/E:E_Reader/.library
-	#career
-1
-d/home/shockman/Devices/E:E_Reader
-	.library
-5
-d/home/shockman/Devices
-	E:E_Reader
-2
-d/home/shockman/Devices/E:E_Reader
-	.library
-5
-d/home/shockman/Devices/E:E_Reader/.library
-	#manga
-9
-d/home/shockman/Devices/E:E_Reader
-	.kobo-images
-4
-d/home/shockman/Devices
-	A:A_Drive
-1
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Books
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books
-	Books
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Books/Books
-	#career
-1
-d/home/shockman/Videos
-	daisy_chanel.mp4
-7
 d/home/shockman/Devices/A:A_Drive
 	Documents
 1
@@ -198,17 +39,35 @@ d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
 	forbidden_otks
 1
 d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	adi_lockheart.mp4
-15
+	1577751324842.jpg
+7
+d/home/shockman/Videos
+	watched
+2
+d/home/shockman/Videos/watched
+	[Bryan Lunduke] Linux Predictions for 2020.mkv
+3
+d/home/shockman/Videos
+	[Switched to Linux] How to Lose a 19 Year Customer.mkv
+9
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman/Devices/A:A_Drive/Documents
+	Media
+2
+d/home/shockman/Devices/A:A_Drive/Documents/Media
+	Memes
+1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
+	consoomer
+3
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
 d/home/shockman/Pictures
-	Screenshots
-1
-d/home/shockman/Pictures/Screenshots
-	vifm.png
-7
-d/home/shockman/Videos
-	[Pyrocynical] Jake Paul is worse than logan paul.mkv
-2
+	z488sh379m241.jpg
+35
 d/home/shockman/Devices/A:A_Drive
 	Documents
 1
@@ -216,115 +75,256 @@ d/home/shockman/Devices/A:A_Drive/Documents
 	Media
 2
 d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Yugioh Highlights
-5
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights
-	forbidden_otks
+	Memes
 1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Yugioh Highlights/forbidden_otks
-	daisy_chanel.mp4
-20
-d/home/shockman/Videos
-	[Asian Boss] We Visted a Chosun School in Japan _ ASIAN BOSS.mkv
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
+	consoomer
+3
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/consoomer
+	0emz0hoqxl741.png
 1
-d/home/shockman/Downloads
-	how-did-you-first-get-into.mp4
-15
-d/home/shockman/.config/appearance/wallpapers
-	#landscape
-5
-d/home/shockman/.config/appearance/wallpapers/#landscape
-	boardwalk_ambient.jpg
-2
-d/home/shockman/.config/appearance/wallpapers
-	#cyber
-4
-d/home/shockman/.config/appearance/wallpapers/#cyber
-	virtue.jpg
-25
-d/home/shockman/.config/appearance/wallpapers
-	#spacescape
-8
-d/home/shockman/.config/appearance/wallpapers/#spacescape
-	moon_rosa.jpg
-10
+d/home/shockman/Pictures
+	z488sh379m241.jpg
+35
 d/home/shockman/Devices/A:A_Drive
 	Documents
 1
+d/home/shockman/Devices/A:A_Drive/Documents
+	Media
+2
+d/home/shockman/Devices/A:A_Drive/Documents/Media
+	Memes
+1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
+	consoomer
+3
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/consoomer
+	0emz0hoqxl741.png
+1
+d/home/shockman/Pictures
+	zzxyvsufvx041.jpg
+18
+d/home/shockman/Devices/A:A_Drive
+	Documents
+1
+d/home/shockman/Devices/A:A_Drive/Documents
+	Media
+2
+d/home/shockman/Devices/A:A_Drive/Documents/Media
+	Memes
+1
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
+	coomer
+4
+d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/coomer
+	dbiuq0cu4p541.jpg
+5
+d/home/shockman/Pictures
+	sdom8hqjzq641.jpg
+9
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Music
+3
+d/home/shockman/Devices/A:A_Drive
+	Notes
+5
+d/home/shockman/Devices/A:A_Drive/Notes
+	Digital Minimalism
+3
+d/home/shockman/Devices/A:A_Drive/Notes/Digital Minimalism
+	autistici request.md
+3
 d/home/shockman
 	.local
 5
 d/home/shockman/.local
-	bin
-1
-d/home/shockman/.local/bin
-	programs
+	share
 3
-d/home/shockman/.local/bin/programs
-	show_art
+d/home/shockman/.local/share
+	nvim
 8
-d/home/shockman
-	post-installers
-13
-d/home/shockman/post-installers
-	rtl8821ce
+d/home/shockman/.local/share/nvim
+	site
 2
-d/home/shockman
-	post-installers
-13
-d/home/shockman/post-installers
-	rtl8821ce
-2
-d/home/shockman/post-installers/rtl8821ce
+d/home/shockman/.local/share/nvim/site
 	..
 0
-d/home/shockman/post-installers
-	rtl8821ce
+d/home/shockman/.local/share/nvim
+	site
 2
-d/home/shockman
-	..
-0
-d/home/shockman/.config
+d/home/shockman/.local/share
 	nvim
-15
-d/home/shockman/.config/nvim
-	plugged
-1
-d/home/shockman/.config/nvim/plugged
-	nerdtree
+8
+d/home/shockman/Devices/A:A_Drive
+	Notes
+5
+d/home/shockman/Devices/A:A_Drive/Notes
+	Digital Minimalism
 3
-d/home/shockman/.config/nvim
-	plugged
-1
+d/home/shockman/Devices/A:A_Drive/Notes/Digital Minimalism
+	autistici request.md
+3
 d/home/shockman/.config
-	nvim
-15
-d/home/shockman
-	void-post-installer
-13
-d/home/shockman/void-post-installer
-	install.sh
-4
-d/home/shockman
-	.Xauthority
-14
+	keepmenu
+12
+d/home/shockman/.config/keepmenu
+	config.ini
+1
 d/home/shockman/Devices/A:A_Drive
 	Git
+2
+d/home/shockman/Devices/A:A_Drive/Git
+	Web Development
+3
+d/home/shockman/Devices/A:A_Drive/Git/Web Development
+	World Cup Countdown
 2
 d/home/shockman/Devices/A:A_Drive/Git
 	Linux
 1
 d/home/shockman/Devices/A:A_Drive/Git/Linux
 	void-post-installer
-4
-d/home/shockman/Devices/A:A_Drive/Git/Linux/void-post-installer
-	.git
+5
+d/home/shockman/Devices/A:A_Drive/Git
+	Linux
 1
-d/home/shockman/Devices/A:A_Drive/Git/Linux
-	void-post-installer
+d/home/shockman/Devices/A:A_Drive
+	Notes
+5
+d/home/shockman/Videos
+	[New Dream] The High Price of Materialism.webm
 4
-d/home/shockman/Devices/A:A_Drive/Git/Linux/void-post-installer
-	README.md
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Music
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Music
+	..
+0
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Videos
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
+	TV
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV
+	Bakuman
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman
+	Season 3
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman/Season 3
+	S03E01 Tenacity and Determination.mkv
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV/Bakuman
+	Season 3
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/TV
+	Bungo Stray Dogs
+5
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
+	TV
+4
+d/home/shockman/.config
+	qutebrowser
+25
+d/home/shockman/.config/qutebrowser
+	local
+4
+d/home/shockman/.config/qutebrowser/local
+	lists
+2
+d/home/shockman/.config/qutebrowser/local/lists
+	consoom.html
+1
+d/home/shockman/Videos
+	[Tom Merrick] The Wall Handstand _ Do It Right! (ft UlrikOnHands).mkv
+25
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Videos
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
+	Fitness
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness
+	Tom Merrick
+9
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness/Tom Merrick
+	[Tom Merrick] 5 Minute Morning Mobility V2 (FOLLOW ALONG).mkv
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness
+	Tom Merrick
+9
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Videos
+	watched
+2
+d/home/shockman/Videos/watched
+	..
+0
+d/home/shockman/Videos
+	[Vaush] Nonbinary Drama Followup - Debate w_ Izzybear713.mp4
+4
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Games
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	Retro
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	ROMs
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs
+	Nintendo - Game Boy Advance
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	Saves
+5
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Saves
+	..
+0
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	Box Art
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	Retro
+2
+d/home/shockman/Devices/A:A_Drive
+	..
+0
+d/home/shockman/Videos
+	[Yoga With Adriene] Total Body Yoga - Deep Stretch _ Yoga With Adriene.webm
+5
+d/home/shockman/Pictures
+	arizona.jpg
+9
+d/home/shockman/Devices/A:A_Drive
+	..
+0
+d/home/shockman/.config/appearance/wallpapers
+	#tech
+9
+d/home/shockman/.config/appearance/wallpapers/#tech
+	..
+0
+d/home/shockman/.config/appearance/wallpapers
+	#art
+2
+d/home/shockman/.config/appearance/wallpapers/#art
+	arizona.jpg
 2
 d
 
@@ -335,30 +335,6 @@ D/home/shockman
 D
 
 # Command line history (oldest to newest):
-:mkdir online\ privacy\ guide.md
-:!nvim online\ privacy\ guide.md
-:mkdir b00tpurrtyboi
-:!unzip b00tpurrtyboi.zip
-:mkdir default
-:!nvim index.theme
-:!nvim logout
-:!nvim logoutmenu
-:!chmod 777 logoutmenu
-:!nvim config-art
-:!sudo chmod 777 config-art
-:!chmod 777 show_art
-:!git clone https://github.com/beffiom/linux-dotfiles
-:mkdir post-installers
-:mkdir firefox
-:!nvim sudoers
-:mkdir Pictures
-:mkdir Screenshots
-:mkdir Bachelors
-:mkdir Database\ Design
-:mkdir Tech\ Law
-:mkdir misc
-:mkdir MIT\ OpenCourseWare
-:mkdir Computer\ Systems\ Security
 :mkdir Manjaro\ KDE
 :mkdir Kubuntu
 :mkdir isos
@@ -435,7 +411,30 @@ D
 :mkdir [2018]\ Armed\ And\ Dangerous
 :sudo rm -rf #manga
 :!youtube-dl https://open.lbry.com/@Luke#7/friendship-ended-with-i3-bspwm-is-my#e
-:mkdir plugged
+:mkdir Podcasts
+:mkdir Nicotine
+:!dl https://sys.8kun.top/player.php?v=//media.8kun.top/file_store/9008b0801120ef813b324b0f225877379c93a858d1cf6caa2c9f81c127e58b98.mp4&t=aZ7wegQ_460sv.mp4
+:!youtube-dl https://sys.8kun.top/player.php?v=//media.8kun.top/file_store/9008b0801120ef813b324b0f225877379c93a858d1cf6caa2c9f81c127e58b98.mp4
+:mkdir Screenshots
+:!curl https://media.8kun.top/file_store/2468c25d910cd9129bb8d48a4c567afccacf077c3f8cd0b4fad231b4d0a75f30.jpg
+:!wget https://media.8kun.top/file_store/2468c25d910cd9129bb8d48a4c567afccacf077c3f8cd0b4fad231b4d0a75f30.jpg
+:!wget https://media.8kun.top/file_store/a1f485fa76968abb0379498c2dbd1f71a29cd7a06c5260b6a8b024304bb7a767.jpg
+:!nvim b
+:!nvim blog.html
+:!wget http://i.4cdn.org/s/1575487070064.jpg http://i.4cdn.org/s/1575487103226.jpg http://i.4cdn.org/s/1575487409643.jpg http://i.4cdn.org/s/1575496697161.jpg http://i.4cdn.org/s/1575511128444.jpg http://i.4cdn.org/s/1575533428836.jpg http://i.4cdn.org/s/1575672135977.jpg
+:mkdir dnscrypt
+:!doas nvim dnscrypt-proxy.toml
+:!wget https://i.4cdn.org/b/1577417699121.jpg
+:!nvim
+:wget https://s-lite.qwant.com/thumbr/355x200/b/3/0aace52b33baf20463ebe99f087cdc16f3ee3f82480367357d2be5f370774d/maxresdefault.jpg?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FJIrd5ax6Ggc%2Fmaxresdefault.jpg&q=0&b=1&p=0&a=0&b_id=OIP.FjP5Me_Wqj7toIxkpa7S-wHaEK
+:mkdir watched
+:mkdir to\ watch
+:!nvim blockchain-and-open-web.html
+:mkdir coomer
+:mkdir consoomer
+:!nvim startpage.html
+:!nvim consoom.html
+:mkdir Tom\ Merrick
 
 # Search history (oldest to newest):
 /xx
@@ -473,19 +472,10 @@ D
 /mgu
 /big
 /Juic
+/r_
+/new
 
 # Prompt history (oldest to newest):
-pcb-vanniall_0
-pcb-buddhaxs_0
-pcb-blondelashes19_0
-pcb-bigdicktrannynicole_0
-pcb-buddhax_0.mp4
-pcb-aliceblitz9_0.mp4
-pcb-aliceblitz9_1
-pcb-highschool_tranny_0
-pcb-aliceblitz9_2
-ptw-vannialll_0
-pcb-sasha_amour_0
 pcb-sexy_kimberlyxx_0
 pviikas Cam Show @ Chaturbate 02102018.mp
 pcb-viika_0
@@ -575,6 +565,17 @@ p[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains
 pvannialll.mp4
 padi_lockheart.mp4
 pdaisy_chanel.mp4
+pncmpcpp
+pqutebrowser
+pvifm
+pbe your own sysadmin: depression & computers
+pbe your own sysadmin: fulfillment & depression
+pjmatrix-rules
+pE01 Retour à la maison
+pblogg
+pr_herroci_2
+pr_herroci_3
+pr_herroci_4
 
 # Local filter history (oldest to newest):
 

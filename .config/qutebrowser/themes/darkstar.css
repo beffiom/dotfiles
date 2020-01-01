@@ -5,7 +5,6 @@
 	--link-color: #82aaff !important;
 	--link-hover-cover: #c792ea !important;
 	--border-color: #c792ea !important;
-	--font: Mononoki !important;
 }
 
 /* width */
@@ -229,7 +228,6 @@ h4,
 h5,
 h6 {
   	border-color: #c792ea !important;
-  	padding: 10px !important;
 	border-radius: 10px !important;
 }
 

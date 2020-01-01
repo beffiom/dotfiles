@@ -21,6 +21,7 @@ Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 call plug#end()
 
+set tabstop=4 shiftwidth=4 expandtab
 set bg=light
 set go=a
 set mouse=a

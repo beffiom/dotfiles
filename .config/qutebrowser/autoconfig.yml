@@ -7,4 +7,6 @@
 config_version: 2
 settings:
   content.user_stylesheets:
-    global: themes/darkstar.css
+    global: themes/default.css
+  downloads.location.directory:
+    global: ~/Pictures
