@@ -1,11 +1,8 @@
 #!/bin/sh
-case "$(printf "mpv\\nfirefox\\ninvidio.us\\nprivatebrowser\\nnetflix\\nlibreoffice\\nretroarch\\nvirt-manager" | dmenu)" in
-	"mpv") mpv --player-operation-mode=pseudo-gui ;;
-	"firefox") firefox ;;
-	"invidio.us") qutebrowser --target=window https://invidio.us ;;
-	"privatebrowser") qutebrowser ":open -p";;
-	"netflix") qtwebflix ;;
+case "$(printf "signal\\nlibreoffice\\nminetest\\npsp\\nvirt-manager" | dmenu)" in
+	"signal") signal-desktop ;;
 	"libreoffice") libreoffice ;;
-	"retroarch") retroarch ;;
+	"minetest") minetest ;;
+	"psp") ppsspp-sdl ;;
 	"virt-manager") virt-manager ;;
 esac

@@ -42,7 +42,7 @@ map K :tabp<Enter>
     	autocmd BufWritePost bspwmrc !bspc wm -r
     	autocmd BufWritePost sxhkdrc !bspc wm -r
     	autocmd BufWritePost compton.conf !bspc wm -r
-    	autocmd BufWritePost .bashrc,.bash_profile,.profile !source ~/.profile
+    	autocmd BufWritePost .bashrc,.bash_profile,.profile !source ~/.bash_profile
     	autocmd BufWritePost .Xresources !xrdb ~/.Xresources
     	autocmd BufWritePost *ncmpcpp/config,*ncmpcpp/bindings !killall ncmpcpp ; st -e ncmpcpp &
     	autocmd BufWritePost *polybar/config !bspc wm -r

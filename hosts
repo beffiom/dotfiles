@@ -4099,30 +4099,30 @@ ff02::3 ip6-allhosts
 # may provide you with services you like.
 
 #
-#0.0.0.0 auto.search.msn.com  # Microsoft uses this server to redirect
+0.0.0.0 auto.search.msn.com  # Microsoft uses this server to redirect
                                 # mistyped URLs to search engines. They
                                 # log all such errors.
-#0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game 
-#0.0.0.0 sitefinder-idn.verisign.com	# of trying to hijack mistyped
+0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game 
+0.0.0.0 sitefinder-idn.verisign.com	# of trying to hijack mistyped
 					# URLs to their site. 
 					# May break iOS Game Center.
 
-#0.0.0.0 s0.2mdn.net		# This may interfere with some streaming 
+0.0.0.0 s0.2mdn.net		# This may interfere with some streaming 
 				# video on sites such as cbc.ca
-#0.0.0.0 ad.doubleclick.net   # This may interefere with www.sears.com
+0.0.0.0 ad.doubleclick.net   # This may interefere with www.sears.com
 				# and potentially other sites. 
 0.0.0.0 media.fastclick.net  # Likewise, this may interfere with some
 0.0.0.0 cdn.fastclick.net  # sites.
-#0.0.0.0 ebay.doubleclick.net		# may interfere with ebay
-#0.0.0.0 google-analytics.com			# breaks some sites
-#0.0.0.0 ssl.google-analytics.com
-#0.0.0.0 www.google-analytics.l.google.com
-#0.0.0.0 stat.livejournal.com		# There are reports that this may mess 
+0.0.0.0 ebay.doubleclick.net		# may interfere with ebay
+0.0.0.0 google-analytics.com			# breaks some sites
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.l.google.com
+0.0.0.0 stat.livejournal.com		# There are reports that this may mess 
  					# up CSS on livejournal
-#0.0.0.0 stats.surfaid.ihost.com	# This has been known cause 
+0.0.0.0 stats.surfaid.ihost.com	# This has been known cause 
 					# problems with NPR.org
-#0.0.0.0 www.google-analytics.com		# breaks some sites
-#0.0.0.0 ads.imeem.com		# Seems to interfere with the functioning of imeem.com
+0.0.0.0 www.google-analytics.com		# breaks some sites
+0.0.0.0 ads.imeem.com		# Seems to interfere with the functioning of imeem.com
 #
 
 0.0.0.0 006.free-counter.co.uk
@@ -23310,11 +23310,11 @@ ff02::3 ip6-allhosts
 # [Global Crossing][AS29973][206.165.0.0 - 206.165.255.255]
 0.0.0.0 www.clickaction.net
 0.0.0.0 server2.discountclick.com
-# 0.0.0.0 link.p0.com #[Affects email newsletters]
+0.0.0.0 link.p0.com #[Affects email newsletters]
 # [Global Crossing][AS3549][208.48.224.0 - 208.51.255.255]
 0.0.0.0 a.hspvst.com
 # [Global Crossing][AS3549][64.211.0.0 - 64.214.223.255]
-# 0.0.0.0 secure.footprint.net #[affects nfl.com]
+0.0.0.0 secure.footprint.net #[affects nfl.com]
 # [Global Crossing][AS3549][64.208.42.0 - 64.208.43.255]
 0.0.0.0 van.redlightcenter.com
 0.0.0.0 webmaster.utherverse.com
@@ -23356,7 +23356,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.redemptionengine.com
 # [Godaddy.com][64.202.160.0 - 64.202.191.255]
 0.0.0.0 images-pw.secureserver.net  #[Parking Service]
-# 0.0.0.0 images.secureserver.net #[affects GoDaddy]
+0.0.0.0 images.secureserver.net #[affects GoDaddy]
 0.0.0.0 ms-mvp.org
 0.0.0.0 www.ms-mvp.org
 # [Godaddy.com][AS26496][72.167.0.0 - 72.167.255.255]
@@ -23414,7 +23414,7 @@ ff02::3 ip6-allhosts
 # [Google][AS15169][173.194.0.0 - 173.194.255.255]
 0.0.0.0 5362399.fls.doubleclick.net
 0.0.0.0 video-ad-stats.googlesyndication.com
-# 0.0.0.0 redirector.googlevideo.com #[affects video playback]
+0.0.0.0 redirector.googlevideo.com #[affects video playback]
 # [Google / DoubleClick][AS15169][173.194.0.0 - 173.194.255.255]
 0.0.0.0 dp.g.doubleclick.net
 # [Google / DoubleClick][AS15169][209.85.128.0 - 209.85.255.255]
@@ -23425,7 +23425,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 4053494.fls.doubleclick.net
 0.0.0.0 4236808.fls.doubleclick.net
 0.0.0.0 ade.googlesyndication.com
-# 0.0.0.0 www.googletagmanager.com #[affects ASUS]
+0.0.0.0 www.googletagmanager.com #[affects ASUS]
 # [Google / DoubleClick][AS6432][216.73.80.0 - 216.73.95.255]
 # [Google][AS15169][23.236.128.0 - 23.251.159.255]
 # [Google][AS15169][34.64.0.0/11]
@@ -23477,12 +23477,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www3.doubleclick.com
 0.0.0.0 www.doubleclick.com
 0.0.0.0 www.bt.emsecure.net
-# 0.0.0.0  www.youtube-nocookie.com #[affects various videos]
+0.0.0.0  www.youtube-nocookie.com #[affects various videos]
 # [Google / DoubleClick][AS15169][66.249.64.0 - 66.249.95.255]
 0.0.0.0 ad.rs.doubleclick.net
 # [Google / DoubleClick][AS15169][72.14.192.0 - 72.14.255.255]
-# 0.0.0.0  s0.2mdn.net #[affects video stream]
-# 0.0.0.0  static.2mdn.net #[affects Youtube]
+0.0.0.0  s0.2mdn.net #[affects video stream]
+0.0.0.0  static.2mdn.net #[affects Youtube]
 0.0.0.0 ad-apac.doubleclick.net
 0.0.0.0 gan.doubleclick.net
 0.0.0.0 googleads2.g.doubleclick.net
@@ -23942,7 +23942,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ka.bar.need2find.com  #[Adware.Need2Find]
 0.0.0.0 kc.search.need2find.com  #[mwave.AdWare.MySearch.e]
 0.0.0.0 kz.search.need2find.com  #[altnet.com]
-# 0.0.0.0  wzus1.reference.com #[affects Dictonary.com]
+0.0.0.0  wzus1.reference.com #[affects Dictonary.com]
 # [InterConnect / Viper][AS9150][213.207.92.0 - 213.207.97.255]
 0.0.0.0 www.erodynamics.nl
 0.0.0.0 ads.happyidiots.nl
@@ -63291,6 +63291,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 np.reddit.com
 #0.0.0.0 oauth.reddit.com
 #0.0.0.0 old.reddit.com
+0.0.0.0 old.reddit.com/r/all
 #0.0.0.0 oops.redditmedia.com
 #0.0.0.0 out.reddit.com
 #0.0.0.0 pixel.redditmedia.com
@@ -63326,6 +63327,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.redditinc.com
 #0.0.0.0 www.redditmedia.com
 #0.0.0.0 www.redditstatic.com
+
+#YouTube
+#0.0.0.0 www.youtube.com 
+#Yahoo
+0.0.0.0 www.yahoo.com
+#Amazon
+0.0.0.0 www.amazon.com
+#Netflix
+0.0.0.0 www.netflix.com
+#Bing
+0.0.0.0 www.bing.com
+#Google
+0.0.0.0 www.google.com
 
 0.0.0.0 pinpages.alwaysdata.net
 0.0.0.0 mbga.jp

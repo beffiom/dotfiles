@@ -35,6 +35,7 @@ alias vps="doas xbps-query -Rs"
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"
 alias acestream="acestreamengine --client-console"
+alias cbz="for i in *.zip; do mv "$i" "${i/.zip/.cbz}"; done"
 
 #vi mode
 set -o vi

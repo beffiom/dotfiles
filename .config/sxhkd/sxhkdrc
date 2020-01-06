@@ -12,8 +12,8 @@ super + d
 super + shift + d
 	$LAUNCHER
 
-# super + e
-#    	$EMAIL
+super + e
+  	$EMAIL
 
 super + w
     	$WEBBROWSER

@@ -1,5 +1,5 @@
 #!/bin/sh
-case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneovim\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
+case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneomutt\\nneovim\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
 	"userscripts") userscripts ;;
 	"bash_profile") $TERMINAL -e $EDITOR ~/.bash_profile ;;
 	"bashrc") $TERMINAL -e $EDITOR ~/.bashrc ;;
@@ -13,6 +13,7 @@ case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\n
 	"mpv-input") $TERMINAL -e $EDITOR ~/.config/mpv/input.conf ;;
 	"ncmpcpp-bindings") $TERMINAL -e $EDITOR ~/.config/ncmpcpp/bindings ;;
 	"ncmpcpp-conf") $TERMINAL -e $EDITOR ~/.config/ncmpcpp/config ;;
+	"neomutt") $TERMINAL -e $EDITOR ~/.config/mutt/muttrc ;;
 	"neovim") $TERMINAL -e $EDITOR ~/.config/nvim/init.vim ;;
 	"polybar") $TERMINAL -e $EDITOR ~/.config/polybar/config ;;
 	"qutebrowser-conf") $TERMINAL -e $EDITOR ~/.config/qutebrowser/config.py ;;

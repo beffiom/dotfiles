@@ -81,6 +81,7 @@ config.bind('yi', 'hint images yank')
 config.bind('=', 'zoom-in')
 config.bind('+', 'zoom')
 config.bind('pb', 'open -p ')
+#config.bind('pw', 'spawn --userscript ~/.local/bin/programs/qute-keepass -p ~/.local/profile-5.kdbx')
 
 #################################################################
 # COLORS
@@ -1097,11 +1098,7 @@ c.url.open_base_url = True
 ## [Dict]
 c.url.searchengines = {"DEFAULT": "https://lite.qwant.com/?q={}&t=web",
         'w':        'https://en.wikipedia.org/wiki/{}',
-        'v':       'https://invidio.us/search?q={}',
         'i':       'https://lite.qwant.com/?q={}&t=images',
-        'aw':       'https://wiki.archlinux.org/index.php/{}',
-        'gw':       'https://wiki.gentoo.org/wiki/{}',
-        '8':       'https://8kun.top/{}/catalog.html?PageSpeed=noscript',
         }
 
 ## Page(s) to open at the start.
@@ -1145,5 +1142,3 @@ c.zoom.mouse_divider = 512
 ## This setting is only available with the QtWebKit backend.
 ## [Bool]
 ## c.zoom.text_only = False
-
-
