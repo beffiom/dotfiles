@@ -1,5 +1,5 @@
 :root {
-	--bg-color: #292d3e !important;
+	--bg-color: #14161F !important;
 	--bg-alt-color: #434758 !important;
 	--fg-color: #bbc5ff !important;
 	--link-color: #82aaff !important;
@@ -9,7 +9,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-	color: #292d3e !important;
+	color: #14161F !important;
 }
 
 * {
@@ -58,7 +58,7 @@ a[id*="Button"]:not(:empty),
 div[class*="button"][onclick],
 .fbNubFlyoutBodyContent,
 [type|="submit"] {
-	background-color: #292d3e !important;
+	background-color: #14161F !important;
   	color: #bbc5ff !important;
 }
 
@@ -155,7 +155,7 @@ a.voir-thematique,
 .STopRack,
 .STopFirst,
 .SBotRack {
-  background: #292d3e !important;
+  background: #14161F !important;
   border-top-color: #c792ea !important;
 }
 

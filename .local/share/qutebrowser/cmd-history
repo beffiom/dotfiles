@@ -1,2 +1,0 @@
-:open -s -t inotifywait
-:open -s inotify tools

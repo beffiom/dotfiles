@@ -8,10 +8,10 @@ notification_height = 5
 separator_height = 4
 padding = 16
 horizontal_padding = 16
-background = "#292d3e"
+background = "#14161F"
 foreground = "#fdf6e3"
 frame_width = 3
-frame_color = "#292d3e"
+frame_color = "#14161F"
 separator_color = frame
 sort = yes
 font = Monospace 20
@@ -37,21 +37,21 @@ mouse_right = close_all
 timeout = 4
 
 [urgency_low]
-    background = "#292d3e"
+    background = "#14161F"
     foreground = "#bbc5ff"
-    frame_color = "#292d3e"
+    frame_color = "#14161F"
     timeout = 3
 
 [urgency_normal]
-    background = "#292d3e"
+    background = "#14161F"
     foreground = "#bbc5ff"
-    frame_color = "#292d3e"
+    frame_color = "#14161F"
     timeout = 6
 
 [urgency_critical]
-    background = "#292d3e"
+    background = "#14161F"
     foreground = "#fdf6e3"
-    frame_color = "#292d3e"
+    frame_color = "#14161F"
     timeout = 0
 
 [shortcuts]

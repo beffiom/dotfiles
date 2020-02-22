@@ -19,9 +19,9 @@ export AUDIO="$TERMINAL -e pulsemixer"
 export PROCESS="$TERMINAL -e htop"
 # export TORRENT="$TERMINAL -e tremc"
 
-# autologin on tty1
-if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
- exec startx
+# autostart x
+if "$(tty)" = "/dev/pts/1"; then
+  exec startx
 fi
 
 # source bashrc

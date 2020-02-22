@@ -2,7 +2,7 @@
 # GENERAL
 #################################################################
 ## colors
-colorBG = "#292d3e"
+colorBG = "#14161F"
 colorBG2 = "#434758"
 colorFG = "#bbc5ff"
 colorError = "#f07178"
@@ -272,7 +272,7 @@ c.colors.webpage.bg = colorBG
 
 ## Number of commands to save in the command history. 0: no history / -1: unlimited
 ## [Int]
-c.completion.cmd_history_max_items = -1
+c.completion.cmd_history_max_items = 10
 
 ## Delay (in milliseconds) before updating completions after typing a character
 ## [Int]
@@ -1096,9 +1096,15 @@ c.url.open_base_url = True
 
 ## Search engines which can be used via the address bar. Maps a search engine name (such as DEFAULT, or ddg) to a URL with a {} placeholder. The placeholder will be replaced by the search term, use {{ and }} for literal {/} signs. The search engine named DEFAULT is used when url.auto_search is turned on and something else than a URL was entered to be opened. Other search engines can be used by prepending the search engine name to the search term, e.g. :open google qutebrowser.
 ## [Dict]
-c.url.searchengines = {"DEFAULT": "https://lite.qwant.com/?q={}&t=web",
-        'w':        'https://en.wikipedia.org/wiki/{}',
-        'i':       'https://lite.qwant.com/?q={}&t=images',
+c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
+        'w':       'https://en.wikipedia.org/wiki/{}',
+        'v':       'https://invidio.us/search?q={}',
+        'i':       'https://duckduckgo.com/?q={}&t=h_&ia=images&iax=images',
+        'r':       'https://old.reddit.com/r/{}',
+        'rs':      'https://old.reddit.com/search?q={}',
+        'tw':      'https://nitter.snoptya.org/{}',
+        'tw':      'https://nitter.snopyta.org/search?f=tweets&q={}&since=&until=&near=',
+        '4':       'https://4chan.org/{}/catalog',
         }
 
 ## Page(s) to open at the start.

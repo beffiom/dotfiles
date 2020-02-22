@@ -30,291 +30,48 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Documentaries
-	A Look Inside Russia’s Creepy, Innovative Internet.mkv
-16
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	TV
-5
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	School
-3
-d/home/shockman/Devices/A:A_Drive
-	Git
+d/home/shockman/.config/mpv
+	scripts
 2
-d/home/shockman/Devices/A:A_Drive/Git
-	to do
-5
-d/home/shockman/Devices/A:A_Drive/Git/to do
-	link-redirecter
-1
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	TV
-5
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive
-	Notes
-5
-d/home/shockman/Devices/A:A_Drive/Notes
-	Digital Minimalism
-3
-d/home/shockman/Devices/A:A_Drive/Notes/Digital Minimalism
-	anonymous.md
-2
-d/home/shockman/Devices/A:A_Drive/Notes
-	Digital Minimalism
-3
-d/home/shockman/Devices/A:A_Drive/Notes/Digital Minimalism
-	subscriptions.md
-9
-d/home/shockman/Devices/A:A_Drive/Notes
-	Digital Minimalism
+d/home/shockman/.config/mpv/scripts
+	playlistmanager.lua
 3
 d/home/shockman/.config
-	qutebrowser
-25
-d/home/shockman/.config/qutebrowser
-	local
-4
-d/home/shockman/.config/qutebrowser/local
-	lists
-2
-d/home/shockman/.config/qutebrowser
-	local
-4
-d/home/shockman/.config/qutebrowser/local
-	lists
-2
-d/home/shockman/.config/qutebrowser/local/lists
-	sitelist
-3
-d/home/shockman
-	Videos
-15
-d/home/shockman/Devices/A:A_Drive
+	mpv
+18
+d/home/shockman/.config/mpv
+	script-opts
+1
+d/home/shockman/.config/mpv/script-opts
 	..
 0
-d/home/shockman/Devices
-	A:A_Drive
+d/home/shockman/.config/mpv
+	scripts
 1
-d/home/shockman/Devices/A:A_Drive
-	..
-0
-d/home/shockman/Devices
-	A:A_Drive
-1
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	Fitness
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness
-	YOGA
-12
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness/YOGA
-	HOME
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness/YOGA/HOME
-	[Yoga With Adriene] Home - Day 2 - Intend  _  Yoga With Adriene.webm
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness/YOGA
-	HOME
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Fitness
-	HIIT
-6
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	Courses
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Courses
-	Luke Smith
-11
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Courses/Luke Smith
-	When is Technology Bad for You.mp4
-16
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Courses
-	Lunduke
-12
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Courses/Lunduke
-	Does going Full Stallman isolate a person.webm
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Courses
-	Luke Smith
-11
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Courses/Luke Smith
-	Why is Latin worth learning and using.mp4
-37
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices
-	A:A_Drive
-1
-d/home/shockman
-	Devices
-11
+d/home/shockman/.config
+	mpv
+18
 d/home/shockman/Videos
-	[Vaush] Is Pornography Always Harmful Vaush Debates a SWERF.mkv
-10
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
+	[Tekking101] Animate The One Piece Cover Stories!! - One Piece Discussion.webm
+16
+d/home/shockman/.config
+	castero
 4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	recs
-5
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices
-	A:A_Drive
+d/home/shockman/.config/castero
+	castero.conf
 1
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos
-	Documentaries
+d/home/shockman/.config
+	fontconfig
+9
+d/home/shockman/.config/fontconfig
+	fonts.conf
+1
+d/home/shockman/.config
+	Qtwebflix
 2
-d/home/shockman/Devices/A:A_Drive/Multimedia/Videos/Documentaries
-	Escape! The Cult of Materialism.webm
-32
-d/home/shockman/Pictures
-	yuekt4x1mf841.jpg
-41
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-4
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Videos
-4
-d/home/shockman/Devices/A:A_Drive
-	Documents
+d/home/shockman/.config/Qtwebflix
+	providers.conf
 1
-d/home/shockman/Devices/A:A_Drive/Documents
-	School
-3
-d/home/shockman/Devices/A:A_Drive/Documents/School
-	..
-0
-d/home/shockman/Devices/A:A_Drive/Documents
-	Career
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Career
-	Programming
-2
-d/home/shockman/Devices/A:A_Drive/Documents
-	School
-3
-d/home/shockman/Devices/A:A_Drive/Documents/School
-	SPC
-2
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Memes
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	coomer
-4
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/coomer
-	0pyocmtm81841.jpg
-1
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Pictures
-	w1vb7o692v741.jpg
-29
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Memes
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	consoomer
-3
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/consoomer
-	1e5gmjfajfv31.jpg
-3
-d/home/shockman/Pictures
-	20-year-old-reader.png
-2
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Memes
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	coomer
-4
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/coomer
-	vftofkw8jx741.jpg
-23
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	consoomer
-3
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/consoomer
-	vftofkw8jx741.jpg
-30
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	coomer
-4
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/coomer
-	i-NEED-antidepressants.jpg
-10
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	consoomer
-3
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/consoomer
-	orange man bad.png
-26
-d/home/shockman/Devices/A:A_Drive
-	..
-0
-d/home/shockman/Pictures
-	..
-0
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Memes
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	consoomer
-3
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/consoomer
-	my-consoomer-academia.jpg
-13
 d/home/shockman
 	.local
 6
@@ -322,14 +79,257 @@ d/home/shockman/.local
 	bin
 1
 d/home/shockman/.local/bin
-	programs
+	dmenu
+1
+d/home/shockman/.local/bin/dmenu
+	apps
+1
+d/home/shockman/.local/bin/dmenu/apps
+	..
+0
+d/home/shockman/.local/bin/dmenu
+	apps
+1
+d/home/shockman/.local/bin/dmenu/apps
+	games
+1
+d/home/shockman/.local/bin/dmenu
+	apps
+1
+d/home/shockman/.local/bin/dmenu/apps
+	settings-menu
+4
+d/home/shockman/.local/bin/dmenu
+	apps
+1
+d/home/shockman/.local/bin/dmenu/apps
+	games-menu
+1
+d/home/shockman/.local/bin/dmenu
+	apps
+1
+d/home/shockman/.local/bin/dmenu/apps
+	settings-menu
+4
+d/home/shockman/.local/bin/dmenu
+	apps
+1
+d/home/shockman/.local/bin/dmenu/apps
+	settings-menu
+4
+d/home/shockman
+	Videos
+16
+d/home/shockman/Videos
+	..
+0
+d/home/shockman
+	Videos
+18
+d/home/shockman/Music
+	1|Collections
+2
+d/home/shockman/Music/1|Collections
+	Ambiance
+1
+d/home/shockman/Videos
+	[Bryan Lunduke] Ask Lunduke - Feb 17, 2020 - Slackware and Pre-Internet Podcasts.mkv
+8
+d/home/shockman/Music
+	1|Collections
+2
+d/home/shockman/Videos
+	[dzeeff] Why Yu-Gi-Oh! Traditional Format Doesn't Work.mp4
+45
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+5
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Books
+	Wikipedia
+5
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Books
+1
+d/home/shockman/Devices/A:A_Drive
+	Git
 3
-d/home/shockman/.local/bin/programs
-	qutepass
+d/home/shockman/Downloads
+	archlinux-2020.02.01-x86_64.iso
 5
-d/home/shockman/.local/bin
-	pasteurize
+d/home/shockman
+	Music
+17
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
 5
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Games
+2
+d/home/shockman/Downloads
+	Implementing Enterprise Risk Management by John Fraser, Betty Simkins, Kristina Narvaez (z-lib.org).pdf
+3
+d/home/shockman/Videos
+	[TheDuelLogs] Top 10 Oldest Cards That Are Still Commonly Used in YuGiOh.mkv
+41
+d/home/shockman/Music
+	1|Collections
+2
+d/home/shockman/Videos
+	[Vaush] How Conservatives CREATE FAKE NEWS.mkv
+31
+d/home/shockman/Downloads
+	arcolinuxb-deepin-v20.2.11.iso
+7
+d/home/shockman/Videos
+	[Destiny] Destiny reviews 'Male Privilege is a Myth' by Steven Crowder.mkv
+14
+d/home/shockman/Pictures
+	1581005163503.jpg
+3
+d/home/shockman/Downloads
+	Nicotine
+2
+d/home/shockman
+	Pictures
+3
+d/home/shockman/Videos
+	[Destiny] Destiny reviews 'Male Privilege is a Myth' by Steven Crowder.mkv
+15
+d/home/shockman/Downloads
+	Nicotine
+2
+d/home/shockman/Downloads/Nicotine
+	Polo G - Pop Out (Ft Lil Tjay) (2019).mp3
+2
+d/home/shockman/Devices/A:A_Drive
+	..
+0
+d/home/shockman/Music
+	6LACK
+5
+d/home/shockman/Music/6LACK
+	[2016] Free 6LACK
+1
+d/home/shockman/Downloads
+	Nicotine
+2
+d/home/shockman/Music
+	6LACK
+5
+d/home/shockman/Downloads
+	Nicotine
+2
+d/home/shockman/Downloads/Nicotine
+	Polo G - Pop Out (Ft Lil Tjay) (2019).mp3
+2
+d/home/shockman/Music
+	Polo G
+15
+d/home/shockman/Music/Polo G
+	Singles
+1
+d/home/shockman/Music/Polo G/Singles
+	Pop Out (2019)
+1
+d/home/shockman/Music/Polo G/Singles/Pop Out (2019)
+	Polo G - Pop Out (Ft Lil Tjay) (2019).mp3
+1
+d/home/shockman/Downloads
+	Nicotine
+2
+d/home/shockman/Downloads/Nicotine
+	YBN Cordae - Locationships.mp3
+2
+d/home/shockman/Music
+	YBN Cordae
+41
+d/home/shockman/Music/YBN Cordae
+	Singles
+1
+d/home/shockman/Music/YBN Cordae/Singles
+	[2019] Locationships
+1
+d/home/shockman/Music/YBN Cordae/Singles/[2019] Locationships
+	YBN Cordae - Locationships.mp3
+1
+d/home/shockman/Music/YBN Cordae/Singles
+	[2019] Locationships
+1
+d/home/shockman/Music/YBN Cordae
+	Singles
+1
+d/home/shockman/Music
+	YBN Cordae
+41
+d/home/shockman/Music/YBN Cordae
+	Singles
+1
+d/home/shockman/Music/YBN Cordae/Singles
+	[2019] Locationships
+1
+d/home/shockman/Music/YBN Cordae/Singles/[2019] Locationships
+	YBN Cordae - Locationships.mp3
+1
+d/home/shockman/Music/YBN Cordae/Singles
+	[2019] Locationships
+1
+d/home/shockman/Music/YBN Cordae
+	Singles
+1
+d/home/shockman/Music
+	Polo G
+4
+d/home/shockman/Music/Polo G
+	Singles
+1
+d/home/shockman/Music/Polo G/Singles
+	[2019] Pop Out
+1
+d/home/shockman/Music/Polo G
+	Singles
+1
+d/home/shockman/Music
+	YBN Cordae
+36
+d/home/shockman/Music/YBN Cordae
+	Singles
+1
+d/home/shockman/Music/YBN Cordae/Singles
+	[2018] Locationships
+1
+d/home/shockman/Music/YBN Cordae
+	Singles
+1
+d/home/shockman/Music
+	YBN Cordae
+36
+d/home/shockman/Downloads
+	Nicotine
+2
+d/home/shockman/Downloads/Nicotine
+	Lil Tjay - True 2 Myself
+1
+d/home/shockman/Downloads/Nicotine/Lil Tjay - True 2 Myself
+	08 - Decline.mp3
+8
+d/home/shockman/.config/appearance/wallpapers
+	#anime
+1
+d/home/shockman/.config/appearance/wallpapers/#anime
+	champloo.jpg
+6
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+5
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Music
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Music
+	1|Collections
+3
 d
 
 # Right window history (oldest to newest):
@@ -339,18 +339,6 @@ D/home/shockman
 D
 
 # Command line history (oldest to newest):
-:!touch The\ Daily\ Stoic.md
-:!touch [Sadhguru,\ 2016]\ Inner\ Engineering.md
-:mkdir Learn\ Python\ The\ Hard\ Way
-:!ex1.py
-:!touch ex1.py
-:!touch ex2.py
-:!touch ex3.py
-:!touch ex4.py
-:!touch ex5.py
-:!touch README.md
-:k
-:!touch ex6.py
 :!touch ex7.py
 :!touch ex8.py
 :!touch ex9.py
@@ -394,8 +382,6 @@ D
 :mkdir [2018]\ Armed\ And\ Dangerous
 :sudo rm -rf #manga
 :!youtube-dl https://open.lbry.com/@Luke#7/friendship-ended-with-i3-bspwm-is-my#e
-:mkdir Podcasts
-:mkdir Nicotine
 :!dl https://sys.8kun.top/player.php?v=//media.8kun.top/file_store/9008b0801120ef813b324b0f225877379c93a858d1cf6caa2c9f81c127e58b98.mp4&t=aZ7wegQ_460sv.mp4
 :!youtube-dl https://sys.8kun.top/player.php?v=//media.8kun.top/file_store/9008b0801120ef813b324b0f225877379c93a858d1cf6caa2c9f81c127e58b98.mp4
 :mkdir Screenshots
@@ -439,8 +425,23 @@ D
 :mkdir Decadence
 :!for file in *; do mkvpropedit "$file" -s title=$filename; done
 :mkdir Lunduke
+:mkdir Podcasts
+:mkdir layedbak
+:!touch providers.conf
+:mkdir apps
+:!touch games
+:!touch graphics
+:!touch internet
+:!touch settings
+:mkdir Nicotine
+:mkdir Polo G
+:mkdir Pop Out (2019)
+:mkdir YBN\ Cordae
+:mkdir Singles
+:mkdir [2019]/ Locationships
 
 # Search history (oldest to newest):
+/clair
 /luke
 /must go
 /the hitch
@@ -486,23 +487,14 @@ D
 /Mahat
 /stuff
 /lovelss
+/mill
+/rpc
+/hosts
+/polo
+/poll
+/Polo G
 
 # Prompt history (oldest to newest):
-ptw_MsTessMcGill_10
-ptw_SublimeySadPup_1
-ptw_aubreykatexxx_0
-pr_ErinAshford_0
-ptw_chibijessjess_1
-p[Destiny] 'I didn't think it'd get to this level of degeneracy...' - Destiny Debates Tree Of Logic.mkv
-p[2018] Armed & Dangerous
-p[Kacyznski] Anti-Tech Revolution.pdf
-p[Chomsky, 1988] Manufacturing Consent.epub
-ptw_haydenalexei_0
-ptw_haydenalexei_1
-ptw_haydenalexei_2
-ptw_haydenalexei_3
-pcb__xcherrycrushx__0
-pcb_haydenaleksi_0
 p[Carr, 2010] The Shallows - What the Internet Is Doing to Our Brains
 pvannialll.mp4
 padi_lockheart.mp4
@@ -588,6 +580,21 @@ pCHAD minimalist
 pconsoom-cave
 pltGTuw
 pmy-consoomer-academia
+pSpyro_the_Dragon
+p[Negative Legend] What Happened to Yu-Gi-Oh! (Part 2) feat. Cimooooooooo & MegaCapitalG
+p[MegaCapitalG] The Only Deck In Yugioh History With A 100 Win Rate (Literally Unbeatable)
+p[Matt DAvella] A Guide to Digital Minimalism
+pgames-menu
+pgraphics-menu
+pinternet-menu
+psettings-menu
+pproductivity-menu
+pPolo G
+pPop Out (2019)
+p[2019] Locationships
+p[2019] Pop Out
+p[2018] Locationships
+pcover
 
 # Local filter history (oldest to newest):
 

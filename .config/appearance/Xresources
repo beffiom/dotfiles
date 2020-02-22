@@ -1,7 +1,3 @@
-!! Cursor
-Xcursor.theme: Breeze_Purple
-Xcursor.size: 16
-
 !! Font rendering
 Xft.antialias:	1
 Xft.hinting:	1
@@ -17,13 +13,13 @@ st.font:	Monospace-12;
 st.borderpx:	2
 
 !! Colors
-*.background:	#292d3e
+*.background:	#14161F
 *.foreground:	#bbc5ff
 *.cursorColor:	#bbc5ff
 
 ! black
-*.color0:	#292d3e
-*.color8:	#434758
+*.color0:	    #14161F
+*.color8:	    #434758
 
 ! red
 *.color1:       #f07178
