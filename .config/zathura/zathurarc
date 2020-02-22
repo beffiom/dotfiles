@@ -18,9 +18,9 @@ map t recolor
 
 set highlight-color #82aaff
 set highlight-active-color #f07178
-set completion-fg "#292d3e"
+set completion-fg "#14161F"
 set completion-highlight-bg "#bbc5ff"
 set recolor-darkcolor "#bbc5ff"
-set recolor-lightcolor "#292d3e"
-set default-bg "#292d3e"
-set default-fg "#292d3e"
+set recolor-lightcolor "#14161F"
+set default-bg "#14161F"
+set default-fg "#14161F"
