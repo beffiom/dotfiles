@@ -1,11 +1,19 @@
 #twitter
-https://nitter.net/SavinTheBees
-https://nitter.net/FreeWenger
-https://nitter.net/jprinceq
-https://nitter.net/YassEncore
-https://nitter.net/RebeuDeter
-https://nitter.net/internetofshit
-https://nitter.net/ajdhenry
+https://nitter.snopyta.org/SavinTheBees
+https://nitter.snopyta.org/FreeWenger
+https://nitter.snopyta.org/jmemc55
+https://nitter.snopyta.org/jprinceq
+https://nitter.snopyta.org/YassEncore
+https://nitter.snopyta.org/RebeuDeter
+https://nitter.snopyta.org/internetofshit
+https://nitter.snopyta.org/ajdhenry
+https://nitter.snopyta.org/reddit_moments
+https://nitter.snopyta.org/lporiginalg
+https://nitter.snopyta.org/shaboygabee
+https://nitter.snopyta.org/ranaaere
+https://nitter.snopyta.org/ZoomerClips
+https://nitter.snopyta.org/krystalball
+https://nitter.snopyta.org/esaagar
 
 #imageboards
 lainchan https://lainchan.org/
@@ -22,7 +30,7 @@ reuters news https://www.reuters.com/
 #privacy+security
 spyware watchdogs https://spyware.neocities.org/
 digdeeper https://digdeeper.neocities.org/
-/g/ security https://wiki.installgentoo.com/wiki/Security
+/g/ security
 stevenblack https://github.com/StevenBlack/hosts
 someonewhocares https://someonewhocares.org/
 eff surveillance https://ssd.eff.org/en
@@ -148,6 +156,7 @@ https://lainzine.org/
 https://wiki.cybsec.io/index.php/Main_Page
 https://www.thirtythreeforty.net/
 https://antipub.org/
-https://raymii.org/s/software/totext.py-Convert_URL_or_RSS_feed_to_plaintext_with_readability.htmlttps://webring.xxiivv.com/
+https://raymii.org/s/software/totext.py-Convert_URL_or_RSS_feed_to_plaintext_with_readability.html
+https://webring.xxiivv.com/
 http://reasonablypolymorphic.com/
 http://typehere.co/

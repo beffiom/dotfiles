@@ -66,7 +66,7 @@ config.bind('q', 'tab-close')
 config.bind('cs', 'set-cmd-text :config-source')
 config.bind('ce', 'config-edit')
 config.bind(';', 'set-cmd-text :')
-config.bind('t', 'config-cycle content.user_stylesheets themes/darkstar-alt.css themes/default.css themes/darkstar.css')
+config.bind('t', 'config-cycle content.user_stylesheets themes/default.css themes/darkstar.css')
 config.bind('di', 'set downloads.location.directory ~/Pictures ;; hint images download')
 config.bind('dl', 'set downloads.location.directory ~/Downloads ;; hint links download')
 config.bind('dv', 'hint links spawn youtube-dl --add-metadata --all-subs -i -o "~/Videos/[%(uploader)s] %(title)s.%(ext)s" {hint-url}')
@@ -320,7 +320,7 @@ c.completion.use_best_match = False
 
 ## Number of URLs to show in the web history. 0: no history / -1: unlimited
 ## [Int]
-c.completion.web_history.max_items = 10
+c.completion.web_history.max_items = 0
 
 #################################################################
 # content
@@ -1098,13 +1098,11 @@ c.url.open_base_url = True
 ## [Dict]
 c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
         'w':       'https://en.wikipedia.org/wiki/{}',
-        'v':       'https://invidio.us/search?q={}',
+        'v':       'https://invidious.snopyta.org/search?q={}',
         'i':       'https://duckduckgo.com/?q={}&t=h_&ia=images&iax=images',
-        'r':       'https://old.reddit.com/r/{}',
-        'rs':      'https://old.reddit.com/search?q={}',
-        'tw':      'https://nitter.snoptya.org/{}',
-        'tw':      'https://nitter.snopyta.org/search?f=tweets&q={}&since=&until=&near=',
-        '4':       'https://4chan.org/{}/catalog',
+        'tw':      'https://nitter.snopyta.org/{}',
+        'tws':      'https://nitter.snopyta.org/search?f=tweets&q={}&since=&until=&near=',
+        '4':       'https://4channel.org/{}/catalog',
         }
 
 ## Page(s) to open at the start.
