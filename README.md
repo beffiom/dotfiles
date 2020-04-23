@@ -113,4 +113,4 @@ x | set crossfade
 2. press `2` or `4` to browse for the songs you want to add
 3. press `space` to add a song to the main playlist
 4. once all songs have been added, press `1` to return to main playlist
-5. press `g`, press `v`, press `G`, press `ctrl-v`, press `a` and select create a new playlist
+5. press `S` to name the new playlist

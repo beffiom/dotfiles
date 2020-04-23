@@ -1,9 +1,9 @@
 sw_volume: 60
 audio_device_state:1:pulse audio
 audio_device_state:1:Visualizer Feed
-state: play
-current: 137
-time: 13.557000
+state: pause
+current: 11
+time: 87.764000
 random: 1
 repeat: 1
 single: 0
@@ -12,189 +12,69 @@ crossfade: 10
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:2Pac/[1998] Greatest Hits/2-05 Changes.mp3
-1:6ix9ine/[2018] Day69 - Graduation Day/12 GOTTI.mp3
-2:6LACK/[2016] Free 6LACK/10 Ex Calling.mp3
-3:88rising/[2018] Head In The Clouds/05 Midsummer Madness (feat. Joji, Rich Brian, Higher Brothers & AUGUST 08).mp3
-4:88rising/[2018] Head In The Clouds/06 Plans (feat. NIKI & Vory).mp3
-5:Big Sean/[2015] Dark Sky Paradise/14 Research (feat. Ariana Grande).mp3
-6:Big Sean/[2013] Hall of Fame/06 Beware (feat. Jhene Aiko).mp3
-7:Cheu-B/[2017] Welcome To Skyland/06 95.m4a
-8:Clairo/[2018] diary 001/04 4EVER.mp3
-9:Clairo/[2019] immunity/05 Bags.mp3
-10:Clairo/[2019] immunity/06 Softly.mp3
-11:Clairo/[2019] immunity/07 Sofia.mp3
-12:Columbine/[2018] Adieu Beintôt/02 Cache-Cache.mp3
-13:Damso/[2017] Ipséité/01 Α. Nwaar Is The New Black.mp3
-14:Damso/[2017] Ipséité/03 Γ. Mosaïque solitaire.mp3
-15:Damso/[2017] Ipséité/04 Δ. Dieu ne ment jamais.mp3
-16:Damso/[2017] Ipséité/08 Θ. Macarena.mp3
-17:Damso/[2017] Ipséité/11 Λ. Lové.mp3
-18:Damso/[2017] Ipséité/13 N. J Respect R.mp3
-19:Dave/[2019] Psychodrama/02 Streatham.mp3
-20:Dave/[2019] Psychodrama/03 Black.mp3
-21:Dave/Singles/[2018] Funky Friday/Funky Friday (feat. Fredo).mp3
-22:Denzel Curry/[2016] Imperial/09 This Life.mp3
-23:Denzel Curry/[2018] TA13OO/1-01 TABOO l TA13OO.mp3
-24:Denzel Curry/[2018] TA13OO/1-02 BLACK BALLOONS l 13LACK 13ALLOONZ (feat. Twelve'len & GoldLink).mp3
-25:Denzel Curry/[2018] TA13OO/1-03 CASH MANIAC l CAZH MAN1AC (feat. Nyyjerya).mp3
-26:Denzel Curry/[2018] TA13OO/2-04 SIRENS l Z1RENZ (feat. J.I.D).mp3
-27:Denzel Curry/[2018] TA13OO/2-05 CLOUT COBAIN l CLOUT CO13A1N.mp3
-28:Denzel Curry/[2019] ZUU/03 WISH (feat. Kiddo Marv).mp3
-29:Denzel Curry/[2019] ZUU/06 SPEEDBOAT.mp3
-30:DJ Khaled/[2017] Grateful/04 Wild Thoughts (feat. Rihanna & Bryson Tiller).mp3
-31:Drake/[2017] More Life/03 Passionfruit.mp3
-32:Drake/[2018] Scorpion/1-05 God's Plan.mp3
-33:Drake/[2018] Scorpion/2-09 In My Feelings.mp3
-34:Drake/Singles/[2018] Behind Barz (Freestyle)/Behind Barz Freestyle.mp3
-35:Frank Ocean/[2016] Blonde/01 Nikes.mp3
-36:Frank Ocean/[2016] Blonde/04 Be Yourself.mp3
-37:Frank Ocean/[2016] Blonde/14 White Ferrari.mp3
-38:Frank Ocean/[2016] Blonde/16 Godspeed.mp3
-39:Hamza/[2017] 1994/01 Life.mp3
-40:iann dior/Singles/[2019] emotions/emotions.opus
-41:iann dior/Singles/[2019] gone girl/gone girl (feat. Trippie Redd).opus
-42:J. Cole/[2018] KOD/07 Kevin’s Heart.mp3
-43:Jhené Aiko/[2017] Trip/Sativa (feat. Swae Lee).mp3
-44:Joey Bada$$/[2017] All-Amerikkkan Bada$$/03 Temptation.mp3
-45:Joey Bada$$/[2017] All-Amerikkkan Bada$$/04 Land Of The Free.mp3
-46:Joey Bada$$/[2017] All-Amerikkkan Bada$$/05 Devastated.mp3
-47:Joey Bada$$/Singles/[2018] Thugz Cry/Thugz Cry.mp3
-48:Juice WRLD/[2017] 9 9 9/01 Moonlight.mp3
-49:Juice WRLD/[2017] Affliction/01 Rockstar Girl.mp3
-50:Juice WRLD/[2019] Death Race For Love/01 Empty.mp3
-51:Juice WRLD/[2019] Death Race For Love/02 Maze.mp3
-52:Juice WRLD/[2019] Death Race For Love/05 Fast.mp3
-53:Juice WRLD/[2019] Death Race For Love/06 Hear Me Calling.mp3
-54:Juice WRLD/[2019] Death Race For Love/08 Robbery.mp3
-55:Juice WRLD/[2019] Death Race For Love/09 Flaws And Sins.mp3
-56:Juice WRLD/[2018] Goodbye & Good Riddance/02 All Girls Are The Same.mp3
-57:Juice WRLD/[2018] Goodbye & Good Riddance/03 Lucid Dreams.mp3
-58:Juice WRLD/[2018] Goodbye & Good Riddance/04 Lean Wit Me.mp3
-59:Juice WRLD/[2018] Goodbye & Good Riddance/05 Wasted (feat. Lil Uzi Vert).mp3
-60:Juice WRLD/[2018] Goodbye & Good Riddance/13 Black & White.mp3
-61:Juice WRLD/Singles/[2018] Armed & Dangerous/Armed & Dangerous.mp3
-62:Juice WRLD/Singles/[2018] Hide/Hide (feat. Seezyn).mp3
-63:Juice WRLD/Singles/[2019] Graduation/Graduation.mp3
-64:Juice WRLD/Singles/[2018] Legends/Legends.mp3
-65:Kendrick Lamar/[2017] DAMN./06 LOYALTY. (feat. Rihanna).mp3
-66:Kendrick Lamar/[2017] DAMN./08 HUMBLE..mp3
-67:Kodak Black/[2018] Dying To Live/05 ZEZE (feat. Travis Scott & Offset).mp3
-68:Lil Mosey/[2018] Northsbest/01 Kamikaze.mp3
-69:Lil Mosey/[2018] Northsbest/03 Noticed.mp3
-70:Lil Peep/[2016] Hellboy/06 Cobain (feat. Lil Tracy).mp3
-71:Lil Peep/[2016] Hellboy/09 Worlds Away.mp3
-72:Lil Peep/[2016] Hellboy/11 Girls (feat. Horsehead).mp3
-73:Lil Peep/[2016] Hellboy/12 Nose Ring.mp3
-74:Lil Peep/[2015] Lil Peep Part One/01 Praying to the Sky.mp3
-75:Lil Peep/[2015] Lil Peep Part One/02 The Way I See Things.mp3
-76:Lil Skies/[2017] Alone/01 Life.mp3
-77:Lil Skies/[2017] Alone/02 Fake.mp3
-78:Lil Skies/[2018] Life of a Dark Rose/03 Red Roses (feat. Landon Cube).mp3
-79:Lil Skies/[2018] Life of a Dark Rose/04 Lust.mp3
-80:Lil Skies/[2018] Life of a Dark Rose/14 Nowadays (feat. Landon Cube).mp3
-81:Lil Tecca/[2019] We Love You Tecca/01 Ransom.mp3
-82:Lil Tecca/[2019] We Love You Tecca/04 Did It Again.mp3
-83:Lil Tecca/[2019] We Love You Tecca/05 Out Of Luck.mp3
-84:Lil Tjay/[2019] True 2 Myself/01 One Take.mp3
-85:Lil Tjay/[2019] True 2 Myself/03 F.N.mp3
-86:Lil Tjay/[2019] True 2 Myself/10 Leaked.mp3
-87:Lil Tjay/[2019] True 2 Myself/12 Brothers.mp3
-88:Lil Uzi Vert/[2015] Luv is Rage/16 Paradise.mp3
-89:Lil Uzi Vert/[2017] Luv is Rage 1.5/02 LUV SCARS K.o 1600.mp3
-90:Lil Uzi Vert/[2017] Luv is Rage 1.5/03 XO TOUR Llif3.mp3
-91:Lil Uzi Vert/[2017] Luv is Rage 2/05 The Way Life Goes.mp3
-92:Lil Uzi Vert/[2017] Luv is Rage 2/07 Feelings Mutual.mp3
-93:Lil Uzi Vert/[2017] Luv is Rage 2/08 Neon Guts (feat. Pharrell Williams).mp3
-94:Lil Uzi Vert/[2017] Luv is Rage 2/15 Dark Queen.mp3
-95:Lil Uzi Vert/[2017] Luv is Rage 2/20 20 Min.mp3
-96:Lil Uzi Vert/Singles/[2015] Finessin Hearts/Finessin Hearts.mp3
-97:Lil Uzi Vert/Singles/[2019] Sanguine Paradise/Sanguine Paradise.mp3
-98:Lil Uzi Vert/[2016] The Perfect Luv Tape/01 Do What I Want.mp3
-99:NAV/[2017] NAV/02 NAV.mp3
-100:NAV/[2017] NAV/04 Good For It.mp3
-101:NAV/[2018] Reckless/05 Champion (feat. Travis Scott).mp3
-102:NAV/[2018] Reckless/08 Wanted You (feat. Lil Uzi Vert).mp3
-103:NAV/[2016] The Introduction/01 Nothing On You.mp3
-104:NAV/[2016] The Introduction/04 Brown Boy.mp3
-105:NAV/[2016] The Introduction/08 Myself.mp3
-106:NAV/[2017] Perfect Timing/10 Call Me.mp3
-107:NBA Youngboy/[2017] AI Youngboy/07 Untouchable.mp3
-108:NBA Youngboy/[2018] Until Death Call My Name/03 Diamond Teeth Samurai.mp3
-109:NBA Youngboy/[2018] Until Death Call My Name/04 Outside Today.mp3
-110:NBA Youngboy/[2018] Until Death Call My Name/07 Solar Eclipse.mp3
-111:NBA Youngboy/[2018] Until Death Call My Name/20 Love Is Poison.mp3
-112:Polo G/Singles/[2019] Pop Out/Pop Out (feat. Lil Tjay).mp3
-113:Polo G/[2019] Die A Legend/03 Through Da Storm.mp3
-114:Polo G/[2019] Die A Legend/04 Effortless.mp3
-115:Polo G/[2019] Die A Legend/08 Finer Things.mp3
-116:Polo G/[2019] Die A Legend/11 Deep Wounds.mp3
-117:Polo G/[2019] Die A Legend/14 Pop Out Again (feat. Lil Baby & Gunna).mp3
-118:Polo G/Singles/[2019] Heartless/Heartless.m4a
-119:Post Malone/[2016] Stoney/12 Congratulations feat. Quavo.mp3
-120:Rich Brian/[2018] Amen/06 Glow Like Dat.mp3
-121:Rich Brian/[2019] The Sailor/05 Drive Safe.mp3
-122:Rich Brian/[2019] The Sailor/09 100 Degrees.mp3
-123:Roddy Ricch/[2018] Feed Tha Streets II/04 Die Young.mp3
-124:Roddy Ricch/[2018] Feed Tha Streets II/10 Every Season.mp3
-125:Roddy Ricch/[2019] Please Excuse Me For Being Antisocial/02 The Box.flac
-126:Roddy Ricch/[2019] Please Excuse Me For Being Antisocial/11 High Fashion (feat. Mustard).flac
-127:Roddy Ricch/[2019] Please Excuse Me For Being Antisocial/16 War Baby.flac
-128:Roddy Ricch/Singles/[2019] Ballin'/Ballin’.mp3
-129:Stormzy/Singles/[2019] Vossi Bop/Vossi Bop.mp3
-130:Tory Lanez/[2018] LoVE me NOw/05 TAlk tO Me (ft. Rich The Kid).mp3
-131:Trippie Redd/[2017] A Love Letter To You 2/01 Bust Down.mp3
-132:Trippie Redd/[2017] A Love Letter To You 2/03 In Too Deep.mp3
-133:Trippie Redd/[2017] A Love Letter To You 2/08 Hellboy.mp3
-134:Trippie Redd/[2017] A Love Letter To You 2/11 Overweight.mp3
-135:Trippie Redd/[2018] A Love Letter To You 3/01 Topanga.mp3
-136:Trippie Redd/[2018] A Love Letter To You 3/13 1400 _ 999 Freestyle (feat. Juice WRLD).mp3
-137:Trippie Redd/[2018] Life's A Trip/02 Taking A Walk.mp3
-138:Trippie Redd/[2018] Life's A Trip/03 Wish (Trippie Mix) (feat. Diplo).mp3
-139:Trippie Redd/[2018] Life's A Trip/04 Missing My Idols.mp3
-140:Trippie Redd/[2018] Life's A Trip/09 Dark Knight Dummo (feat. Travis Scott).mp3
-141:Willow Smith/[2014] 3/02 9.mp3
-142:Willow Smith/Singles/[2014] Female Energy/Female Energy.mp3
-143:Wiz Khalifa/[2014] Blacc Hollywood/03 Promises.mp3
-144:Wiz Khalifa/[2011] Cabin Fever/07 Middle Of You (feat. Chevy Woods).mp3
-145:Wiz Khalifa/[2009] Deal or No Deal/13 This Plane.mp3
-146:Wiz Khalifa/[2018] Rolling Papers 2/12 Hopeless Romantic (feat. Swae Lee).mp3
-147:Wiz Khalifa/[2012] Taylor Allderdice/01 Amber Ice.mp3
-148:Wiz Khalifa/[2012] Taylor Allderdice/02 California.mp3
-149:Wiz Khalifa/[2012] Taylor Allderdice/07 Nameless (feat. Chevy Woods).mp3
-150:XXXTENTACION/[2018] ?/03 Moonlight.mp3
-151:XXXTENTACION/[2018] ?/04 SAD!.mp3
-152:XXXTENTACION/[2018] ?/09 going down!.mp3
-153:XXXTENTACION/[2018] ?/13 SMASH! (feat. PnB Rock).mp3
-154:XXXTENTACION/[2018] ?/16 hope.mp3
-155:XXXTENTACION/[2017] 17/02 Jocelyn Flores.mp3
-156:XXXTENTACION/[2017] 17/04 Everybody Dies in Their Nightmares.mp3
-157:XXXTENTACION/[2017] 17/05 Revenge.mp3
-158:XXXTENTACION/[2017] 17/06 Save Me.mp3
-159:XXXTENTACION/[2017] 17/08 Fuck Love.mp3
-160:XXXTENTACION/[2017] A Ghetto Christmas Carol/01 A Ghetto Christmas Carol.mp3
-161:XXXTENTACION/[2019] Bad Vibes Forever/04 bad vibes forever.mp3
-162:XXXTENTACION/[2019] Bad Vibes Forever/06 I Changed Her Life.mp3
-163:XXXTENTACION/[2019] Bad Vibes Forever/16 ATTENTION!.mp3
-164:XXXTENTACION/Singles/[2018] Arms Around You/Arms Around You (feat. Lil Pump, Swae Lee & Maluma).mp3
-165:XXXTENTACION/Singles/[2019] Sauce!/Sauce!.mp3
-166:XXXTENTACION/[2018] skins/05 BAD!.mp3
-167:YBN Cordae/[2019] The Lost Boy/02 Have Mercy.mp3
-168:YBN Cordae/[2019] The Lost Boy/04 Bad Idea (feat. Chance the Rapper.mp3
-169:YBN Cordae/[2019] The Lost Boy/06 RNP (feat. Anderson .Paak).mp3
-170:YBN Cordae/[2019] The Lost Boy/07 Broke As Fuck.mp3
-171:YBN/[2018] YBN - The Mixtape/09 Whip It Up.m4a
-172:YBN/[2018] YBN - The Mixtape/14 Kung Fu.m4a
-173:YBN Cordae/Singles/[2019] Locationships/Locationships.mp3
-174:YBN/[2018] YBN - The Mixtape/22 Rubbin Off the Paint.m4a
-175:YNW Bslime/[2019] Baby Goat/08 Slime Emotions.m4a
-176:YNW Bslime/[2019] Baby Goat/11 Homework.m4a
-177:YNW Bslime/[2019] Baby Goat/12 Slime Dreams.m4a
-178:YNW Bslime/[2019] Baby Goat/13 Hot Sauce (feat. Lil Tjay).m4a
-179:YNW Melly/Singles/[2017] Murder On My Mind/Murder On My Mind.mp3
-180:YNW Melly/Singles/[2018] Mama Cry/Mama Cry.mp3
-181:YNW Melly/Singles/[2019] Mixed Personalities/Mixed Personalities (feat. Kanye West).mp3
-182:Lil Mosey/Singles/[2020] Blueberry Faygo/Blueberry Faygo.mp3
-183:YNW Melly/Singles/[2020] Suicidal/Suicidal (Remix) [feat. Juice WRLD].flac
-184:XXXTENTACION/Singles/[2019] where did u go?/where did u go (feat. Juice WRLD).opus
+0:¿Téo?/[2016] Selfless-ish/Selfless-ish.mp3
+1:¿Téo?/[2015] Pleidian Message/Pleiadian Message (feat. Jaden Smith).mp3
+2:a-ha/Singles/[1985] Take On Me/01 Take On Me.m4a
+3:B Young/Singles/[2017] Jumanji/Jumanji.mp3
+4:Bob Marley/[1984] Legend/01 Is This Love.mp3
+5:Bob Marley/[1984] Legend/02 No Woman No Cry.mp3
+6:Bob Marley/[1984] Legend/03 Could You Be Loved.mp3
+7:Bob Marley/[1984] Legend/04 Three Little Birds.mp3
+8:Bob Marley/[1984] Legend/05 Buffalo Soldier.mp3
+9:Bob Marley/[1984] Legend/06 Get Up Stand Up.mp3
+10:Bob Marley/[1984] Legend/07 Stir It Up.mp3
+11:Bob Marley/[1984] Legend/08 One Love_People Get Ready.mp3
+12:Bob Marley/[1984] Legend/09 I Shot The Sheriff.mp3
+13:Bob Marley/[1984] Legend/11 Redemption Song.mp3
+14:Bob Marley/[1984] Legend/12 Satisfy My Soul.mp3
+15:Bob Marley/[1984] Legend/14 Jamming.mp3
+16:Bob Marley/[1980] Uprising/08 Could You Be Loved.mp3
+17:Bob Marley/[1978] Kaya/05 Satisfy My Soul.mp3
+18:Bob Marley/[1978] Kaya/10 Time Will Tell.mp3
+19:Bob Marley/[1977] Exodus/1-05 Exodus.mp3
+20:Bob Marley/[1977] Exodus/1-01 Natural Mystic.mp3
+21:Bob Marley/[1976] Rastaman Vibration/04 Positive Vibration.mp3
+22:Bob Marley/[1976] Rastaman Vibration/08 Roots Rock Reggae.mp3
+23:Clairo/[2018] diary 001/02 Flaming Hot Cheetos.mp3
+24:Clairo/[2018] diary 001/04 4EVER.mp3
+25:Clairo/[2018] diary 001/05 Pretty Girl.mp3
+26:Clairo/[2019] immunity/05 Bags.mp3
+27:Clairo/[2019] immunity/06 Softly.mp3
+28:Clairo/[2019] immunity/07 Sofia.mp3
+29:Clairo/[2019] immunity/02 Impossible.mp3
+30:Clairo/[2019] immunity/03 Closer To You.mp3
+31:Denzel Curry/[2018] TA13OO/2-04 SIRENS l Z1RENZ (feat. J.I.D).mp3
+32:Damian Marley/[2017] Stony Hill/05 Medication (feat. Stephen Marley).mp3
+33:Jaden Smith/[2014] CTV2/07 PCH.mp3
+34:Jaden Smith/Singles/[2014] Blue Ocean/Blue Ocean.mp3
+35:Jaden Smith/Singles/[2015] 4 My 1/4 My 1.mp3
+36:Jaden Smith/Singles/[2015] Offering/Offering.mp3
+37:Jhené Aiko/[2013] Sail Out/02 Bed Peace (feat. Childish Gambino.mp3
+38:Jhené Aiko/[2013] Sail Out/06 3_16 AM.mp3
+39:Jhené Aiko/[2014] Souled Out/04 Spotless Mind.mp3
+40:Jhené Aiko/[2014] Souled Out/10 Eternal Sunshine.mp3
+41:Jhené Aiko/[2017] Trip/Moments (feat. Big Sean).mp3
+42:Jhené Aiko/[2017] Trip/Trip (feat. Mali Music).mp3
+43:John Lennon/[1997] Lennon Legend/02 Instant Karma!.mp3
+44:John Lennon/[1997] Lennon Legend/04 Jealous Guy.mp3
+45:John Lennon/[1997] Lennon Legend/08 Mind Games.mp3
+46:John Lennon/[1997] Lennon Legend/13 Woman.mp3
+47:John Lennon/[1997] Lennon Legend/18 Working Class Hero.mp3
+48:John Lennon/[1997] Lennon Legend/20 Give Peace A Chance.mp3
+49:Nas/[1994] Illmatic/03 Life's A Bitch.mp3
+50:Nas/[1996] It Was Written/14 If I Ruled The World (Imagine That) (feat. Lauryn Hill).mp3
+51:Nas/[1999] I Am/13 Nas Is Like.mp3
+52:Niki/[2018] Zephyr/01 Newsflash!.mp3
+53:Niki/[2018] Zephyr/05 Vintage.mp3
+54:Niki/[2018] Zephyr/06 Dancing with the Devil.mp3
+55:Rich Brian/[2019] The Sailor/09 100 Degrees.mp3
+56:Russ/[2017] There's Really A Wolf/11 What They Want.mp3
+57:Russ/[2017] There's Really A Wolf/14 Losin Control.mp3
+58:Russ/[2018] ZOO/4 Missin You Crazy.mp3
+59:The Midnight/[2014] Days of Thunder/02 Gloria.mp3
+60:The Midnight/[2014] Days of Thunder/04 Days of thunder.mp3
+61:The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3
+62:Toto/Singles/[1982] Africa/Africa.mp3
+63:We The Kings/Singles/[2007] Check Yes, Juliet/Check Yes, Juliet.mp3
+64:Yellowcard/Singles/[2003] Ocean Avenue/Ocean Avenue.mp3
 playlist_end

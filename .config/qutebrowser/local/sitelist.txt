@@ -15,6 +15,10 @@ https://nitter.snopyta.org/ZoomerClips
 https://nitter.snopyta.org/krystalball
 https://nitter.snopyta.org/esaagar
 
+#chaine youtube
+wiloo https://invidious.snopyta.org/watch?v=kze8-aV2DF8
+
+
 #imageboards
 lainchan https://lainchan.org/
 arisuchan https://arisuchan.jp/
@@ -160,3 +164,6 @@ https://raymii.org/s/software/totext.py-Convert_URL_or_RSS_feed_to_plaintext_wit
 https://webring.xxiivv.com/
 http://reasonablypolymorphic.com/
 http://typehere.co/
+
+CONSUMER DISOBEDIENCE
+http://www.missminimalist.com/2010/11/a-short-guide-to-consumer-disobedience/

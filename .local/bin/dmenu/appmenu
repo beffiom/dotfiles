@@ -1,8 +1,7 @@
 #!/bin/sh
-case "$(printf "signal\\nlibreoffice\\nminetest\\npsp\\nvirt-manager" | dmenu)" in
-	"signal") signal-desktop ;;
-	"libreoffice") libreoffice ;;
-	"minetest") minetest ;;
-	"psp") ppsspp-sdl ;;
-	"virt-manager") virt-manager ;;
+case "$(printf "productivity\\ninternet\\ngames\\nsettings" | dmenu)" in
+	"productivity") productivity-menu ;;
+	"internet") internet-menu ;;
+	"games") games-menu ;;
+	"settings") settings-menu ;;
 esac

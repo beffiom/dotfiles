@@ -3,7 +3,7 @@ stty -ixon # Disable ctrl-s and ctrl-q.
 shopt -s autocd #Allows you to cd into directory merely by typing the directory name.
 HISTSIZE= HISTFILESIZE= # Infinite history.
 
-export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
+export PS1="$ "
 
 #aliases
 alias logout='prompt "Logout?" "kill -9 -1"'
@@ -20,6 +20,7 @@ alias vifm="bash ~/.config/vifm/scripts/vifmrun"
 alias newsboat="newsboat -c ~/.config/newsboat/cache.db -C ~/.config/newsboat/config -u ~/.config/newsboat/url"
 alias sdn="shutdown -h now"
 alias ls="ls -hN --color=auto --group-directories-first"
+alias la="ls -A"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias kiwix-start="kiwix-serve --port=8080 ~/Devices/A\:A_Drive/Multimedia/Books/Wikipedia/*.zim"

@@ -1,0 +1,6 @@
+#!/bin/sh
+case "$(printf "pcmanfm\\nlxappearance" | dmenu)" in
+	"pcmanfm") pcmanfm ;;
+	"lxappearance") lxappearance ;;
+esac
+

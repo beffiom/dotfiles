@@ -73,3 +73,4 @@ bspc config presel_feedback_color	    "#c792ea"
 ###################
 ### BSPWM rules ###
 ###################
+bspc rule -a Zathura state=pseudo_tiled

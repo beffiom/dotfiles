@@ -1,0 +1,8 @@
+#!/bin/sh
+case "$(printf "brave\\nnicotine+\\nqtwebflix\\ntransmission" | dmenu)" in
+	"brave") brave ;;
+	"nicotine+") nicotine ;;
+	"qtwebflix") qtwebflix ;;
+	"transmission") transmission-gtk ;;
+esac
+
