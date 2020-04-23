@@ -55,7 +55,7 @@ super + shift + x
 
 ## wifi menu
 super + shift + w
-	sudo connmenu
+	doas connmenu
 ## manage passwords
 super + F6
 	keepmenu
@@ -110,7 +110,7 @@ XF86MonBrightness{Down,Up}
 
 ## keyboard backlight control
 ## XF86KbdBrightness{Down,Up}
-##	sudo light -s "sysfs/leds/smc::kbd_backlight" -{U,A} 5 ; dunstify -u low -r 7 -i ~/.config/appearance/icons/preferences-desktop-keyboard.svg "Brightness: $(light -s 'sysfs/leds/smc::kbd_backlight' -G)%"
+##	doas light -s "sysfs/leds/smc::kbd_backlight" -{U,A} 5 ; dunstify -u low -r 7 -i ~/.config/appearance/icons/preferences-desktop-keyboard.svg "Brightness: $(light -s 'sysfs/leds/smc::kbd_backlight' -G)%"
 
 ## display clipboard contents
 super + c

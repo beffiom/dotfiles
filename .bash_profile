@@ -11,17 +11,16 @@ export TERMINAL="st"
 export LAUNCHER="dmenu_run"
 export FILEBROWSER="$TERMINAL -e bash $HOME/.config/vifm/scripts/vifmrun"
 export WEBBROWSER="qutebrowser"
-export YOUTUBE="qutebrowser https://invidio.us"
 export READER="zathura"
 export MUSIC="$TERMINAL -e ncmpcpp"
 export EMAIL="$TERMINAL -e neomutt"
 export AUDIO="$TERMINAL -e pulsemixer"
 export PROCESS="$TERMINAL -e htop"
-# export TORRENT="$TERMINAL -e tremc"
+export TORRENT="$TERMINAL -e tremc"
 
 # autostart x
-if "$(tty)" = "/dev/pts/1"; then
-  exec startx
+if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
+  exec startx >/dev/null 2>&1
 fi
 
 # source bashrc

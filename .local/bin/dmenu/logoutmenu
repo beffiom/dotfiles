@@ -2,6 +2,6 @@
 case "$(printf "lockscreen\\nlogout\\nreboot\\nshutdown" | dmenu)" in
 	"lockscreen") slock ;;
 	"logout") prompt "logout?" "kill -9 -1" ;;
-	"reboot") prompt "reboot computer?" "reboot" ;;
-	"shutdown") prompt "shutdown computer?" "shutdown -h now" ;;
+	"reboot") prompt "reboot computer?" "doas reboot" ;;
+	"shutdown") prompt "shutdown computer?" "doas shutdown -h now" ;;
 esac

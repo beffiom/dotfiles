@@ -14,19 +14,18 @@ polybar main &
 polybar mon1 &
 compton --config $XDG_CONFIG_HOME/appearance/compton.conf &
 xautolock -detectsleep -time 5 -locker slock &
-#redshift -l 27.950575:-82.457176 -t 6500:3000 &
+redshift -l 27.950575:-82.457176 -t 6500:3000 &
 xrdb ~/.config/appearance/Xresources
 xmodmap ~/.config/appearance/Xmodmap
 xrandr -output eDP1 --mode 1920x1080
-xrandr -output HDMI1 --mode 1920x1080
 unclutter -idle 3 &
 setbg
 
 ################
 ### MONITORS ###
 ################
-bspc monitor eDP1 -d 4 5 6
-bspc monitor HDMI1 -d 1 2 4
+bspc monitor eDP1 -d 1 2 3 4
+bspc monitor HDMI1 -d 5 6 7
 
 ############################
 #### BSPWM configuration ###

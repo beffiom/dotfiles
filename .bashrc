@@ -27,10 +27,11 @@ alias kiwix-start="kiwix-serve --port=8080 ~/Devices/A\:A_Drive/Multimedia/Books
 alias dv="youtube-dl --add-metadata --all-subs -i -o '[%(uploader)s] %(title)s.%(ext)s'"
 alias da="youtube-dl --add-metadata -i -o '%(title)s.%(ext)s' -x -f bestaudio/best"
 alias dl="wget --backups"
-alias pi="sudo pacman -Sy"
-alias pu="sudo pacman -Syu"
-alias pr="sudo pacman -R"
-alias por="sudo pacman -Rns"
+alias vpu='doas xbps-install -Su'
+alias vpi='doas xbps-install -S'
+alias vpr='doas xbps-remove -R'
+alias vpq='xbps-query -Rs'
+alias vpc='doas xbps-remove -Oo'
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"
 alias acestream="acestreamengine --client-console"
