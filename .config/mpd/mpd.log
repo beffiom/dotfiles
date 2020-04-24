@@ -40524,3 +40524,902 @@ Apr 23 14:57 : player: played "John Lennon/[1997] Lennon Legend/04 Jealous Guy.m
 Apr 23 15:01 : player: played "John Lennon/[1997] Lennon Legend/18 Working Class Hero.mp3"
 Apr 23 15:02 : client: [211] opened from 127.0.0.1:44168
 Apr 23 15:02 : client: [211] closed
+Apr 23 18:10 : client: [0] opened from 127.0.0.1:33222
+Apr 23 18:10 : client: [1] opened from 127.0.0.1:33226
+Apr 23 18:10 : client: [2] opened from 127.0.0.1:33230
+Apr 23 18:10 : client: [2] closed
+Apr 23 18:10 : client: [3] opened from 127.0.0.1:33234
+Apr 23 18:10 : client: [3] closed
+Apr 23 18:10 : client: [4] opened from 127.0.0.1:33238
+Apr 23 18:10 : client: [4] closed
+Apr 23 18:10 : client: [5] opened from 127.0.0.1:33242
+Apr 23 18:10 : client: [5] closed
+Apr 23 18:10 : client: [1] closed
+Apr 23 18:10 : client: [6] opened from 127.0.0.1:33246
+Apr 23 18:10 : client: [6] closed
+Apr 23 18:10 : client: [7] opened from 127.0.0.1:33250
+Apr 23 18:10 : client: [7] closed
+Apr 23 18:10 : client: [8] opened from 127.0.0.1:33254
+Apr 23 18:10 : client: [8] closed
+Apr 23 18:10 : client: [9] opened from 127.0.0.1:33258
+Apr 23 18:10 : client: [9] closed
+Apr 23 18:10 : client: [10] opened from 127.0.0.1:33262
+Apr 23 18:10 : client: [10] closed
+Apr 23 18:10 : client: [11] opened from 127.0.0.1:33266
+Apr 23 18:10 : client: [12] opened from 127.0.0.1:33270
+Apr 23 18:10 : client: [12] closed
+Apr 23 18:10 : client: [13] opened from 127.0.0.1:33274
+Apr 23 18:10 : client: [13] closed
+Apr 23 18:11 : client: [14] opened from 127.0.0.1:33278
+Apr 23 18:11 : client: [14] closed
+Apr 23 18:11 : client: [15] opened from 127.0.0.1:33282
+Apr 23 18:11 : client: [15] closed
+Apr 23 18:11 : client: [16] opened from 127.0.0.1:33286
+Apr 23 18:11 : client: [16] closed
+Apr 23 18:11 : client: [17] opened from 127.0.0.1:33290
+Apr 23 18:11 : client: [18] opened from 127.0.0.1:33294
+Apr 23 18:11 : client: [18] closed
+Apr 23 18:11 : client: [17] closed
+Apr 23 18:11 : client: [19] opened from 127.0.0.1:33298
+Apr 23 18:11 : client: [19] closed
+Apr 23 18:12 : client: [11] closed
+Apr 23 18:12 : client: [20] opened from 127.0.0.1:33302
+Apr 23 18:12 : client: [21] opened from 127.0.0.1:33306
+Apr 23 18:12 : client: [21] closed
+Apr 23 18:12 : client: [22] opened from 127.0.0.1:33310
+Apr 23 18:12 : client: [22] closed
+Apr 23 18:12 : client: [23] opened from 127.0.0.1:33314
+Apr 23 18:12 : client: [23] closed
+Apr 23 18:12 : client: [24] opened from 127.0.0.1:33318
+Apr 23 18:12 : client: [24] closed
+Apr 23 18:12 : client: [25] opened from 127.0.0.1:33322
+Apr 23 18:12 : client: [25] closed
+Apr 23 18:12 : client: [26] opened from 127.0.0.1:33326
+Apr 23 18:12 : client: [26] closed
+Apr 23 18:12 : client: [20] closed
+Apr 23 18:12 : avahi: Client Disconnected, will reconnect shortly
+Apr 23 18:12 : avahi: Could not reconnect: Daemon not running
+Apr 23 18:12 : client: [0] closed
+Apr 23 18:12 : player: played "John Lennon/[1997] Lennon Legend/08 Mind Games.mp3"
+Apr 23 20:18 : client: [0] opened from 127.0.0.1:54946
+Apr 23 20:18 : client: [1] opened from 127.0.0.1:54950
+Apr 23 20:18 : client: [1] closed
+Apr 23 20:18 : client: [2] opened from 127.0.0.1:54954
+Apr 23 20:18 : client: [2] closed
+Apr 23 20:21 : player: played "John Lennon/[1997] Lennon Legend/08 Mind Games.mp3"
+Apr 23 20:21 : client: [3] opened from 127.0.0.1:54970
+Apr 23 20:21 : client: [3] closed
+Apr 23 20:22 : avahi: Client Disconnected, will reconnect shortly
+Apr 23 20:22 : avahi: Could not reconnect: Daemon not running
+Apr 23 20:31 : client: [0] closed
+Apr 23 20:31 : client: [4] opened from 127.0.0.1:54986
+Apr 23 20:34 : client: [4] closed
+Apr 23 20:34 : client: [5] opened from 127.0.0.1:54988
+Apr 23 20:36 : client: [5] closed
+Apr 23 20:36 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Apr 23 20:36 : player: played "Clairo/[2018] diary 001/04 4EVER.mp3"
+Apr 23 20:51 : client: [0] opened from 127.0.0.1:57244
+Apr 23 20:51 : client: [1] opened from 127.0.0.1:57248
+Apr 23 20:51 : client: [1] closed
+Apr 23 20:51 : client: [2] opened from 127.0.0.1:57252
+Apr 23 20:51 : client: [2] closed
+Apr 23 20:53 : player: played "Clairo/[2018] diary 001/04 4EVER.mp3"
+Apr 23 20:57 : player: played "Toto/Singles/[1982] Africa/Africa.mp3"
+Apr 23 20:58 : avahi: Client Disconnected, will reconnect shortly
+Apr 23 20:58 : avahi: Could not reconnect: Daemon not running
+Apr 23 20:58 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Apr 23 20:58 : client: [0] closed
+Apr 23 20:58 : player: played "Jaden Smith/[2014] CTV2/07 PCH.mp3"
+Apr 23 21:01 : client: [0] opened from 127.0.0.1:41502
+Apr 23 21:02 : client: [0] closed
+Apr 23 21:02 : client: [1] opened from 127.0.0.1:41504
+Apr 23 21:03 : client: [2] opened from 127.0.0.1:41508
+Apr 23 21:03 : client: [2] closed
+Apr 23 21:03 : client: [3] opened from 127.0.0.1:41512
+Apr 23 21:03 : client: [3] closed
+Apr 23 21:03 : client: [4] opened from 127.0.0.1:41516
+Apr 23 21:03 : client: [4] closed
+Apr 23 21:03 : client: [5] opened from 127.0.0.1:41520
+Apr 23 21:03 : client: [5] closed
+Apr 23 21:03 : client: [6] opened from 127.0.0.1:41524
+Apr 23 21:03 : client: [6] closed
+Apr 23 21:14 : avahi: Client Disconnected, will reconnect shortly
+Apr 23 21:14 : avahi: Could not reconnect: Daemon not running
+Apr 23 21:14 : client: [1] closed
+Apr 23 21:14 : player: played "Nas/[1994] Illmatic/03 Life's A Bitch.mp3"
+Apr 23 21:29 : client: [0] opened from 127.0.0.1:44792
+Apr 23 21:29 : client: [1] opened from 127.0.0.1:44796
+Apr 23 21:29 : client: [1] closed
+Apr 23 21:29 : client: [2] opened from 127.0.0.1:44800
+Apr 23 21:29 : client: [2] closed
+Apr 23 21:31 : client: [0] closed
+Apr 23 21:31 : client: [3] opened from 127.0.0.1:44802
+Apr 23 21:31 : avahi: Client Disconnected, will reconnect shortly
+Apr 23 21:31 : avahi: Could not reconnect: Daemon not running
+Apr 23 21:31 : client: [3] closed
+Apr 23 21:31 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Apr 23 21:31 : player: played "Nas/[1994] Illmatic/03 Life's A Bitch.mp3"
+Apr 23 21:32 : client: [0] opened from 127.0.0.1:40992
+Apr 23 21:34 : player: played "Nas/[1994] Illmatic/03 Life's A Bitch.mp3"
+Apr 23 21:37 : client: [1] opened from 127.0.0.1:40996
+Apr 23 21:37 : client: [1] closed
+Apr 23 21:37 : client: [2] opened from 127.0.0.1:41000
+Apr 23 21:37 : client: [2] closed
+Apr 23 21:37 : client: [3] opened from 127.0.0.1:41004
+Apr 23 21:37 : client: [3] closed
+Apr 23 21:37 : client: [4] opened from 127.0.0.1:41008
+Apr 23 21:37 : client: [4] closed
+Apr 23 21:37 : client: [5] opened from 127.0.0.1:41012
+Apr 23 21:37 : client: [5] closed
+Apr 23 21:40 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Apr 23 21:40 : client: [6] opened from 127.0.0.1:41016
+Apr 23 21:40 : client: [6] closed
+Apr 23 21:40 : client: [7] opened from 127.0.0.1:41020
+Apr 23 21:40 : client: [7] closed
+Apr 23 21:40 : client: [8] opened from 127.0.0.1:41028
+Apr 23 21:40 : client: [8] closed
+Apr 23 21:59 : client: [9] opened from 127.0.0.1:41088
+Apr 23 21:59 : client: [9] closed
+Apr 23 21:59 : client: [10] opened from 127.0.0.1:41092
+Apr 23 21:59 : client: [10] closed
+Apr 23 21:59 : client: [11] opened from 127.0.0.1:41096
+Apr 23 21:59 : client: [11] closed
+Apr 23 21:59 : client: [12] opened from 127.0.0.1:41100
+Apr 23 21:59 : client: [12] closed
+Apr 23 21:59 : client: [13] opened from 127.0.0.1:41104
+Apr 23 21:59 : client: [13] closed
+Apr 23 21:59 : client: [14] opened from 127.0.0.1:41108
+Apr 23 21:59 : client: [14] closed
+Apr 23 21:59 : client: [15] opened from 127.0.0.1:41112
+Apr 23 21:59 : client: [15] closed
+Apr 23 21:59 : client: [16] opened from 127.0.0.1:41116
+Apr 23 21:59 : client: [16] closed
+Apr 23 21:59 : client: [17] opened from 127.0.0.1:41120
+Apr 23 21:59 : client: [17] closed
+Apr 23 21:59 : client: [18] opened from 127.0.0.1:41124
+Apr 23 21:59 : client: [18] closed
+Apr 23 21:59 : client: [19] opened from 127.0.0.1:41128
+Apr 23 21:59 : client: [19] closed
+Apr 23 21:59 : client: [20] opened from 127.0.0.1:41132
+Apr 23 21:59 : client: [20] closed
+Apr 23 21:59 : client: [21] opened from 127.0.0.1:41136
+Apr 23 21:59 : client: [21] closed
+Apr 23 22:00 : client: [22] opened from 127.0.0.1:41140
+Apr 23 22:00 : client: [22] closed
+Apr 23 22:00 : client: [23] opened from 127.0.0.1:41144
+Apr 23 22:00 : client: [23] closed
+Apr 23 22:00 : client: [24] opened from 127.0.0.1:41148
+Apr 23 22:00 : client: [24] closed
+Apr 23 22:00 : client: [0] closed
+Apr 23 22:00 : client: [25] opened from 127.0.0.1:41150
+Apr 23 22:01 : client: [26] opened from 127.0.0.1:41154
+Apr 23 22:01 : client: [26] closed
+Apr 23 22:01 : client: [27] opened from 127.0.0.1:41158
+Apr 23 22:01 : client: [27] closed
+Apr 23 22:01 : client: [28] opened from 127.0.0.1:41162
+Apr 23 22:01 : client: [28] closed
+Apr 23 22:01 : client: [29] opened from 127.0.0.1:41166
+Apr 23 22:01 : client: [29] closed
+Apr 23 22:01 : client: [30] opened from 127.0.0.1:41170
+Apr 23 22:01 : client: [30] closed
+Apr 23 22:01 : client: [31] opened from 127.0.0.1:41174
+Apr 23 22:01 : client: [31] closed
+Apr 23 22:01 : client: [32] opened from 127.0.0.1:41178
+Apr 23 22:01 : client: [32] closed
+Apr 23 22:01 : client: [33] opened from 127.0.0.1:41182
+Apr 23 22:01 : client: [33] closed
+Apr 23 22:01 : client: [34] opened from 127.0.0.1:41186
+Apr 23 22:01 : client: [34] closed
+Apr 23 22:01 : client: [35] opened from 127.0.0.1:41190
+Apr 23 22:01 : client: [35] closed
+Apr 23 22:01 : client: [36] opened from 127.0.0.1:41194
+Apr 23 22:01 : client: [36] closed
+Apr 23 22:01 : client: [37] opened from 127.0.0.1:41198
+Apr 23 22:01 : client: [37] closed
+Apr 23 22:02 : client: [25] closed
+Apr 23 22:02 : client: [38] opened from 127.0.0.1:41200
+Apr 23 22:03 : client: [38] closed
+Apr 23 22:03 : client: [39] opened from 127.0.0.1:41202
+Apr 23 22:04 : client: [39] closed
+Apr 23 22:04 : client: [40] opened from 127.0.0.1:41204
+Apr 23 22:06 : client: [41] opened from 127.0.0.1:41306
+Apr 23 22:06 : client: [42] opened from 127.0.0.1:41310
+Apr 23 22:06 : client: [42] closed
+Apr 23 22:06 : client: [43] opened from 127.0.0.1:41314
+Apr 23 22:06 : client: [43] closed
+Apr 23 22:06 : client: [41] closed
+Apr 23 22:07 : client: [44] opened from 127.0.0.1:41318
+Apr 23 22:07 : client: [45] opened from 127.0.0.1:41322
+Apr 23 22:07 : client: [45] closed
+Apr 23 22:07 : client: [46] opened from 127.0.0.1:41326
+Apr 23 22:07 : client: [46] closed
+Apr 23 22:07 : player: played "The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3"
+Apr 23 22:07 : client: [47] opened from 127.0.0.1:41330
+Apr 23 22:07 : client: [47] closed
+Apr 23 22:07 : client: [48] opened from 127.0.0.1:41334
+Apr 23 22:07 : client: [48] closed
+Apr 23 22:08 : client: [44] closed
+Apr 23 22:09 : client: [40] closed
+Apr 23 22:09 : client: [49] opened from 127.0.0.1:41336
+Apr 23 22:10 : client: [50] opened from 127.0.0.1:41340
+Apr 23 22:10 : client: [51] opened from 127.0.0.1:41344
+Apr 23 22:10 : client: [51] closed
+Apr 23 22:10 : client: [52] opened from 127.0.0.1:41348
+Apr 23 22:10 : client: [52] closed
+Apr 23 22:10 : client: [50] closed
+Apr 23 22:11 : player: played "¿Téo?/[2015] Pleidian Message/Pleiadian Message (feat. Jaden Smith).mp3"
+Apr 23 22:12 : client: [49] closed
+Apr 23 22:12 : client: [53] opened from 127.0.0.1:41364
+Apr 23 22:14 : client: [54] opened from 127.0.0.1:41368
+Apr 23 22:14 : client: [54] closed
+Apr 23 22:14 : client: [55] opened from 127.0.0.1:41372
+Apr 23 22:14 : client: [55] closed
+Apr 23 22:14 : client: [56] opened from 127.0.0.1:41376
+Apr 23 22:14 : client: [56] closed
+Apr 23 22:18 : client: [53] closed
+Apr 23 22:18 : client: [57] opened from 127.0.0.1:41424
+Apr 23 22:18 : client: [57] closed
+Apr 23 22:18 : client: [58] opened from 127.0.0.1:41426
+Apr 23 22:19 : client: [58] closed
+Apr 23 22:19 : client: [59] opened from 127.0.0.1:41428
+Apr 23 22:21 : client: [59] closed
+Apr 23 22:21 : client: [60] opened from 127.0.0.1:41430
+Apr 23 22:23 : client: [60] closed
+Apr 23 22:23 : client: [61] opened from 127.0.0.1:41434
+Apr 23 22:23 : client: [61] closed
+Apr 23 22:23 : client: [62] opened from 127.0.0.1:41436
+Apr 23 22:23 : client: [63] opened from 127.0.0.1:41440
+Apr 23 22:23 : client: [64] opened from 127.0.0.1:41444
+Apr 23 22:23 : client: [64] closed
+Apr 23 22:23 : client: [65] opened from 127.0.0.1:41448
+Apr 23 22:23 : client: [65] closed
+Apr 23 22:23 : client: [63] closed
+Apr 23 22:23 : client: [66] opened from 127.0.0.1:41452
+Apr 23 22:23 : client: [67] opened from 127.0.0.1:41456
+Apr 23 22:23 : client: [67] closed
+Apr 23 22:23 : client: [68] opened from 127.0.0.1:41460
+Apr 23 22:23 : client: [68] closed
+Apr 23 22:24 : client: [66] closed
+Apr 23 22:24 : client: [69] opened from 127.0.0.1:41464
+Apr 23 22:24 : client: [70] opened from 127.0.0.1:41468
+Apr 23 22:24 : client: [70] closed
+Apr 23 22:24 : client: [71] opened from 127.0.0.1:41472
+Apr 23 22:24 : client: [71] closed
+Apr 23 22:24 : client: [69] closed
+Apr 23 22:24 : client: [72] opened from 127.0.0.1:41476
+Apr 23 22:24 : client: [73] opened from 127.0.0.1:41480
+Apr 23 22:24 : client: [73] closed
+Apr 23 22:24 : client: [74] opened from 127.0.0.1:41484
+Apr 23 22:24 : client: [74] closed
+Apr 23 22:24 : client: [72] closed
+Apr 23 22:25 : client: [62] closed
+Apr 23 22:25 : client: [75] opened from 127.0.0.1:41486
+Apr 23 22:26 : client: [75] closed
+Apr 23 22:26 : client: [76] opened from 127.0.0.1:41488
+Apr 23 22:26 : client: [76] closed
+Apr 23 22:26 : client: [77] opened from 127.0.0.1:41490
+Apr 23 22:27 : client: [77] closed
+Apr 23 22:27 : client: [78] opened from 127.0.0.1:41492
+Apr 23 22:29 : client: [78] closed
+Apr 23 22:29 : client: [79] opened from 127.0.0.1:41502
+Apr 23 22:29 : client: [79] closed
+Apr 23 22:29 : client: [80] opened from 127.0.0.1:41504
+Apr 23 22:29 : client: [80] closed
+Apr 23 22:29 : client: [81] opened from 127.0.0.1:41506
+Apr 23 22:30 : client: [81] closed
+Apr 23 22:30 : client: [82] opened from 127.0.0.1:41508
+Apr 23 22:30 : client: [82] closed
+Apr 23 22:30 : client: [83] opened from 127.0.0.1:41510
+Apr 23 22:30 : client: [83] closed
+Apr 23 22:30 : client: [84] opened from 127.0.0.1:41512
+Apr 23 22:30 : client: [84] closed
+Apr 23 22:30 : client: [85] opened from 127.0.0.1:41514
+Apr 23 22:31 : client: [85] closed
+Apr 23 22:31 : client: [86] opened from 127.0.0.1:41516
+Apr 23 22:31 : client: [86] closed
+Apr 23 22:31 : client: [87] opened from 127.0.0.1:41518
+Apr 23 22:32 : client: [87] closed
+Apr 23 22:32 : client: [88] opened from 127.0.0.1:41520
+Apr 23 22:32 : client: [88] closed
+Apr 23 22:32 : client: [89] opened from 127.0.0.1:41522
+Apr 23 22:32 : client: [89] closed
+Apr 23 22:32 : client: [90] opened from 127.0.0.1:41524
+Apr 23 22:32 : client: [90] closed
+Apr 23 22:32 : client: [91] opened from 127.0.0.1:41526
+Apr 23 22:32 : client: [91] closed
+Apr 23 22:32 : client: [92] opened from 127.0.0.1:41528
+Apr 23 22:34 : client: [92] closed
+Apr 23 22:34 : client: [93] opened from 127.0.0.1:41530
+Apr 23 22:34 : client: [93] closed
+Apr 23 22:34 : client: [94] opened from 127.0.0.1:41532
+Apr 23 22:35 : client: [94] closed
+Apr 23 22:35 : client: [95] opened from 127.0.0.1:41534
+Apr 23 22:35 : client: [95] closed
+Apr 23 22:35 : client: [96] opened from 127.0.0.1:41536
+Apr 23 22:40 : client: [96] closed
+Apr 23 22:40 : client: [97] opened from 127.0.0.1:41566
+Apr 23 22:45 : client: [98] opened from 127.0.0.1:41612
+Apr 23 22:45 : client: [98] closed
+Apr 23 22:45 : client: [99] opened from 127.0.0.1:41616
+Apr 23 22:45 : client: [99] closed
+Apr 23 22:46 : player: played "Bob Marley/[1984] Legend/11 Redemption Song.mp3"
+Apr 23 22:50 : player: played "Clairo/[2019] immunity/02 Impossible.mp3"
+Apr 23 22:50 : client: [97] closed
+Apr 23 22:50 : client: [100] opened from 127.0.0.1:41670
+Apr 23 22:50 : client: [100] closed
+Apr 23 22:50 : client: [101] opened from 127.0.0.1:41672
+Apr 23 22:50 : client: [101] closed
+Apr 23 22:50 : client: [102] opened from 127.0.0.1:41674
+Apr 23 22:55 : player: played "Jaden Smith/[2014] CTV2/07 PCH.mp3"
+Apr 23 22:58 : player: played "Yellowcard/Singles/[2003] Ocean Avenue/Ocean Avenue.mp3"
+Apr 23 23:01 : player: played "Niki/[2018] Zephyr/06 Dancing with the Devil.mp3"
+Apr 23 23:04 : player: played "Rich Brian/[2019] The Sailor/09 100 Degrees.mp3"
+Apr 23 23:07 : player: played "Denzel Curry/[2018] TA13OO/2-04 SIRENS l Z1RENZ (feat. J.I.D).mp3"
+Apr 23 23:14 : player: played "Bob Marley/[1984] Legend/02 No Woman No Cry.mp3"
+Apr 23 23:18 : player: played "Damian Marley/[2017] Stony Hill/05 Medication (feat. Stephen Marley).mp3"
+Apr 23 23:21 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Apr 23 23:21 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 23 23:22 : player: played "Jhené Aiko/[2014] Souled Out/10 Eternal Sunshine.mp3"
+Apr 23 23:22 : client: [103] opened from 127.0.0.1:42130
+Apr 23 23:22 : client: [103] closed
+Apr 23 23:22 : client: [104] opened from 127.0.0.1:42134
+Apr 23 23:22 : client: [104] closed
+Apr 23 23:22 : client: [105] opened from 127.0.0.1:42138
+Apr 23 23:22 : client: [105] closed
+Apr 23 23:22 : client: [106] opened from 127.0.0.1:42142
+Apr 23 23:22 : client: [106] closed
+Apr 23 23:25 : player: played "Jhené Aiko/[2017] Trip/Moments (feat. Big Sean).mp3"
+Apr 23 23:25 : client: [107] opened from 127.0.0.1:42180
+Apr 23 23:25 : client: [107] closed
+Apr 23 23:25 : client: [108] opened from 127.0.0.1:42184
+Apr 23 23:25 : client: [108] closed
+Apr 23 23:26 : client: [109] opened from 127.0.0.1:42230
+Apr 23 23:26 : client: [109] closed
+Apr 23 23:26 : client: [110] opened from 127.0.0.1:42234
+Apr 23 23:26 : client: [110] closed
+Apr 23 23:26 : client: [111] opened from 127.0.0.1:42246
+Apr 23 23:26 : client: [111] closed
+Apr 23 23:48 : client: [112] opened from 127.0.0.1:42394
+Apr 23 23:48 : client: [112] closed
+Apr 23 23:48 : client: [113] opened from 127.0.0.1:42398
+Apr 23 23:48 : client: [113] closed
+Apr 23 23:50 : player: played "John Lennon/[1997] Lennon Legend/02 Instant Karma!.mp3"
+Apr 23 23:54 : player: played "Bob Marley/[1984] Legend/12 Satisfy My Soul.mp3"
+Apr 23 23:55 : client: [114] opened from 127.0.0.1:42558
+Apr 23 23:55 : client: [114] closed
+Apr 23 23:55 : client: [115] opened from 127.0.0.1:42562
+Apr 23 23:55 : client: [115] closed
+Apr 23 23:59 : client: [116] opened from 127.0.0.1:42702
+Apr 23 23:59 : client: [116] closed
+Apr 24 00:17 : avahi: Client Disconnected, will reconnect shortly
+Apr 24 00:17 : avahi: Could not reconnect: Daemon not running
+Apr 24 00:17 : client: [102] closed
+Apr 24 00:17 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Apr 24 00:17 : player: played "Jhené Aiko/[2014] Souled Out/04 Spotless Mind.mp3"
+Apr 24 07:01 : client: [0] opened from 127.0.0.1:60924
+Apr 24 07:01 : client: [1] opened from 127.0.0.1:60928
+Apr 24 07:01 : client: [1] closed
+Apr 24 07:01 : client: [2] opened from 127.0.0.1:60932
+Apr 24 07:01 : client: [2] closed
+Apr 24 07:01 : player: played "Jhené Aiko/[2014] Souled Out/04 Spotless Mind.mp3"
+Apr 24 07:02 : client: [3] opened from 127.0.0.1:60936
+Apr 24 07:02 : client: [3] closed
+Apr 24 07:02 : client: [4] opened from 127.0.0.1:60940
+Apr 24 07:02 : client: [4] closed
+Apr 24 07:02 : client: [5] opened from 127.0.0.1:60944
+Apr 24 07:02 : client: [5] closed
+Apr 24 07:02 : client: [6] opened from 127.0.0.1:60948
+Apr 24 07:02 : client: [6] closed
+Apr 24 07:02 : client: [7] opened from 127.0.0.1:60952
+Apr 24 07:02 : client: [7] closed
+Apr 24 07:03 : avahi: Client Disconnected, will reconnect shortly
+Apr 24 07:03 : avahi: Could not reconnect: Daemon not running
+Apr 24 07:03 : client: [0] closed
+Apr 24 07:03 : player: played "¿Téo?/[2016] Selfless-ish/Selfless-ish.mp3"
+Apr 24 07:05 : client: [0] opened from 127.0.0.1:39950
+Apr 24 07:05 : client: [1] opened from 127.0.0.1:39954
+Apr 24 07:05 : client: [1] closed
+Apr 24 07:05 : client: [2] opened from 127.0.0.1:39958
+Apr 24 07:05 : client: [2] closed
+Apr 24 07:06 : client: [3] opened from 127.0.0.1:39962
+Apr 24 07:06 : client: [3] closed
+Apr 24 07:10 : client: [4] opened from 127.0.0.1:39986
+Apr 24 07:10 : client: [4] closed
+Apr 24 07:10 : client: [5] opened from 127.0.0.1:39990
+Apr 24 07:10 : client: [5] closed
+Apr 24 07:14 : client: [0] opened from 127.0.0.1:60198
+Apr 24 07:18 : player: played "¿Téo?/[2016] Selfless-ish/Selfless-ish.mp3"
+Apr 24 07:30 : client: [0] opened from 127.0.0.1:52128
+Apr 24 07:31 : client: [1] opened from 127.0.0.1:52130
+Apr 24 07:31 : client: [1] closed
+Apr 24 07:31 : client: [2] opened from 127.0.0.1:52132
+Apr 24 07:31 : client: [2] closed
+Apr 24 07:34 : player: played "Russ/[2017] There's Really A Wolf/14 Losin Control.mp3"
+Apr 24 07:37 : player: played "Bob Marley/[1984] Legend/04 Three Little Birds.mp3"
+Apr 24 07:39 : player: played "Clairo/[2018] diary 001/04 4EVER.mp3"
+Apr 24 07:44 : player: played "¿Téo?/[2016] Selfless-ish/Selfless-ish.mp3"
+Apr 24 07:47 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Apr 24 07:47 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 24 07:47 : player: played "Jhené Aiko/[2017] Trip/Trip (feat. Mali Music).mp3"
+Apr 24 07:47 : client: [3] opened from 127.0.0.1:52158
+Apr 24 07:47 : client: [3] closed
+Apr 24 07:47 : client: [4] opened from 127.0.0.1:52162
+Apr 24 07:47 : client: [4] closed
+Apr 24 07:50 : player: played "Russ/[2017] There's Really A Wolf/11 What They Want.mp3"
+Apr 24 07:54 : player: played "Jhené Aiko/[2013] Sail Out/02 Bed Peace (feat. Childish Gambino.mp3"
+Apr 24 07:58 : player: played "John Lennon/[1997] Lennon Legend/18 Working Class Hero.mp3"
+Apr 24 08:03 : client: [5] opened from 127.0.0.1:52170
+Apr 24 08:03 : client: [5] closed
+Apr 24 08:03 : client: [6] opened from 127.0.0.1:52174
+Apr 24 08:03 : client: [6] closed
+Apr 24 08:03 : client: [7] opened from 127.0.0.1:52178
+Apr 24 08:03 : client: [7] closed
+Apr 24 08:15 : avahi: Client Disconnected, will reconnect shortly
+Apr 24 08:15 : avahi: Could not reconnect: Daemon not running
+Apr 24 08:15 : client: [0] closed
+Apr 24 08:15 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Apr 24 08:15 : player: played "The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3"
+Apr 24 11:35 : client: [0] opened from 127.0.0.1:49490
+Apr 24 11:35 : client: [1] opened from 127.0.0.1:49494
+Apr 24 11:35 : client: [2] opened from 127.0.0.1:49498
+Apr 24 11:35 : client: [2] closed
+Apr 24 11:35 : client: [3] opened from 127.0.0.1:49502
+Apr 24 11:35 : client: [3] closed
+Apr 24 11:35 : client: [4] opened from 127.0.0.1:49506
+Apr 24 11:35 : client: [4] closed
+Apr 24 11:35 : client: [5] opened from 127.0.0.1:49510
+Apr 24 11:35 : client: [5] closed
+Apr 24 11:36 : client: [6] opened from 127.0.0.1:49514
+Apr 24 11:36 : client: [6] closed
+Apr 24 11:36 : client: [7] opened from 127.0.0.1:49518
+Apr 24 11:36 : client: [8] opened from 127.0.0.1:49522
+Apr 24 11:36 : client: [7] closed
+Apr 24 11:36 : client: [8] closed
+Apr 24 11:36 : client: [9] opened from 127.0.0.1:49526
+Apr 24 11:36 : client: [9] closed
+Apr 24 11:36 : client: [10] opened from 127.0.0.1:49530
+Apr 24 11:36 : client: [10] closed
+Apr 24 11:36 : client: [11] opened from 127.0.0.1:49534
+Apr 24 11:36 : client: [12] opened from 127.0.0.1:49538
+Apr 24 11:36 : client: [11] closed
+Apr 24 11:36 : client: [12] closed
+Apr 24 11:36 : client: [13] opened from 127.0.0.1:49542
+Apr 24 11:36 : client: [13] closed
+Apr 24 11:36 : client: [14] opened from 127.0.0.1:49546
+Apr 24 11:36 : client: [14] closed
+Apr 24 11:36 : client: [15] opened from 127.0.0.1:49550
+Apr 24 11:36 : client: [16] opened from 127.0.0.1:49554
+Apr 24 11:36 : client: [15] closed
+Apr 24 11:36 : client: [17] opened from 127.0.0.1:49558
+Apr 24 11:36 : client: [16] closed
+Apr 24 11:36 : client: [17] closed
+Apr 24 11:36 : client: [18] opened from 127.0.0.1:49562
+Apr 24 11:36 : client: [18] closed
+Apr 24 11:36 : client: [19] opened from 127.0.0.1:49566
+Apr 24 11:36 : client: [20] opened from 127.0.0.1:49570
+Apr 24 11:36 : client: [20] closed
+Apr 24 11:36 : client: [19] closed
+Apr 24 11:36 : client: [21] opened from 127.0.0.1:49574
+Apr 24 11:36 : client: [21] closed
+Apr 24 11:36 : client: [22] opened from 127.0.0.1:49578
+Apr 24 11:36 : client: [22] closed
+Apr 24 11:36 : client: [23] opened from 127.0.0.1:49582
+Apr 24 11:36 : client: [23] closed
+Apr 24 11:36 : client: [24] opened from 127.0.0.1:49586
+Apr 24 11:36 : client: [24] closed
+Apr 24 11:36 : client: [25] opened from 127.0.0.1:49590
+Apr 24 11:36 : client: [25] closed
+Apr 24 11:36 : client: [26] opened from 127.0.0.1:49594
+Apr 24 11:36 : client: [26] closed
+Apr 24 11:36 : client: [27] opened from 127.0.0.1:49598
+Apr 24 11:36 : client: [27] closed
+Apr 24 11:36 : client: [28] opened from 127.0.0.1:49602
+Apr 24 11:36 : client: [28] closed
+Apr 24 11:36 : client: [29] opened from 127.0.0.1:49606
+Apr 24 11:36 : client: [29] closed
+Apr 24 11:36 : client: [30] opened from 127.0.0.1:49610
+Apr 24 11:36 : client: [30] closed
+Apr 24 11:36 : client: [31] opened from 127.0.0.1:49614
+Apr 24 11:36 : client: [31] closed
+Apr 24 11:36 : client: [32] opened from 127.0.0.1:49618
+Apr 24 11:36 : client: [32] closed
+Apr 24 11:36 : client: [33] opened from 127.0.0.1:49622
+Apr 24 11:36 : client: [33] closed
+Apr 24 11:36 : client: [34] opened from 127.0.0.1:49626
+Apr 24 11:36 : client: [34] closed
+Apr 24 11:36 : client: [35] opened from 127.0.0.1:49630
+Apr 24 11:36 : client: [35] closed
+Apr 24 11:36 : client: [36] opened from 127.0.0.1:49634
+Apr 24 11:36 : client: [36] closed
+Apr 24 11:36 : client: [37] opened from 127.0.0.1:49638
+Apr 24 11:36 : client: [37] closed
+Apr 24 11:36 : client: [38] opened from 127.0.0.1:49642
+Apr 24 11:36 : client: [38] closed
+Apr 24 11:36 : client: [39] opened from 127.0.0.1:49646
+Apr 24 11:36 : client: [39] closed
+Apr 24 11:36 : client: [40] opened from 127.0.0.1:49650
+Apr 24 11:36 : client: [40] closed
+Apr 24 11:36 : client: [41] opened from 127.0.0.1:49654
+Apr 24 11:36 : client: [41] closed
+Apr 24 11:36 : client: [42] opened from 127.0.0.1:49658
+Apr 24 11:36 : client: [42] closed
+Apr 24 11:36 : client: [43] opened from 127.0.0.1:49662
+Apr 24 11:36 : client: [43] closed
+Apr 24 11:36 : client: [44] opened from 127.0.0.1:49666
+Apr 24 11:36 : client: [44] closed
+Apr 24 11:36 : client: [45] opened from 127.0.0.1:49670
+Apr 24 11:36 : client: [45] closed
+Apr 24 11:36 : client: [46] opened from 127.0.0.1:49674
+Apr 24 11:36 : client: [46] closed
+Apr 24 11:36 : client: [47] opened from 127.0.0.1:49678
+Apr 24 11:36 : client: [47] closed
+Apr 24 11:36 : client: [48] opened from 127.0.0.1:49682
+Apr 24 11:36 : client: [48] closed
+Apr 24 11:36 : client: [49] opened from 127.0.0.1:49686
+Apr 24 11:36 : client: [49] closed
+Apr 24 11:36 : client: [50] opened from 127.0.0.1:49690
+Apr 24 11:36 : client: [50] closed
+Apr 24 11:36 : client: [51] opened from 127.0.0.1:49694
+Apr 24 11:36 : client: [51] closed
+Apr 24 11:36 : client: [52] opened from 127.0.0.1:49698
+Apr 24 11:36 : client: [52] closed
+Apr 24 11:36 : client: [53] opened from 127.0.0.1:49702
+Apr 24 11:36 : client: [53] closed
+Apr 24 11:36 : client: [54] opened from 127.0.0.1:49706
+Apr 24 11:36 : client: [54] closed
+Apr 24 11:36 : client: [55] opened from 127.0.0.1:49710
+Apr 24 11:36 : client: [55] closed
+Apr 24 11:36 : client: [56] opened from 127.0.0.1:49714
+Apr 24 11:36 : client: [56] closed
+Apr 24 11:36 : client: [57] opened from 127.0.0.1:49718
+Apr 24 11:36 : client: [57] closed
+Apr 24 11:36 : client: [58] opened from 127.0.0.1:49722
+Apr 24 11:36 : client: [58] closed
+Apr 24 11:36 : client: [59] opened from 127.0.0.1:49726
+Apr 24 11:36 : client: [59] closed
+Apr 24 11:36 : client: [1] closed
+Apr 24 11:36 : client: [60] opened from 127.0.0.1:49730
+Apr 24 11:36 : client: [61] opened from 127.0.0.1:49734
+Apr 24 11:36 : client: [61] closed
+Apr 24 11:36 : client: [62] opened from 127.0.0.1:49738
+Apr 24 11:36 : client: [62] closed
+Apr 24 11:42 : player: played "The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3"
+Apr 24 11:42 : client: [63] opened from 127.0.0.1:49758
+Apr 24 11:42 : client: [63] closed
+Apr 24 11:42 : client: [64] opened from 127.0.0.1:49762
+Apr 24 11:42 : client: [64] closed
+Apr 24 11:47 : client: [65] opened from 127.0.0.1:49804
+Apr 24 11:47 : client: [65] closed
+Apr 24 11:47 : client: [66] opened from 127.0.0.1:49812
+Apr 24 11:47 : client: [67] opened from 127.0.0.1:49810
+Apr 24 11:47 : client: [66] closed
+Apr 24 11:47 : client: [67] closed
+Apr 24 11:47 : client: [68] opened from 127.0.0.1:49818
+Apr 24 11:47 : client: [68] closed
+Apr 24 11:51 : client: [69] opened from 127.0.0.1:49942
+Apr 24 11:51 : client: [69] closed
+Apr 24 11:51 : client: [70] opened from 127.0.0.1:49946
+Apr 24 11:51 : client: [70] closed
+Apr 24 11:51 : client: [71] opened from 127.0.0.1:49950
+Apr 24 11:51 : client: [71] closed
+Apr 24 11:51 : client: [72] opened from 127.0.0.1:49954
+Apr 24 11:51 : client: [72] closed
+Apr 24 11:51 : client: [73] opened from 127.0.0.1:49958
+Apr 24 11:51 : client: [74] opened from 127.0.0.1:49962
+Apr 24 11:51 : client: [74] closed
+Apr 24 11:51 : client: [73] closed
+Apr 24 11:51 : client: [75] opened from 127.0.0.1:49966
+Apr 24 11:51 : client: [75] closed
+Apr 24 11:51 : client: [76] opened from 127.0.0.1:49970
+Apr 24 11:51 : client: [76] closed
+Apr 24 11:51 : client: [77] opened from 127.0.0.1:49974
+Apr 24 11:51 : client: [78] opened from 127.0.0.1:49978
+Apr 24 11:51 : client: [77] closed
+Apr 24 11:51 : client: [78] closed
+Apr 24 11:51 : client: [79] opened from 127.0.0.1:49982
+Apr 24 11:51 : client: [79] closed
+Apr 24 11:51 : client: [80] opened from 127.0.0.1:49986
+Apr 24 11:51 : client: [80] closed
+Apr 24 11:51 : client: [81] opened from 127.0.0.1:49990
+Apr 24 11:51 : client: [82] opened from 127.0.0.1:49994
+Apr 24 11:51 : client: [81] closed
+Apr 24 11:51 : client: [82] closed
+Apr 24 11:51 : client: [83] opened from 127.0.0.1:49998
+Apr 24 11:51 : client: [83] closed
+Apr 24 11:51 : client: [84] opened from 127.0.0.1:50002
+Apr 24 11:51 : client: [84] closed
+Apr 24 11:51 : client: [85] opened from 127.0.0.1:50006
+Apr 24 11:51 : client: [86] opened from 127.0.0.1:50010
+Apr 24 11:51 : client: [85] closed
+Apr 24 11:51 : client: [86] closed
+Apr 24 11:51 : client: [87] opened from 127.0.0.1:50014
+Apr 24 11:51 : client: [87] closed
+Apr 24 11:56 : player: played "The Midnight/[2014] Days of Thunder/02 Gloria.mp3"
+Apr 24 11:56 : client: [88] opened from 127.0.0.1:50162
+Apr 24 11:56 : client: [88] closed
+Apr 24 11:56 : client: [89] opened from 127.0.0.1:50166
+Apr 24 11:56 : client: [89] closed
+Apr 24 12:00 : player: played "Clairo/[2019] immunity/05 Bags.mp3"
+Apr 24 12:00 : client: [90] opened from 127.0.0.1:50170
+Apr 24 12:00 : client: [90] closed
+Apr 24 12:00 : client: [91] opened from 127.0.0.1:50174
+Apr 24 12:00 : client: [91] closed
+Apr 24 12:01 : client: [92] opened from 127.0.0.1:50178
+Apr 24 12:01 : client: [92] closed
+Apr 24 12:01 : client: [93] opened from 127.0.0.1:50182
+Apr 24 12:01 : client: [94] opened from 127.0.0.1:50186
+Apr 24 12:01 : client: [93] closed
+Apr 24 12:01 : client: [94] closed
+Apr 24 12:01 : client: [95] opened from 127.0.0.1:50190
+Apr 24 12:01 : client: [95] closed
+Apr 24 12:01 : client: [96] opened from 127.0.0.1:50194
+Apr 24 12:01 : client: [96] closed
+Apr 24 12:01 : client: [97] opened from 127.0.0.1:50198
+Apr 24 12:01 : client: [98] opened from 127.0.0.1:50202
+Apr 24 12:01 : client: [97] closed
+Apr 24 12:01 : client: [98] closed
+Apr 24 12:01 : client: [99] opened from 127.0.0.1:50206
+Apr 24 12:01 : client: [99] closed
+Apr 24 12:01 : client: [100] opened from 127.0.0.1:50210
+Apr 24 12:01 : client: [100] closed
+Apr 24 12:01 : client: [101] opened from 127.0.0.1:50214
+Apr 24 12:01 : client: [102] opened from 127.0.0.1:50218
+Apr 24 12:01 : client: [101] closed
+Apr 24 12:01 : client: [102] closed
+Apr 24 12:01 : client: [103] opened from 127.0.0.1:50222
+Apr 24 12:01 : client: [103] closed
+Apr 24 12:01 : client: [104] opened from 127.0.0.1:50226
+Apr 24 12:01 : client: [104] closed
+Apr 24 12:01 : client: [105] opened from 127.0.0.1:50230
+Apr 24 12:01 : client: [106] opened from 127.0.0.1:50234
+Apr 24 12:01 : client: [105] closed
+Apr 24 12:01 : client: [106] closed
+Apr 24 12:01 : client: [107] opened from 127.0.0.1:50238
+Apr 24 12:01 : client: [107] closed
+Apr 24 12:01 : client: [108] opened from 127.0.0.1:50242
+Apr 24 12:01 : client: [108] closed
+Apr 24 12:01 : client: [109] opened from 127.0.0.1:50246
+Apr 24 12:01 : client: [110] opened from 127.0.0.1:50250
+Apr 24 12:01 : client: [109] closed
+Apr 24 12:01 : client: [110] closed
+Apr 24 12:01 : client: [111] opened from 127.0.0.1:50254
+Apr 24 12:01 : client: [111] closed
+Apr 24 12:01 : client: [112] opened from 127.0.0.1:50258
+Apr 24 12:01 : client: [112] closed
+Apr 24 12:01 : client: [113] opened from 127.0.0.1:50262
+Apr 24 12:01 : client: [114] opened from 127.0.0.1:50266
+Apr 24 12:01 : client: [113] closed
+Apr 24 12:01 : client: [114] closed
+Apr 24 12:01 : client: [115] opened from 127.0.0.1:50270
+Apr 24 12:01 : client: [115] closed
+Apr 24 12:05 : player: played "John Lennon/[1997] Lennon Legend/02 Instant Karma!.mp3"
+Apr 24 12:05 : client: [116] opened from 127.0.0.1:50274
+Apr 24 12:05 : client: [116] closed
+Apr 24 12:05 : client: [117] opened from 127.0.0.1:50278
+Apr 24 12:05 : client: [117] closed
+Apr 24 12:05 : client: [118] opened from 127.0.0.1:50282
+Apr 24 12:05 : client: [118] closed
+Apr 24 12:05 : client: [119] opened from 127.0.0.1:50286
+Apr 24 12:05 : client: [120] opened from 127.0.0.1:50290
+Apr 24 12:05 : client: [119] closed
+Apr 24 12:05 : client: [120] closed
+Apr 24 12:05 : client: [121] opened from 127.0.0.1:50294
+Apr 24 12:05 : client: [121] closed
+Apr 24 12:09 : player: played "Russ/[2017] There's Really A Wolf/14 Losin Control.mp3"
+Apr 24 12:09 : client: [122] opened from 127.0.0.1:50298
+Apr 24 12:09 : client: [122] closed
+Apr 24 12:09 : client: [123] opened from 127.0.0.1:50302
+Apr 24 12:09 : client: [123] closed
+Apr 24 12:13 : player: played "John Lennon/[1997] Lennon Legend/13 Woman.mp3"
+Apr 24 12:13 : client: [124] opened from 127.0.0.1:50306
+Apr 24 12:13 : client: [124] closed
+Apr 24 12:13 : client: [125] opened from 127.0.0.1:50310
+Apr 24 12:13 : client: [125] closed
+Apr 24 12:15 : player: played "Clairo/[2018] diary 001/05 Pretty Girl.mp3"
+Apr 24 12:15 : client: [126] opened from 127.0.0.1:50382
+Apr 24 12:15 : client: [126] closed
+Apr 24 12:15 : client: [127] opened from 127.0.0.1:50386
+Apr 24 12:15 : client: [127] closed
+Apr 24 12:16 : client: [128] opened from 127.0.0.1:50392
+Apr 24 12:16 : client: [128] closed
+Apr 24 12:16 : client: [129] opened from 127.0.0.1:50396
+Apr 24 12:16 : client: [130] opened from 127.0.0.1:50400
+Apr 24 12:16 : client: [129] closed
+Apr 24 12:16 : client: [130] closed
+Apr 24 12:16 : client: [131] opened from 127.0.0.1:50404
+Apr 24 12:16 : client: [131] closed
+Apr 24 12:16 : client: [132] opened from 127.0.0.1:50408
+Apr 24 12:16 : client: [132] closed
+Apr 24 12:16 : client: [133] opened from 127.0.0.1:50412
+Apr 24 12:16 : client: [134] opened from 127.0.0.1:50416
+Apr 24 12:16 : client: [133] closed
+Apr 24 12:16 : client: [134] closed
+Apr 24 12:16 : client: [135] opened from 127.0.0.1:50420
+Apr 24 12:16 : client: [135] closed
+Apr 24 12:16 : client: [136] opened from 127.0.0.1:50424
+Apr 24 12:16 : client: [136] closed
+Apr 24 12:16 : client: [137] opened from 127.0.0.1:50428
+Apr 24 12:16 : client: [138] opened from 127.0.0.1:50432
+Apr 24 12:16 : client: [137] closed
+Apr 24 12:16 : client: [138] closed
+Apr 24 12:16 : client: [139] opened from 127.0.0.1:50436
+Apr 24 12:16 : client: [139] closed
+Apr 24 12:16 : client: [140] opened from 127.0.0.1:50440
+Apr 24 12:16 : client: [140] closed
+Apr 24 12:16 : client: [141] opened from 127.0.0.1:50444
+Apr 24 12:16 : client: [142] opened from 127.0.0.1:50448
+Apr 24 12:16 : client: [141] closed
+Apr 24 12:16 : client: [142] closed
+Apr 24 12:16 : client: [143] opened from 127.0.0.1:50452
+Apr 24 12:16 : client: [143] closed
+Apr 24 12:16 : client: [144] opened from 127.0.0.1:50456
+Apr 24 12:16 : client: [144] closed
+Apr 24 12:16 : client: [145] opened from 127.0.0.1:50460
+Apr 24 12:16 : client: [146] opened from 127.0.0.1:50464
+Apr 24 12:16 : client: [145] closed
+Apr 24 12:16 : client: [146] closed
+Apr 24 12:16 : client: [147] opened from 127.0.0.1:50468
+Apr 24 12:16 : client: [147] closed
+Apr 24 12:16 : client: [148] opened from 127.0.0.1:50472
+Apr 24 12:16 : client: [148] closed
+Apr 24 12:16 : client: [149] opened from 127.0.0.1:50476
+Apr 24 12:16 : client: [150] opened from 127.0.0.1:50480
+Apr 24 12:16 : client: [149] closed
+Apr 24 12:16 : client: [150] closed
+Apr 24 12:16 : client: [151] opened from 127.0.0.1:50484
+Apr 24 12:16 : client: [151] closed
+Apr 24 12:19 : client: [0] closed
+Apr 24 12:19 : client: [152] opened from 127.0.0.1:50630
+Apr 24 12:19 : player: played "Clairo/[2019] immunity/07 Sofia.mp3"
+Apr 24 12:19 : client: [153] opened from 127.0.0.1:50634
+Apr 24 12:19 : client: [153] closed
+Apr 24 12:19 : client: [154] opened from 127.0.0.1:50638
+Apr 24 12:19 : client: [154] closed
+Apr 24 12:20 : client: [152] closed
+Apr 24 12:20 : client: [155] opened from 127.0.0.1:50640
+Apr 24 12:21 : client: [155] closed
+Apr 24 12:21 : client: [156] opened from 127.0.0.1:50646
+Apr 24 12:22 : player: played "Yellowcard/Singles/[2003] Ocean Avenue/Ocean Avenue.mp3"
+Apr 24 12:22 : client: [157] opened from 127.0.0.1:50686
+Apr 24 12:22 : client: [157] closed
+Apr 24 12:22 : client: [158] opened from 127.0.0.1:50690
+Apr 24 12:22 : client: [158] closed
+Apr 24 12:23 : client: [159] opened from 127.0.0.1:50712
+Apr 24 12:23 : client: [159] closed
+Apr 24 12:23 : client: [160] opened from 127.0.0.1:50716
+Apr 24 12:23 : client: [161] opened from 127.0.0.1:50720
+Apr 24 12:23 : client: [160] closed
+Apr 24 12:23 : client: [161] closed
+Apr 24 12:23 : client: [162] opened from 127.0.0.1:50724
+Apr 24 12:23 : client: [162] closed
+Apr 24 12:25 : player: played "Russ/[2017] There's Really A Wolf/11 What They Want.mp3"
+Apr 24 12:25 : client: [163] opened from 127.0.0.1:50738
+Apr 24 12:25 : client: [163] closed
+Apr 24 12:25 : client: [164] opened from 127.0.0.1:50742
+Apr 24 12:25 : client: [164] closed
+Apr 24 12:29 : player: played "Bob Marley/[1984] Legend/06 Get Up Stand Up.mp3"
+Apr 24 12:29 : client: [165] opened from 127.0.0.1:50758
+Apr 24 12:29 : client: [165] closed
+Apr 24 12:29 : client: [166] opened from 127.0.0.1:50762
+Apr 24 12:29 : client: [166] closed
+Apr 24 12:33 : player: played "Bob Marley/[1978] Kaya/05 Satisfy My Soul.mp3"
+Apr 24 12:33 : client: [167] opened from 127.0.0.1:50778
+Apr 24 12:33 : client: [167] closed
+Apr 24 12:33 : client: [168] opened from 127.0.0.1:50782
+Apr 24 12:33 : client: [168] closed
+Apr 24 12:38 : player: played "Jaden Smith/[2014] CTV2/07 PCH.mp3"
+Apr 24 12:38 : client: [169] opened from 127.0.0.1:50808
+Apr 24 12:38 : client: [169] closed
+Apr 24 12:38 : client: [170] opened from 127.0.0.1:50812
+Apr 24 12:38 : client: [170] closed
+Apr 24 12:42 : player: played "John Lennon/[1997] Lennon Legend/18 Working Class Hero.mp3"
+Apr 24 12:42 : client: [171] opened from 127.0.0.1:50824
+Apr 24 12:42 : client: [171] closed
+Apr 24 12:42 : client: [172] opened from 127.0.0.1:50828
+Apr 24 12:42 : client: [172] closed
+Apr 24 12:45 : player: played "Jaden Smith/Singles/[2014] Blue Ocean/Blue Ocean.mp3"
+Apr 24 12:45 : client: [173] opened from 127.0.0.1:50846
+Apr 24 12:45 : client: [173] closed
+Apr 24 12:45 : client: [174] opened from 127.0.0.1:50850
+Apr 24 12:45 : client: [174] closed
+Apr 24 12:49 : player: played "¿Téo?/[2015] Pleidian Message/Pleiadian Message (feat. Jaden Smith).mp3"
+Apr 24 12:49 : client: [175] opened from 127.0.0.1:50880
+Apr 24 12:49 : client: [175] closed
+Apr 24 12:49 : client: [176] opened from 127.0.0.1:50884
+Apr 24 12:49 : client: [176] closed
+Apr 24 12:52 : player: played "Clairo/[2019] immunity/06 Softly.mp3"
+Apr 24 12:52 : client: [177] opened from 127.0.0.1:50892
+Apr 24 12:52 : client: [177] closed
+Apr 24 12:52 : client: [178] opened from 127.0.0.1:50896
+Apr 24 12:52 : client: [178] closed
+Apr 24 12:56 : player: played "John Lennon/[1997] Lennon Legend/04 Jealous Guy.mp3"
+Apr 24 12:56 : client: [179] opened from 127.0.0.1:50940
+Apr 24 12:56 : client: [179] closed
+Apr 24 12:56 : client: [180] opened from 127.0.0.1:50944
+Apr 24 12:56 : client: [180] closed
+Apr 24 13:00 : player: played "Bob Marley/[1984] Legend/03 Could You Be Loved.mp3"
+Apr 24 13:00 : client: [181] opened from 127.0.0.1:51036
+Apr 24 13:00 : client: [181] closed
+Apr 24 13:00 : client: [182] opened from 127.0.0.1:51040
+Apr 24 13:00 : client: [182] closed
+Apr 24 13:04 : player: played "Bob Marley/[1984] Legend/01 Is This Love.mp3"
+Apr 24 13:04 : client: [183] opened from 127.0.0.1:51104
+Apr 24 13:04 : client: [183] closed
+Apr 24 13:04 : client: [184] opened from 127.0.0.1:51108
+Apr 24 13:04 : client: [184] closed
+Apr 24 13:07 : player: played "Niki/[2018] Zephyr/06 Dancing with the Devil.mp3"
+Apr 24 13:07 : client: [185] opened from 127.0.0.1:51162
+Apr 24 13:07 : client: [185] closed
+Apr 24 13:07 : client: [186] opened from 127.0.0.1:51166
+Apr 24 13:07 : client: [186] closed
+Apr 24 13:10 : player: played "Nas/[1999] I Am/13 Nas Is Like.mp3"
+Apr 24 13:10 : client: [187] opened from 127.0.0.1:51188
+Apr 24 13:10 : client: [187] closed
+Apr 24 13:10 : client: [188] opened from 127.0.0.1:51192
+Apr 24 13:10 : client: [188] closed
+Apr 24 13:15 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Apr 24 13:15 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 24 13:15 : player: played "The Midnight/[2014] Days of Thunder/02 Gloria.mp3"
+Apr 24 13:15 : client: [189] opened from 127.0.0.1:51212
+Apr 24 13:15 : client: [189] closed
+Apr 24 13:15 : client: [190] opened from 127.0.0.1:51216
+Apr 24 13:15 : client: [190] closed
+Apr 24 13:19 : player: played "a-ha/Singles/[1985] Take On Me/01 Take On Me.m4a"
+Apr 24 13:19 : client: [191] opened from 127.0.0.1:51220
+Apr 24 13:19 : client: [191] closed
+Apr 24 13:19 : client: [192] opened from 127.0.0.1:51224
+Apr 24 13:19 : client: [192] closed
+Apr 24 13:22 : player: played "Jaden Smith/Singles/[2014] Blue Ocean/Blue Ocean.mp3"
+Apr 24 13:22 : client: [193] opened from 127.0.0.1:51236
+Apr 24 13:22 : client: [193] closed
+Apr 24 13:22 : client: [194] opened from 127.0.0.1:51240
+Apr 24 13:22 : client: [194] closed
+Apr 24 13:26 : player: played "Denzel Curry/[2018] TA13OO/2-04 SIRENS l Z1RENZ (feat. J.I.D).mp3"
+Apr 24 13:26 : client: [195] opened from 127.0.0.1:51246
+Apr 24 13:26 : client: [195] closed
+Apr 24 13:26 : client: [196] opened from 127.0.0.1:51250
+Apr 24 13:26 : client: [196] closed
+Apr 24 13:29 : player: played "Clairo/[2019] immunity/03 Closer To You.mp3"
+Apr 24 13:29 : client: [197] opened from 127.0.0.1:51254
+Apr 24 13:29 : client: [197] closed
+Apr 24 13:29 : client: [198] opened from 127.0.0.1:51258
+Apr 24 13:29 : client: [198] closed
+Apr 24 13:30 : client: [199] opened from 127.0.0.1:51264
+Apr 24 13:30 : client: [199] closed
+Apr 24 13:30 : client: [200] opened from 127.0.0.1:51268
+Apr 24 13:30 : client: [200] closed
+Apr 24 13:30 : client: [201] opened from 127.0.0.1:51276
+Apr 24 13:30 : client: [201] closed
+Apr 24 13:39 : client: [202] opened from 127.0.0.1:51460
+Apr 24 13:39 : client: [202] closed
+Apr 24 13:39 : client: [203] opened from 127.0.0.1:51464
+Apr 24 13:39 : client: [203] closed
+Apr 24 13:39 : client: [204] opened from 127.0.0.1:51468
+Apr 24 13:39 : client: [204] closed
+Apr 24 13:39 : client: [205] opened from 127.0.0.1:51472
+Apr 24 13:39 : client: [205] closed
+Apr 24 13:39 : client: [206] opened from 127.0.0.1:51476
+Apr 24 13:39 : client: [206] closed
+Apr 24 13:39 : client: [207] opened from 127.0.0.1:51480
+Apr 24 13:39 : client: [207] closed
+Apr 24 13:42 : client: [60] closed
+Apr 24 13:42 : client: [208] opened from 127.0.0.1:51484
+Apr 24 13:42 : client: [209] opened from 127.0.0.1:51488
+Apr 24 13:42 : client: [209] closed
+Apr 24 13:42 : client: [210] opened from 127.0.0.1:51492
+Apr 24 13:42 : client: [210] closed
+Apr 24 13:57 : player: played "The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3"
+Apr 24 13:57 : client: [211] opened from 127.0.0.1:51512
+Apr 24 13:57 : client: [211] closed
+Apr 24 13:57 : client: [212] opened from 127.0.0.1:51516
+Apr 24 13:57 : client: [212] closed
+Apr 24 14:00 : player: played "Rich Brian/[2019] The Sailor/09 100 Degrees.mp3"
+Apr 24 14:00 : client: [213] opened from 127.0.0.1:51520
+Apr 24 14:00 : client: [213] closed
+Apr 24 14:00 : client: [214] opened from 127.0.0.1:51524
+Apr 24 14:00 : client: [214] closed
+Apr 24 14:03 : player: played "Bob Marley/[1980] Uprising/08 Could You Be Loved.mp3"
+Apr 24 14:03 : client: [215] opened from 127.0.0.1:51528
+Apr 24 14:03 : client: [215] closed
+Apr 24 14:03 : client: [216] opened from 127.0.0.1:51532
+Apr 24 14:03 : client: [216] closed

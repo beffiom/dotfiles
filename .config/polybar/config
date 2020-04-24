@@ -18,7 +18,7 @@
 
 [colors]
 # background = ${xrdb:color0:#222}
-background = #FF14161F
+background = #D914161F
 background-alt = #434758
 ;foreground = ${xrdb:color7:#222}
 foreground = #bbc5ff
@@ -29,10 +29,10 @@ alert = #ff8b92
 
 [bar/main]
 monitor = ${env:MONITOR:eDP1}
-width = 100%
+width = 98%
 height = 35
-;offset-x = 1%
-offset-y = 0
+offset-x = 1%
+offset-y = 1%
 ;radius = 12.0
 fixed-center = true
 
@@ -54,7 +54,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Ubuntu Mono:pixelsize=16;1
-font-1 = Font Awesome 5 Free:style=Solid:pixelsize=12;1
+font-1 = FontAwesome:style=Solid:pixelsize=12;1
 
 modules-left = mpd
 modules-center = bspwm
@@ -76,10 +76,10 @@ cursor-scroll = ns-resize
 
 [bar/mon1]
 monitor = ${env:MONITOR:HDMI1}
-width = 100%
+width = 98%
 height = 35
-;offset-x = 1%
-offset-y = 0
+offset-x = 1%
+offset-y = 1%
 ;radius = 12.0
 fixed-center = true
 
@@ -101,7 +101,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Ubuntu Mono:pixelsize=16;1
-font-1 = Font Awesome 5 Free:style=Solid:pixelsize=12;1
+font-1 = FontAwesome:style=Solid:pixelsize=12;1
 
 ;modules-left = mpd
 modules-center = bspwm

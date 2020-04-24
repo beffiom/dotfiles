@@ -19,8 +19,8 @@ export PROCESS="$TERMINAL -e htop"
 export TORRENT="$TERMINAL -e tremc"
 
 # autostart x
-if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
-  exec startx >/dev/null 2>&1
+if [[ $(tty) = /dev/tty1 ]]; then
+ startx
 fi
 
 # source bashrc

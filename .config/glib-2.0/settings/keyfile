@@ -1,0 +1,7 @@
+[org/virt-manager/virt-manager/vmlist-fields]
+disk-usage=false
+network-traffic=false
+
+[org/virt-manager/virt-manager]
+manager-window-width=1874
+manager-window-height=994

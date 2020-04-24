@@ -1,9 +1,9 @@
-sw_volume: 60
+sw_volume: 12
 audio_device_state:1:pulse audio
 audio_device_state:1:Visualizer Feed
-state: pause
-current: 11
-time: 87.764000
+state: play
+current: 53
+time: 13.869000
 random: 1
 repeat: 1
 single: 0
@@ -60,21 +60,20 @@ playlist_begin
 45:John Lennon/[1997] Lennon Legend/08 Mind Games.mp3
 46:John Lennon/[1997] Lennon Legend/13 Woman.mp3
 47:John Lennon/[1997] Lennon Legend/18 Working Class Hero.mp3
-48:John Lennon/[1997] Lennon Legend/20 Give Peace A Chance.mp3
-49:Nas/[1994] Illmatic/03 Life's A Bitch.mp3
-50:Nas/[1996] It Was Written/14 If I Ruled The World (Imagine That) (feat. Lauryn Hill).mp3
-51:Nas/[1999] I Am/13 Nas Is Like.mp3
-52:Niki/[2018] Zephyr/01 Newsflash!.mp3
-53:Niki/[2018] Zephyr/05 Vintage.mp3
-54:Niki/[2018] Zephyr/06 Dancing with the Devil.mp3
-55:Rich Brian/[2019] The Sailor/09 100 Degrees.mp3
-56:Russ/[2017] There's Really A Wolf/11 What They Want.mp3
-57:Russ/[2017] There's Really A Wolf/14 Losin Control.mp3
-58:Russ/[2018] ZOO/4 Missin You Crazy.mp3
-59:The Midnight/[2014] Days of Thunder/02 Gloria.mp3
-60:The Midnight/[2014] Days of Thunder/04 Days of thunder.mp3
-61:The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3
-62:Toto/Singles/[1982] Africa/Africa.mp3
-63:We The Kings/Singles/[2007] Check Yes, Juliet/Check Yes, Juliet.mp3
-64:Yellowcard/Singles/[2003] Ocean Avenue/Ocean Avenue.mp3
+48:Nas/[1994] Illmatic/03 Life's A Bitch.mp3
+49:Nas/[1996] It Was Written/14 If I Ruled The World (Imagine That) (feat. Lauryn Hill).mp3
+50:Nas/[1999] I Am/13 Nas Is Like.mp3
+51:Niki/[2018] Zephyr/01 Newsflash!.mp3
+52:Niki/[2018] Zephyr/05 Vintage.mp3
+53:Niki/[2018] Zephyr/06 Dancing with the Devil.mp3
+54:Rich Brian/[2019] The Sailor/09 100 Degrees.mp3
+55:Russ/[2017] There's Really A Wolf/11 What They Want.mp3
+56:Russ/[2017] There's Really A Wolf/14 Losin Control.mp3
+57:Russ/[2018] ZOO/4 Missin You Crazy.mp3
+58:The Midnight/[2014] Days of Thunder/02 Gloria.mp3
+59:The Midnight/[2014] Days of Thunder/04 Days of thunder.mp3
+60:The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3
+61:Toto/Singles/[1982] Africa/Africa.mp3
+62:We The Kings/Singles/[2007] Check Yes, Juliet/Check Yes, Juliet.mp3
+63:Yellowcard/Singles/[2003] Ocean Avenue/Ocean Avenue.mp3
 playlist_end

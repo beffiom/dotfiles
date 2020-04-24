@@ -9,7 +9,7 @@ get_services() {
 		exit 1
 	fi
 	trap "rm -f $SCAN_RESULT" EXIT
-	connmanctl enable wifi &>/dev/null
+    connmanctl enable wifi &>/dev/null
 	connmanctl scan wifi &>/dev/null
 	connmanctl services | \
 		awk -F ' +' '{ service_id=$NF; $NF=""; $1=""; name=substr($0, 2, length-2); gsub(/[^a-zA-Z0-9-]/, "_", name) }

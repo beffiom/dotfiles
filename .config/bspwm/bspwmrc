@@ -2,17 +2,19 @@
 #################
 ### AUTOSTART  ##
 #################
-killall sxhkd
-killall compton
-killall redshift
-killall dunst
-killall polybar
-killall unclutter
+pkill sxhkd
+pkill compton
+pkill redshift
+pkill dunst
+pkill polybar
+pkill unclutter
 dunst &
 sxhkd &
 polybar main &
 polybar mon1 &
-compton --config $XDG_CONFIG_HOME/appearance/compton.conf &
+pactl load-module module-bluetooth-discover &
+pactl load-module module-bluetooth-policy &
+picom --config $XDG_CONFIG_HOME/appearance/compton.conf &
 xautolock -detectsleep -time 5 -locker slock &
 redshift -l 27.950575:-82.457176 -t 6500:3000 &
 xrdb ~/.config/appearance/Xresources
@@ -64,8 +66,8 @@ fi
 ######################
 ### BSPWM coloring ###
 ######################
-bspc config normal_border_color         "#292d3e"
-bspc config focused_border_color        "#c792ea"
+bspc config normal_border_color         "#14161F"
+bspc config focused_border_color        "#14161F"
 bspc config urgent_border_color 	    "#ffcb6b"
 bspc config presel_feedback_color	    "#c792ea"
 

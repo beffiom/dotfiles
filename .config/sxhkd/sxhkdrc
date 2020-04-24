@@ -55,7 +55,8 @@ super + shift + x
 
 ## wifi menu
 super + shift + w
-	doas connmenu
+	connmenu
+
 ## manage passwords
 super + F6
 	keepmenu
@@ -105,7 +106,7 @@ super + p
 
 ## display backlight control
 XF86MonBrightness{Down,Up}
-	xbacklight {-,+} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
+	xbacklight {-,+} 2 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
 
 
 ## keyboard backlight control

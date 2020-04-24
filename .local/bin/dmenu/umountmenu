@@ -7,13 +7,13 @@ unmountusb() {
 	[ -z "$drives" ] && exit
 	chosen=$(echo "$drives" | dmenu -p "Unmount which drive?" | awk '{print $1}')
 	[ -z "$chosen" ] && exit
-	doas -A umount "$chosen" && pgrep -x dunst && dunstify -u low -r 8000 -i "~/.config/appearance/icons/drive-removable-media.svg" "$chosen unmounted."
+	doas umount "$chosen" && pgrep -x dunst && dunstify -u low -r 8000 -i "~/.config/appearance/icons/drive-removable-media.svg" "$chosen unmounted."
 	}
 
 unmountandroid() { \
 	chosen=$(awk '/simple-mtpfs/ {print $2}' /etc/mtab | dmenu -p "Unmount which device?")
 	[ -z "$chosen" ] && exit
-	doas -A umount -l "$chosen" && pgrep -x dunst && dunstify -u low -r 8000 -i "~/.config/appearance/icons/android.png" "$chosen unmounted."
+	doas umount -l "$chosen" && pgrep -x dunst && dunstify -u low -r 8000 -i "~/.config/appearance/icons/android.png" "$chosen unmounted."
 	}
 
 asktype() { \
