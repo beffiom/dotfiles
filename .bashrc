@@ -27,15 +27,13 @@ alias kiwix-start="kiwix-serve --port=8080 ~/Devices/A\:A_Drive/Multimedia/Books
 alias dv="youtube-dl --add-metadata --all-subs -i -o '[%(uploader)s] %(title)s.%(ext)s'"
 alias da="youtube-dl --add-metadata -i -o '%(title)s.%(ext)s' -x -f bestaudio/best"
 alias dl="wget --backups"
-alias vpu='doas xbps-install -Su'
-alias vpi='doas xbps-install -S'
-alias vpr='doas xbps-remove -R'
-alias vpq='xbps-query -Rs'
-alias vpc='doas xbps-remove -Oo'
+alias apu='doas pacman -Syyu'
+alias api='doas pacman -Sy'
+alias apr='doas pacman -Rsu'
+alias apq='doas pacman -Ss'
 alias bt-start='pactl load-module module-bluetooth-discover; pactl load-module module-bluetooth-policy; doas sv restart bluetoothd'
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"
-alias acestream="acestreamengine --client-console"
 alias cbz="for i in *.zip; do mv "$i" "${i/.zip/.cbz}"; done"
 
 #vi mode
