@@ -32,6 +32,7 @@ alias vpi='doas xbps-install -S'
 alias vpr='doas xbps-remove -R'
 alias vpq='xbps-query -Rs'
 alias vpc='doas xbps-remove -Oo'
+alias bt-start='pactl load-module module-bluetooth-discover; pactl load-module module-bluetooth-policy; doas sv restart bluetoothd'
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"
 alias acestream="acestreamengine --client-console"

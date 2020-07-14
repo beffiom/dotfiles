@@ -7,9 +7,6 @@ super + Return
 	$TERMINAL
 
 super + d
-    	appmenu
-
-super + shift + d
 	$LAUNCHER
 
 super + e

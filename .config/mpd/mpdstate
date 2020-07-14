@@ -1,9 +1,9 @@
-sw_volume: 12
+sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:Visualizer Feed
-state: play
-current: 53
-time: 13.869000
+state: pause
+current: 31
+time: 98.216000
 random: 1
 repeat: 1
 single: 0
@@ -12,68 +12,70 @@ crossfade: 10
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:¿Téo?/[2016] Selfless-ish/Selfless-ish.mp3
-1:¿Téo?/[2015] Pleidian Message/Pleiadian Message (feat. Jaden Smith).mp3
-2:a-ha/Singles/[1985] Take On Me/01 Take On Me.m4a
-3:B Young/Singles/[2017] Jumanji/Jumanji.mp3
-4:Bob Marley/[1984] Legend/01 Is This Love.mp3
-5:Bob Marley/[1984] Legend/02 No Woman No Cry.mp3
-6:Bob Marley/[1984] Legend/03 Could You Be Loved.mp3
-7:Bob Marley/[1984] Legend/04 Three Little Birds.mp3
-8:Bob Marley/[1984] Legend/05 Buffalo Soldier.mp3
-9:Bob Marley/[1984] Legend/06 Get Up Stand Up.mp3
-10:Bob Marley/[1984] Legend/07 Stir It Up.mp3
-11:Bob Marley/[1984] Legend/08 One Love_People Get Ready.mp3
-12:Bob Marley/[1984] Legend/09 I Shot The Sheriff.mp3
-13:Bob Marley/[1984] Legend/11 Redemption Song.mp3
-14:Bob Marley/[1984] Legend/12 Satisfy My Soul.mp3
-15:Bob Marley/[1984] Legend/14 Jamming.mp3
-16:Bob Marley/[1980] Uprising/08 Could You Be Loved.mp3
-17:Bob Marley/[1978] Kaya/05 Satisfy My Soul.mp3
-18:Bob Marley/[1978] Kaya/10 Time Will Tell.mp3
-19:Bob Marley/[1977] Exodus/1-05 Exodus.mp3
-20:Bob Marley/[1977] Exodus/1-01 Natural Mystic.mp3
-21:Bob Marley/[1976] Rastaman Vibration/04 Positive Vibration.mp3
-22:Bob Marley/[1976] Rastaman Vibration/08 Roots Rock Reggae.mp3
-23:Clairo/[2018] diary 001/02 Flaming Hot Cheetos.mp3
-24:Clairo/[2018] diary 001/04 4EVER.mp3
-25:Clairo/[2018] diary 001/05 Pretty Girl.mp3
-26:Clairo/[2019] immunity/05 Bags.mp3
-27:Clairo/[2019] immunity/06 Softly.mp3
-28:Clairo/[2019] immunity/07 Sofia.mp3
-29:Clairo/[2019] immunity/02 Impossible.mp3
-30:Clairo/[2019] immunity/03 Closer To You.mp3
-31:Denzel Curry/[2018] TA13OO/2-04 SIRENS l Z1RENZ (feat. J.I.D).mp3
-32:Damian Marley/[2017] Stony Hill/05 Medication (feat. Stephen Marley).mp3
-33:Jaden Smith/[2014] CTV2/07 PCH.mp3
-34:Jaden Smith/Singles/[2014] Blue Ocean/Blue Ocean.mp3
-35:Jaden Smith/Singles/[2015] 4 My 1/4 My 1.mp3
-36:Jaden Smith/Singles/[2015] Offering/Offering.mp3
-37:Jhené Aiko/[2013] Sail Out/02 Bed Peace (feat. Childish Gambino.mp3
-38:Jhené Aiko/[2013] Sail Out/06 3_16 AM.mp3
-39:Jhené Aiko/[2014] Souled Out/04 Spotless Mind.mp3
-40:Jhené Aiko/[2014] Souled Out/10 Eternal Sunshine.mp3
-41:Jhené Aiko/[2017] Trip/Moments (feat. Big Sean).mp3
-42:Jhené Aiko/[2017] Trip/Trip (feat. Mali Music).mp3
-43:John Lennon/[1997] Lennon Legend/02 Instant Karma!.mp3
-44:John Lennon/[1997] Lennon Legend/04 Jealous Guy.mp3
-45:John Lennon/[1997] Lennon Legend/08 Mind Games.mp3
-46:John Lennon/[1997] Lennon Legend/13 Woman.mp3
-47:John Lennon/[1997] Lennon Legend/18 Working Class Hero.mp3
-48:Nas/[1994] Illmatic/03 Life's A Bitch.mp3
-49:Nas/[1996] It Was Written/14 If I Ruled The World (Imagine That) (feat. Lauryn Hill).mp3
-50:Nas/[1999] I Am/13 Nas Is Like.mp3
-51:Niki/[2018] Zephyr/01 Newsflash!.mp3
-52:Niki/[2018] Zephyr/05 Vintage.mp3
-53:Niki/[2018] Zephyr/06 Dancing with the Devil.mp3
-54:Rich Brian/[2019] The Sailor/09 100 Degrees.mp3
-55:Russ/[2017] There's Really A Wolf/11 What They Want.mp3
-56:Russ/[2017] There's Really A Wolf/14 Losin Control.mp3
-57:Russ/[2018] ZOO/4 Missin You Crazy.mp3
-58:The Midnight/[2014] Days of Thunder/02 Gloria.mp3
-59:The Midnight/[2014] Days of Thunder/04 Days of thunder.mp3
-60:The Midnight/[2014] Days of Thunder/01 The years (prologue).mp3
-61:Toto/Singles/[1982] Africa/Africa.mp3
-62:We The Kings/Singles/[2007] Check Yes, Juliet/Check Yes, Juliet.mp3
-63:Yellowcard/Singles/[2003] Ocean Avenue/Ocean Avenue.mp3
+0:A$AP Rocky/[2018] Testing/05 Praise the Lord (Da Shine) [feat. Skepta].mp3
+1:Big Sean/Singles/[2019] Overtime/Overtime.mp3
+2:DaBaby/[2019] KIRK/03 BOP.opus
+3:DaBaby/[2019] Baby On Baby/02 Suge.mp3
+4:DaBaby/[2019] Baby On Baby/03 Goin Baby.mp3
+5:DaBaby/[2018] Blank Blank/03 21.mp3
+6:Dave/[2019] Psychodrama/02 Streatham.mp3
+7:Denzel Curry/[2019] ZUU/06 SPEEDBOAT.mp3
+8:Denzel Curry/[2018] TA13OO/2-04 SIRENS l Z1RENZ (feat. J.I.D).mp3
+9:Denzel Curry/[2018] TA13OO/3-03 VENGEANCE l VENGEANCE (feat. JPEGMAFIA & ZillaKami).mp3
+10:J. Cole/[2019] Revenge of the Dreamers III/1. Under The Sun (Feat. J. Cole, Lute & DaBaby).mp3
+11:J. Cole/[2019] Revenge of the Dreamers III/16. MIDDLE CHILD.mp3
+12:J. Cole/[2019] Revenge of the Dreamers III/2. Down Bad (Feat. JID, Bas, J. Cole, EARTHGANG & Young Nudy).mp3
+13:J.I.D/[2018] DiCaprio 2/04 Off Deez (feat. J. Cole).mp3
+14:J.I.D/[2018] DiCaprio 2/05 151 Rum.mp3
+15:J.I.D/[2018] DiCaprio 2/07 Workin Out.mp3
+16:Jaden Smith/[2018] The Sunset Tapes/02 A Calabasas Freestyle.mp3
+17:Joey Bada$$/[2017] All-Amerikkkan Bada$$/11 Legendary (feat. J. Cole).mp3
+18:Joey Bada$$/[2017] All-Amerikkkan Bada$$/07 Rockabye Baby (feat. ScHoolboy Q).mp3
+19:Joyner Lucas/[2020] ADHD/03 ISIS (feat. Logic).mp3
+20:Joyner Lucas/[2020] ADHD/17 Will.mp3
+21:Juice WRLD/Singles/[2019] Bandit/Bandit (feat. NBA Youngboy).mp3
+22:Juice WRLD/Singles/[2020] Righteous/Righteous.mp3
+23:Lil Baby/Singles/[2017] Freestyle/13 Freestyle.mp3
+24:Lil Baby/Singles/[2020] The Bigger Picture/The Bigger Picture.m4a
+25:Lil Baby & Gunna/[2018] Drip Harder/12 Drip Too Hard.mp3
+26:Lil Mosey/Singles/[2020] Blueberry Faygo/Blueberry Faygo.mp3
+27:Lil Tjay/[2019] True 2 Myself/01 One Take.mp3
+28:Lil Tjay/[2019] True 2 Myself/03 F.N.mp3
+29:Lil Tjay/[2019] True 2 Myself/10 Leaked.mp3
+30:Lil Tjay/[2019] True 2 Myself/11 Laneswitch.mp3
+31:Lil Tjay/[2019] True 2 Myself/12 Brothers.mp3
+32:Lil Uzi Vert/Singles/[2019] Sanguine Paradise/Sanguine Paradise.mp3
+33:Lil Uzi Vert/[2020] Eternal Atake/01 Baby Pluto.flac
+34:Lil Uzi Vert/[2020] Eternal Atake/08 Celebration Station.flac
+35:Lil Uzi Vert/[2020] Eternal Atake/09 Bigger Than Life.flac
+36:Lil Uzi Vert/[2020] Eternal Atake/10 Chrome Heart Tags.flac
+37:Lil Uzi Vert/[2020] Eternal Atake/16 P2.flac
+38:Lil Uzi Vert/[2020] Eternal Atake/18 That Way.flac
+39:Lil Uzi Vert/[2020] LUV vs The World 2/01 Myron.mp3
+40:Lil Uzi Vert/[2020] LUV vs The World 2/03 Bean (Kobe) [feat. Cheif Keef].mp3
+41:Lil Uzi Vert/[2020] LUV vs The World 2/06 Strawberry Peels (feat. Young Thug & Gunna).mp3
+42:Lil Uzi Vert/[2020] LUV vs The World 2/14 Leaders (feat. NAV).mp3
+43:NLE Choppa/[2019] Camelot/Camelot.mp3
+44:Polo G/[2019] Die A Legend/02 Dyin Breed.mp3
+45:Polo G/[2019] Die A Legend/03 Through Da Storm.mp3
+46:Polo G/[2019] Die A Legend/04 Effortless.mp3
+47:Polo G/[2019] Die A Legend/05 Pop Out (feat. Lil Tjay).mp3
+48:Polo G/[2019] Die A Legend/08 Finer Things.mp3
+49:Polo G/[2019] Die A Legend/11 Deep Wounds.mp3
+50:Polo G/[2020] The Goat/02. Heartless (feat. Mustard).mp3
+51:Polo G/[2020] The Goat/05. Go Stupid (feat. Stunna 4 Vegas, NLE Choppa & Mike WiLL Made-It).mp3
+52:Polo G/[2020] The Goat/06. 21.mp3
+53:Polo G/[2020] The Goat/07. 33.mp3
+54:Polo G/[2020] The Goat/11. Be Something (feat. Lil Baby).mp3
+55:Polo G/[2020] The Goat/16. Wishing For A Hero (feat. BJ The Chicago Kid).mp3
+56:Rich Brian/[2018] Amen/06 Glow Like Dat.mp3
+57:Rich Brian/[2018] Amen/02 Cold.mp3
+58:Stormzy/[2019] Heavy is the Head/16 Vossi Bop.mp3
+59:Stormzy/[2019] Heavy is the Head/03 Crown.mp3
+60:Stormzy/[2019] Heavy is the Head/06 Handsome.mp3
+61:YBN Cordae/[2019] The Lost Boy/02 Have Mercy.mp3
+62:YBN Cordae/[2019] The Lost Boy/04 Bad Idea (feat. Chance the Rapper.mp3
+63:YBN Cordae/[2019] The Lost Boy/06 RNP (feat. Anderson .Paak).mp3
+64:YBN Cordae/[2019] The Lost Boy/07 Broke As Fuck.mp3
+65:YBN Cordae/Singles/[2019] Locationships/Locationships.mp3
 playlist_end

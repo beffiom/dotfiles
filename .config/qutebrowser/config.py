@@ -67,11 +67,11 @@ config.bind('cs', 'set-cmd-text :config-source')
 config.bind('ce', 'config-edit')
 config.bind(';', 'set-cmd-text :')
 config.bind('t', 'config-cycle content.user_stylesheets themes/default.css themes/darkstar.css')
-config.bind('di', 'set downloads.location.directory ~/Pictures ;; hint images download')
-config.bind('dl', 'set downloads.location.directory ~/Downloads ;; hint links download')
+config.bind('di', 'hint images spawn wget -P Pictures {hint-url}')
+config.bind('dl', 'hint links spawn wget -P Downloads {hint-url}')
 config.bind('dv', 'hint links spawn youtube-dl --add-metadata -i -o "~/Videos/[%(uploader)s] %(title)s.%(ext)s" {hint-url}')
 config.bind('da', 'hint links spawn youtube-dl --add-metadata -i -o "~/Music/%(title)s.%(ext)s" -x -f bestaudio/best {hint-url}')
-config.bind('dt', 'hint links spawn transmission-remote -a {hint-url}')
+config.bind('dt', 'hint links spawn wget -P .config/rtorrent/watch {hint-url}')
 config.bind('gh', 'open ' + homePage)
 config.bind('gH', 'open -t ' + homePage)
 config.bind('pt', 'open -t -- {clipboard}')
@@ -553,7 +553,7 @@ c.content.webrtc_ip_handling_policy = 'disable-non-proxied-udp'
 
 ## Limit fullscreen to the browser window (does not expand to fill the screen).
 ## [Bool]
-c.content.windowed_fullscreen = False
+c.content.fullscreen.window = False
 
 ## Monitor load requests for cross-site scripting attempts. Suspicious scripts will be blocked and reported in the inspector’s JavaScript console.
 ## This setting supports URL patterns.
@@ -1096,10 +1096,10 @@ c.url.open_base_url = True
 
 ## Search engines which can be used via the address bar. Maps a search engine name (such as DEFAULT, or ddg) to a URL with a {} placeholder. The placeholder will be replaced by the search term, use {{ and }} for literal {/} signs. The search engine named DEFAULT is used when url.auto_search is turned on and something else than a URL was entered to be opened. Other search engines can be used by prepending the search engine name to the search term, e.g. :open google qutebrowser.
 ## [Dict]
-c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
+c.url.searchengines = {"DEFAULT": "https://searx.tuxcloud.net/?q={}",
         'w':       'https://en.wikipedia.org/wiki/{}',
         'v':       'https://invidious.snopyta.org/search?q={}',
-        'i':       'https://duckduckgo.com/?q={}&t=h_&ia=images&iax=images',
+        'i':       'https://searx.tuxcloud.net/?q=!images+{}',
         'tw':      'https://nitter.snopyta.org/{}',
         'tws':      'https://nitter.snopyta.org/search?f=tweets&q={}&since=&until=&near=',
         '4':       'https://4channel.org/{}/catalog',

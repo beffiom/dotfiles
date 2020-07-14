@@ -16,7 +16,7 @@ export MUSIC="$TERMINAL -e ncmpcpp"
 export EMAIL="$TERMINAL -e neomutt"
 export AUDIO="$TERMINAL -e pulsemixer"
 export PROCESS="$TERMINAL -e htop"
-export TORRENT="$TERMINAL -e tremc"
+export TORRENT="$TERMINAL -e rtorrent"
 
 # autostart x
 if [[ $(tty) = /dev/tty1 ]]; then

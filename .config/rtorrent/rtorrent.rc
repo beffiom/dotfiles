@@ -1,0 +1,33 @@
+### Throttling ###
+throttle.min_peers.normal.set = 40
+throttle.max_peers.normal.set = 52
+
+throttle.min_peers.seed.set = 10
+throttle.max_peers.seed.set = 52
+
+throttle.max_uploads.set = 8
+
+throttle.global_down.max_rate.set = 200
+throttle.global_up.max_rate.set = 28
+
+### Hash Check ###
+pieces.hash.on_completion.set = yes
+
+### Default Directories ###
+directory.default.set = ~/.config/rtorrent/downloads
+session.path.set = ~/.config/rtorrent/.session
+schedule2 = watch_directory,5,5,load.start=~/.config/rtorrent/watch/*.torrent
+
+### Prevent Downloads On Low Disk Space ###
+schedule2 = low_diskspace,5,60,((close_low_diskspace,100M))
+
+### Ports ###
+network.port_range.set = 49164-49164
+
+### Set Encryption ###
+protocol.encryption.set = allow_incoming,try_outgoing,enable_retry
+
+### DHT Support ###
+dht.mode.set = on
+dht.port.set = 6881
+protocol.pex.set= yes

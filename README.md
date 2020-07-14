@@ -32,7 +32,7 @@ super+w | qutebrowser | web browser
 super+d | dmenu (key programs) | program launcher
 super+shift+d | dmenu (all programs) | program launcher
 super+n | ncmpcpp | music client
-super+t | transmission-cli | torrent client
+super+t | rtorrent | torrent client
 super+s | htop | system processes
 super+a | pulsemixer | audio mixer
 

@@ -6,11 +6,5 @@
 
 config_version: 2
 settings:
-  colors.webpage.bg:
-    global: white
   content.user_stylesheets:
     global: themes/default.css
-  downloads.location.directory:
-    global: ~/Pictures
-  tabs.show:
-    global: never

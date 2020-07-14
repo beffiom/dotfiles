@@ -45,6 +45,7 @@ arch security https://wiki.archlinux.org/index.php/Security
 replicant freedom https://replicant.us/freedom-privacy-security-issues.php
 whonix docs https://www.whonix.org/wiki/Documentation
 fsf surveillance https://www.fsf.org/campaigns/surveillance
+infosec-handbook.eu
 
 #blog
 https://drewdevault.com/

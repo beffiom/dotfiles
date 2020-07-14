@@ -11,9 +11,7 @@ pkill unclutter
 dunst &
 sxhkd &
 polybar main &
-polybar mon1 &
-pactl load-module module-bluetooth-discover &
-pactl load-module module-bluetooth-policy &
+# polybar mon1 &
 picom --config $XDG_CONFIG_HOME/appearance/compton.conf &
 xautolock -detectsleep -time 5 -locker slock &
 redshift -l 27.950575:-82.457176 -t 6500:3000 &
@@ -27,7 +25,7 @@ setbg
 ### MONITORS ###
 ################
 bspc monitor eDP1 -d 1 2 3 4
-bspc monitor HDMI1 -d 5 6 7
+bspc monitor HDMI1 -d 5
 
 ############################
 #### BSPWM configuration ###

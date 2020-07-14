@@ -1,0 +1,77 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAAUAAACPwAAA7UAAAQjAAAAFwAAAkIAAAOyAAAEIAAAAAAAAAAAB4AAAAAXAAACQgAAA7IAAAQg"
+  }, 
+  "main_window_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAWAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAKsA////+wAAABAAdABvAGMALQBkAG8AYwBrAAAAAAD/////AAAAlwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAOkA////+wAAABYAbABvAG8AawB1AHAALQBkAG8AYwBrAAAAAAD/////AAAAcAD////7AAAAHABiAG8AbwBrAG0AYQByAGsAcwAtAGQAbwBjAGsAAAAAAP////8AAAELAP////sAAAAcAGkAbgBzAHAAZQBjAHQAbwByAC0AZABvAGMAawAAAAAA/////wAAABgA////AAADnAAAAd8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  }, 
+  "old_prefs_migrated": true, 
+  "session_data": {
+    "controls_help_shown_count": 2, 
+    "standalone_font_settings": {}, 
+    "standalone_misc_settings": {
+      "remember_last_read": true, 
+      "remember_window_geometry": false, 
+      "save_annotations_in_ebook": true, 
+      "singleinstance": false
+    }, 
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Henry David Thoreau"
+        ], 
+        "key": "/home/shockman/Calibre Library/Henry David Thoreau/Walking (10)/Walking - Henry David Thoreau.epub", 
+        "pathtoebook": "/home/shockman/Calibre Library/Henry David Thoreau/Walking (10)/Walking - Henry David Thoreau.epub", 
+        "timestamp": "2020-06-14T21:44:50.962Z", 
+        "title": "Walking"
+      }, 
+      {
+        "authors": [
+          "Henry David Thoreau"
+        ], 
+        "key": "/home/shockman/Calibre Library/Henry David Thoreau/Walden (9)/Walden - Henry David Thoreau.epub", 
+        "pathtoebook": "/home/shockman/Calibre Library/Henry David Thoreau/Walden (9)/Walden - Henry David Thoreau.epub", 
+        "timestamp": "2020-06-14T21:44:06.844Z", 
+        "title": "Walden"
+      }, 
+      {
+        "authors": [
+          "Umaswami"
+        ], 
+        "key": "/home/shockman/Calibre Library/Umaswami/Tattvarthasutra (6)/Tattvarthasutra - Umaswami.epub", 
+        "pathtoebook": "/home/shockman/Calibre Library/Umaswami/Tattvarthasutra (6)/Tattvarthasutra - Umaswami.epub", 
+        "timestamp": "2020-06-12T16:13:19.978Z", 
+        "title": "Tattvarthasutra"
+      }, 
+      {
+        "authors": [
+          "Umaswami, Doshi"
+        ], 
+        "key": "/home/shockman/Calibre Library/Umaswami, Doshi/Tattvartha-Sutra (5)/Tattvartha-Sutra - Umaswami, Doshi.epub", 
+        "pathtoebook": "/home/shockman/Calibre Library/Umaswami, Doshi/Tattvartha-Sutra (5)/Tattvartha-Sutra - Umaswami, Doshi.epub", 
+        "timestamp": "2020-06-12T16:07:28.319Z", 
+        "title": "Tattvartha-Sutra"
+      }, 
+      {
+        "authors": [
+          "Umaswami"
+        ], 
+        "key": "/home/shockman/Calibre Library/Umaswami/Tattvartha Sutra (4)/Tattvartha Sutra - Umaswami.epub", 
+        "pathtoebook": "/home/shockman/Calibre Library/Umaswami/Tattvartha Sutra (4)/Tattvartha Sutra - Umaswami.epub", 
+        "timestamp": "2020-06-12T15:55:02.843Z", 
+        "title": "Tattvartha Sutra"
+      }, 
+      {
+        "authors": [
+          "Umaswami"
+        ], 
+        "key": "/home/shockman/Calibre Library/Umaswami/Tattvartha Sutra (2)/Tattvartha Sutra - Umaswami.epub", 
+        "pathtoebook": "/home/shockman/Calibre Library/Umaswami/Tattvartha Sutra (2)/Tattvartha Sutra - Umaswami.epub", 
+        "timestamp": "2020-06-12T00:19:01.684Z", 
+        "title": "Tattvartha Sutra"
+      }
+    ]
+  }
+}

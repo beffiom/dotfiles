@@ -1,9 +1,9 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.43 for shockman on Sat Oct 26 21:24:23 2019.
+# Written by xscreensaver-demo 5.44 for shockman on Mon Jul 13 00:25:07 2020.
 # https://www.jwz.org/xscreensaver/
 
-timeout:	0:20:00
-cycle:		0:20:00
+timeout:	5:00:00
+cycle:		5:00:00
 lock:		False
 lockTimeout:	0:00:00
 passwdTimeout:	0:00:30
@@ -26,9 +26,9 @@ ignoreUninstalledPrograms:False
 font:		*-medium-r-*-140-*-m-*
 dpmsEnabled:	True
 dpmsQuickOff:	False
-dpmsStandby:	0:20:00
-dpmsSuspend:	0:20:00
-dpmsOff:	0:30:00
+dpmsStandby:	5:00:00
+dpmsSuspend:	5:00:00
+dpmsOff:	5:00:00
 grabDesktopImages:  True
 grabVideoFrames:    False
 chooseRandomImages: False
@@ -279,6 +279,9 @@ programs:								      \
 				vfeedback -root				    \n\
   GL: 				deepstars -root				    \n\
   GL: 				gravitywell -root			    \n\
+				scooter -root				    \n\
+  GL: 				etruscanvenus -root			    \n\
+  GL: 				gibson -root				    \n\
 
 
 pointerPollTime:    0:00:05

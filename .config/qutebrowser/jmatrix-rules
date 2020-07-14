@@ -56,3 +56,4 @@ np.reddit.com www.redditstatic.com script allow
 beffiom.github.io fontlibrary.org other allow
 www.twitch.tv static.twitchcdn.net other allow
 www.twitch.tv static.twitchcdn.net script allow
+beffiom.tech fontlibrary.org other allow

@@ -1,0 +1,17 @@
+{
+  "add books dialog dir": "/home/shockman/Downloads", 
+  "change cover dialog": "/home/shockman/Pictures", 
+  "save to disk dialog": "/home/shockman/Downloads", 
+  "sort_history": [
+    [
+      "timestamp", 
+      false
+    ], 
+    [
+      "timestamp", 
+      false
+    ]
+  ], 
+  "welcome_wizard_device": "default", 
+  "welcome_wizard_was_run": true
+}

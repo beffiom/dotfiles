@@ -31,9 +31,9 @@ color article cyan default
 
 browser qutebrowser
 macro , open-in-browser
-macro t set browser "tsp youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
+macro v set browser "tsp youtube-dl --add-metadata -i -o '~/Videos/[%(uploader)s] %(title)s.%(ext)s'"; open-in-browser ; set browser linkhandler
 macro a set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best"; open-in-browser ; set browser linkhandler
-macro v set browser "setsid nohup mpv"; open-in-browser ; set browser linkhandler
+macro m set browser "setsid nohup umpv"; open-in-browser ; set browser linkhandler
 macro w set browser "w3m"; open-in-browser ; set browser linkhandler
 macro p set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
 macro c set browser "xsel -b <<<" ; open-in-browser ; set browser linkhandler
