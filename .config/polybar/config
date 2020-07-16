@@ -54,7 +54,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Ubuntu Mono:pixelsize=16;1
-font-1 = FontAwesome:style=Solid:pixelsize=12;1
+font-1 = Font Awesome 5:style=Solid:pixelsize=12;1
 
 modules-left = mpd
 modules-center = bspwm

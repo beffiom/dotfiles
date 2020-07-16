@@ -22,9 +22,9 @@
 	PSP
 1593277001
 'm
-	/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs/Nintendo - Nintendo Gamecube
-	Super Monkey Ball.nkit.gcz
-1594253464
+	/home/shockman
+	Devices
+1594718540
 'p
 	/home/shockman/.config/mpd
 	mpd.log
@@ -54,174 +54,228 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/shockman/Videos
-	other
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/BIOS
+	ps3
+5
+d/home/shockman
+	Games
+15
+d/home/shockman/Games
+	Sony - Playstation 3
+3
+d/home/shockman/Games/Sony - Playstation 3
+	Firmware
 1
-d/home/shockman/Videos/other
-	2bcbdd1a1b24dead60802fcad5c3cb19.webm
+d/home/shockman/Games/Sony - Playstation 3/Firmware
+	PS3UPDAT.PUP
+1
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Games
 2
-d/home/shockman/Videos
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	Retro
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	BIOS
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/BIOS
+	ps3
+5
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/BIOS/ps3
+	PS3UPDAT.PUP
+1
+d/home/shockman
+	Games
+15
+d/home/shockman/Games
+	Sony - Playstation 3
+3
+d/home/shockman/Games/Sony - Playstation 3
+	ROMs
+2
+d/home/shockman/Games/Sony - Playstation 3/ROMs
+	NCAA Football 14
+2
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Games
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	Retro
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	Archive
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive
+	PS3
+9
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive/PS3
+	Madden NFL 09
+1
+d/home/shockman
+	Games
+15
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+3
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Games
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	Retro
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	Archive
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	PC
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
 	..
 0
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games
+	PC
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia
+	Music
+3
+d/home/shockman/Devices/A:A_Drive
+	Git
+2
+d/home/shockman/Devices/A:A_Drive/Git
+	Linux
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	void-post-installer
+5
+d/home/shockman/Devices/A:A_Drive/Git/Linux/void-post-installer
+	install.sh
+3
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	dotfiles
+3
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles
+	.config
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config
+	gtk-2.0
+8
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config/gtk-2.0
+	gtkfilechooser.ini
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config
+	appearance
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config/appearance
+	wallpapers
+2
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config
+	nvim
+17
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles
+	.git
+2
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	archive-dotfiles
+2
+d/home/shockman/Devices/A:A_Drive/Git/Linux/archive-dotfiles
+	.config
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/archive-dotfiles/.config
+	..
+0
+d/home/shockman/Devices/A:A_Drive/Git/Linux/archive-dotfiles
+	.config
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/archive-dotfiles/.config
+	castero
+3
+d/home/shockman/Devices/A:A_Drive/Git/Linux/archive-dotfiles
+	.config
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	dotfiles
+3
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles
+	.config
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config
+	rtorrent
+20
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config/rtorrent
+	.session
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config
+	rtl8821ce
+20
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config/rtl8821ce
+	dkms-install.sh
+12
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles/.config
+	rtl8821ce
+20
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles
+	.config
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	dotfiles
+3
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles
+	.config
+1
+d/home/shockman
+	Music
+16
+d/home/shockman/Music
+	1-Collections
+1
+d/home/shockman
+	Pictures
+17
 d/home/shockman/Pictures
 	Screenshots
 1
 d/home/shockman/Pictures/Screenshots
-	496ad9a75f8e7d8e127266d94b865911.mp4-01:12:04.133.png
-5
-d/home/shockman/Pictures
-	stoicism
+	ncmpcpp.png
 1
-d/home/shockman/Pictures/stoicism
-	musonius_selfrespect.jpg
-25
-d/home/shockman/Pictures
-	1592960905779.jpg
-2
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Career
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Career
-	Branding
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Memes
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	Original
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/Original
-	17800131_1276176435812549_9052353457709483578_n.jpg
-3
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	motivation
-7
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/motivation
-	1592960905779.jpg
-1
-d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	..
-0
-d/home/shockman/Pictures
-	stoicism
-1
-d/home/shockman/Pictures/stoicism
-	zeno_conquer.jpg
-32
-d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	..
-0
-d/home/shockman/Devices/A:A_Drive
-	Documents
-1
-d/home/shockman/Devices/A:A_Drive/Documents
-	Media
-2
-d/home/shockman/Devices/A:A_Drive/Documents/Media
-	Memes
-1
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes
-	motivation
-7
-d/home/shockman/Devices/A:A_Drive/Documents/Media/Memes/motivation
-	dedication.png
-14
-d/home/shockman/Videos
-	..
-0
-d/home/shockman
-	Videos
-15
 d/home/shockman/Pictures
 	Screenshots
 1
 d/home/shockman
-	.pki
-6
-d/home/shockman/Downloads
-	Documentation
-1
-d/home/shockman/Downloads/Documentation
-	..
-0
-d/home/shockman/Downloads
-	Fitness-Journal.md
-2
+	Videos
+18
 d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	Personal
-5
-d/home/shockman/Devices/A:A_Drive/Notes/Personal
-	Fitness-Journal.md
-6
-d/home/shockman/Downloads
-	Daily-Routine.md
+	Git
+2
+d/home/shockman/Devices/A:A_Drive/Git
+	Linux
+1
+d/home/shockman/Devices/A:A_Drive/Git/Linux
+	dotfiles
+3
+d/home/shockman/Devices/A:A_Drive/Git/Linux/dotfiles
+	.config
 1
 d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	Personal
-5
-d/home/shockman/Devices/A:A_Drive/Notes/Personal
-	Daily-Routine.md
+	Git
 2
-d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Downloads
-	recs
-8
-d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	Personal
-5
+d/home/shockman/Devices/A:A_Drive/Git
+	Linux
+1
 d/home/shockman/Devices/A:A_Drive
 	Multimedia
 3
 d/home/shockman/Devices/A:A_Drive/Multimedia
-	recs
-7
-d/home/shockman/Downloads
-	subscription_manager.opml
-8
-d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	Digital Minimalism
+	Music
 3
-d/home/shockman/Devices/A:A_Drive/Notes/Digital Minimalism
-	private-services.md
-9
-d/home/shockman/Downloads
-	Yu-Gi-Oh__Legacy_of_the_Duelist.part1.rar
-1
-d/home/shockman/Devices/A:A_Drive
-	Notes
-4
-d/home/shockman/Devices/A:A_Drive/Notes
-	Digital Minimalism
-3
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-3
+d/home/shockman/Devices/A:A_Drive/Multimedia/Music
+	..
+0
 d/home/shockman/Devices/A:A_Drive/Multimedia
 	Games
 2
@@ -229,116 +283,53 @@ d/home/shockman/Devices/A:A_Drive/Multimedia/Games
 	PC
 1
 d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
-	Yu-Gi-Oh! Legacy of the Duelist
+	Disgaea 5
 1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC/Yu-Gi-Oh! Legacy of the Duelist
-	Yu-Gi-Oh__Legacy_of_the_Duelist.part1.rar
-1
-d/home/shockman/Videos
-	..
-0
-d/home/shockman/.config
-	rtorrent
-30
-d/home/shockman/.config/rtorrent
-	downloads
-1
-d/home/shockman/.config/rtorrent/downloads
-	kingdoms_and_castles_116r12_35791.sh
-42
-d/home/shockman/Devices/A:A_Drive
-	Multimedia
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia
-	Games
-2
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games
-	PC
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
-	Sleeping Dogs Definitive Edition
-8
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC/Sleeping Dogs Definitive Edition
-	setup.exe
-13
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
-	Hollow Knight
-2
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC/Hollow Knight
-	hollow_knight_1_4_3_2_23987.sh
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
-	Kingdoms and Castles
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC/Kingdoms and Castles
-	kingdoms_and_castles_116r12_35791.sh
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
-	Terraria
-15
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC/Terraria
-	terraria_v1_4_0_5_38805.sh
-1
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/PC
-	Octopath Traveler
-5
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games
-	Yugioh
-3
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Yugioh
-	..
-0
 d/home/shockman/Devices/A:A_Drive/Multimedia/Games
 	Retro
 2
 d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
-	Saves
+	Archive
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive
+	PSP
+10
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	ROMs
 6
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Saves
-	ppsspp
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs
+	Nintendo - Game Boy Advance
 1
-d/home/shockman/.config
-	dolphin-emu
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs/Nintendo - Game Boy Advance
+	Zelda - The Minish Cap.gba
+35
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs
+	Nintendo - Nintendo 3DS
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs/Nintendo - Nintendo 3DS
+	Tom Clancy's Ghost Recon - Shadow Wars.3ds
 7
-d/home/shockman/.config/dolphin-emu
-	Profiles
-1
-d/home/shockman/.config/dolphin-emu/Profiles
-	Wiimote
-2
-d/home/shockman/.config/dolphin-emu/Profiles/Wiimote
-	..
-0
-d/home/shockman/.config/dolphin-emu/Profiles
-	Wiimote
-2
-d/home/shockman/.config/dolphin-emu
-	Profiles
-1
-d/home/shockman/.config/dolphin-emu/Profiles
-	GCPad
-1
-d/home/shockman/.config/dolphin-emu/Profiles/GCPad
-	XB1.ini
-1
-d/home/shockman/.config/dolphin-emu/Profiles
-	GCPad
-1
-d/home/shockman/.config/dolphin-emu
-	Profiles
-1
-d/home/shockman/.config/dolphin-emu/Profiles
-	GCPad
-1
-d/home/shockman/.config/dolphin-emu/Profiles/GCPad
-	XB1.ini
-1
-d/home/shockman/.config/dolphin-emu/Profiles
-	GCPad
-1
-d/home/shockman/.config/dolphin-emu
-	GFX.ini
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs
+	Nintendo - Nintendo Gamecube
 4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs/Nintendo - Nintendo Gamecube
+	Crazy Taxi.nkit.gcz
+2
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs
+	Nintendo - Nintendo Gamecube
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	Archive
+1
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive
+	Sega - Dreamcast
+11
+d/home/shockman/Devices/A:A_Drive
+	Multimedia
+3
+d/home/shockman/Devices
+	A:A_Drive
+1
 d/home/shockman/Devices/A:A_Drive
 	Multimedia
 3
@@ -349,12 +340,20 @@ d/home/shockman/Devices/A:A_Drive/Multimedia/Games
 	Retro
 2
 d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
-	Dolphin Data
-5
-d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Dolphin Data
-	Profiles
+	ROMs
+6
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/ROMs
+	Nintendo - Nintendo Gamecube
+4
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro
+	Archive
 1
-d
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive
+	Sony - PlayStation 2
+14
+d/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive/Sony - PlayStation 2
+	Dragon Ball Z - Budokai 2 (USA).iso
+6
 
 # Right window history (oldest to newest):
 D/home/shockman/Devices
@@ -369,27 +368,42 @@ D/home/shockman/Devices/V:Virtual_Machine/shared
 D/home/shockman
 	Downloads
 2
-D
+D/home/shockman/.local
+	
+0
+D/home/shockman
+	
+0
+D/
+	
+0
+D/home/shockman
+	
+0
+D/home/shockman/.local/bin
+	
+0
+D/home/shockman
+	
+0
+D/home/shockman/.config
+	
+0
+D/home/shockman/.local
+	
+0
+D/home/shockman
+	
+0
+D/home/shockman/.local
+	
+0
+D/home/shockman
+	
+0
 
 # Command line history (oldest to newest):
-:!unzip Syphon\ Filter\ 3\ \(USA\).zip
-:!wget https://www.lukiegames.com/assets/images/PS1/ps1_sim_theme_park_p_1itnc0.jpg
-:!wget http://gamesdbase.com/Media/SYSTEM/Sony_Playstation/Box/big/Tomb_Raider_-_1996_-_Eidos_Interactive.jpg
-:!wget https://cdn7.bigcommerce.com/s-ymgqt/images/stencil/1280x1280/products/20281/22884/Syphon_Filter__23820.1398104516.jpg?c=2&imbypass=on
-:!wget http://img4.wikia.nocookie.net/__cb20131030094705/thegameroom/images/d/df/Syphon_Filter_2_Box_Art.jpg
-:!wget https://i.pinimg.com/736x/03/e3/47/03e3476d5b8e862bd9a6b9350d4bcdd9--classic-video-party-games.jpg
-:doas chmod +x *
-:mkdir Archive
-:!da -ha %f
-:!unzip %f
-:!unzip Silent\ Hill\ -\ Shattered\ Memories\ \(USA\).zip; unzip Silent\ Hill\ Origins\ \(Asia\)\ \(En,Fr,De,Es,It\)\ \[b\].zip; unzip Syphon\ Filter\ -\ Dark\ Mirror\ \(Europe\)\ \(En,Fr,De,Es,It\).zip; unzip Syphon\ Filter\ -\ Logans\ Shadow\ \(USA\).zip
-:mkdir games
-:!nvim links
-:!unzip 
-:!unzip 3ds-dec_0033_2ac8aa30.zip
-:!unrar
-:!unrar nCar7USA-Recopilacion.rar
-:mkdir 3ds
+:!7z e void-files.tar.xz
 :mkdir PS1
 :mkdir Gamecube
 :mkdir PSP
@@ -448,7 +462,6 @@ D
 :!chmod 777 Shin\ Megami\ Tensei\ -\ Devil\ Summoner\ -\ Soul\ Hackers\ \(Europe\).3ds
 :!for i in *; do 7z e "$i"; done
 :!doas rm -rf *.7z
-:!doas chmod 777 *
 :!7z e 3DS0270\ -\ Animal\ Crossing\ -\ New\ Leaf\ \(Europe\)\(En,Fr,Ge,It,Es\)\(Proper\)\ Decrypted.7z
 :!chmod 777 3DS0270\ -\ Animal\ Crossing\ -\ New\ Leaf\ \(Europe\)\(En,Fr,Ge,It,Es\)\(Proper\)\ Decrypted.3ds
 :!unrar f1r2o3m4e5g6a7.rar
@@ -456,7 +469,6 @@ D
 :mkdir new
 :!unzip DS\ firmware\ +\ DSi\ NAND\ and\ firmware.zip
 :!unzip DS\ Firmware\ +\ \(European\)\ DSi\ NAND\ And\ Firmware.zip
-:mkdir 
 :mkdir kodi
 :!chmod 777 Simpsons,\ The\ -\ Hit\ \&\ Run\ \(Europe\)\ \(En,Fr,De\).nkit.gcz
 :!unzip Dragon\ Ball:\ Revenge\ of\ King\ Piccolo.zip
@@ -473,14 +485,28 @@ D
 :mkdir Kingdoms
 :mkdir Terraria
 :mkdir Dolphin\ Data
+:!doas chmod 777 *
+:mkdir Sony\ -\ Playstation\ 2
+:mkdir Bios
+:!7z e PS2_BIOS.zip
+:mkdir ps1
+:mkdir PC
+:mkdir Firmware
+:mkdir ROMs
+:!nvim steam_appid.txt
+:mkdir OSRS
+:mkdir Tomb Raider
+:mkdir Madden
+:mkdir Naruto
+:!unuar
+:!unrar e Naruto_Ultimate_Ninja_Storm_BLES00371.rar
+:!7z e Madden\ NFL\ 09\ BLUS30146.zip
+:!unzip Madden\ NFL\ 09\ BLUS30146.zip
+:mkdir ps3
+:mkdir 
 
 # Search history (oldest to newest):
-/23
-/key
-/lin
-/mpd
-/joyn
-/.pdf
+/bash
 /D4
 /uzi
 /Last
@@ -575,40 +601,14 @@ D
 /Mortal 
 /Kaiji
 /rto
+/fonts
+/font
+/dme
+/rtorrent
+/steam
+/rtorr
 
 # Prompt history (oldest to newest):
-p1418.jpg
-pR-Type III.gba
-pMega Man Zero 3
-pMetal Slug Advance
-pSteel Empire
-pMega Man Zero 4
-p44698-Shining_Soul_II_(U)(Independent)-1.
-pShining Soul II
-pShining Soul
-pR-Type II
-pR-Type III.jpg
-pSD Gundam Force
-pKlonoa jk
-pKlonoa 2 - Dream Champ Tournament
-pMega Man Zero 2
-pCima
-pInvader
-pKlonoa - Empire of Dreams.
-pKlonoa - Empire of Dreams
-pKirby & The Amazing Mirro
-pKirby & The Amazing Mirror.jpg
-pKirby and The Amazing Mirror
-pKirby and The Amazing Mirror.png
-pMario and Luigi - Superstar Saga
-pSpyro - Season of Ice
-pSpyro 2 - Season of Flame
-pRiviera - The Promised Land
-pMega Man Zero
-pSimCity 2000
-pQuake II
-pSim Theme Pa
-pSim Theme Park.jpg
 pSim Theme Park
 pDragon Ball Z - The Legend
 pGuardian Heroes
@@ -679,7 +679,6 @@ p007 - Nightfire.nkit
 pTony Hawk's Underground.nkit
 pYu-Gi-Oh! Legacy of the Duelist
 pDisgaea 5 Complete
-pMass Effect 2
 pOctopath Traveler
 pPlanet Coaster
 pPersona 4 Golden
@@ -697,13 +696,25 @@ pYakuza 0
 pRollercoaster Tycoon 2
 pStar Wars - Knights of the Old Republic
 pKingdoms and Castles
+pBIOS
+pps2
+pSony - Playstation 3
+pA:A_Drive
+picon
+pbanner
+pMass Effect 2.icon
+pMass Effect 2
+pMass Effect 2.png
+pMass Effect 2.ico
+pTomb Raider
+pNaruto Ultimate Ninja Storm
+pMadden NFL 09
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/shockman/.config/dolphin-emu/Profiles
-""/home/shockman/.config/dolphin-emu/Dolphin.ini
-""/home/shockman/.config/dolphin-emu/GFX.ini
+""/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive/Sega - Dreamcast
+""/home/shockman/Devices/A:A_Drive/Multimedia/Games/Retro/Archive/Sega - Mega Drive - Genesis
 
 # Directory stack (oldest to newest):
 
