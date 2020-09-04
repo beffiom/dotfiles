@@ -3,7 +3,10 @@ stty -ixon # Disable ctrl-s and ctrl-q.
 shopt -s autocd #Allows you to cd into directory merely by typing the directory name.
 HISTSIZE= HISTFILESIZE= # Infinite history.
 
-export PS1="$ "
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/share/powerline/bindings/bash/powerline.sh
 
 #aliases
 alias logout='prompt "Logout?" "kill -9 -1"'
@@ -23,15 +26,15 @@ alias ls="ls -hN --color=auto --group-directories-first"
 alias la="ls -A"
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
-alias kiwix-start="kiwix-serve --port=8080 ~/Devices/A\:A_Drive/Multimedia/Books/Wikipedia/*.zim"
-alias dv="youtube-dl --add-metadata --all-subs -i -o '[%(uploader)s] %(title)s.%(ext)s'"
+alias kiwix-start="kiwix-serve --port=8000 ~/Devices/A\:A_Drive/Multimedia/Books/Wikipedia/*.zim"
+alias dv="youtube-dl --add-metadata --embed-subs -i -o '[%(uploader)s] %(title)s.%(ext)s'"
 alias da="youtube-dl --add-metadata -i -o '%(title)s.%(ext)s' -x -f bestaudio/best"
 alias dl="wget --backups"
-alias vpu='doas xbps-install -Syyu'
-alias vpi='doas xbps-install -Sy'
-alias vpr='doas xbps-remove -Ry'
-alias vpq='doas xbps-query -Rs'
-alias vpc='doas xbps-remove -Oo'
+alias apu='doas pacman -Sy'
+alias api='doas pacman -Syu'
+alias apr='doas pacman -Rcns'
+alias apq='doas pacman -Ss'
+alias apc='doas pacman -Sc'
 alias bt-start='pactl load-module module-bluetooth-discover; pactl load-module module-bluetooth-policy; doas sv restart bluetoothd'
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"

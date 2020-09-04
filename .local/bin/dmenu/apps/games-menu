@@ -1,7 +1,11 @@
 #!/bin/sh
-case "$(printf "minetest\\npsp\\nretroarch\\nrunescape" | dmenu)" in
-	"minetest") minetest ;;
-	"psp") PPSSPPSDL ;;
+case "$(printf "retroarch\\nopenrct2\\nparkitect\\nminetest\\nxonotic\\nrunescape\\nppsspp\\npcsx2" | dmenu)" in
 	"retroarch")  retroarch ;;
+	"openrct2")  openrct2 ;;
+	"parkitect") sh ~/GOG\ Games/Parkitect/start.sh ;;
+	"minetest") minetest ;;
+	"xonotic")  xonotic-sdl ;;
 	"runescape") runelite ;;
+	"ppsspp") PPSSPPSDL ;;
+	"pcsx2")  PCSX2 ;;
 esac

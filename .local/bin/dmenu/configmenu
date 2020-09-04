@@ -1,10 +1,9 @@
 #!/bin/sh
-case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneomutt\\nneovim\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
+case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ndmenu\\ndunst\\nfonts\\nmpd\\nmpv-conf\\nmpv-input\\nncmpcpp-bindings\\nncmpcpp-conf\\nneomutt\\nneovim\\npicom\\npolybar\\nqutebrowser-conf\\nqutebrowser-startpage\\nqutebrowser-theme\\nst\\nsxhkd\\ntransmission-daemon\\ntremc\\nvifm\\nXresources\\nzathura" | dmenu -p edit:)" in
 	"userscripts") userscripts ;;
 	"bash_profile") $TERMINAL -e $EDITOR ~/.bash_profile ;;
 	"bashrc") $TERMINAL -e $EDITOR ~/.bashrc ;;
 	"bspwm") $TERMINAL -e $EDITOR ~/.config/bspwm/bspwmrc ;;
-	"compton") $TERMINAL -e $EDITOR ~/.config/appearance/compton.conf ;;
 	"dmenu") $TERMINAL -e $EDITOR ~/.config/dmenu/config.h ;;
 	"dunst") $TERMINAL -e $EDITOR ~/.config/dunst/dunstrc ;;
 	"fonts") $TERMINAL -e $EDITOR ~/.config/fontconfig/fonts.conf ;;
@@ -15,6 +14,7 @@ case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ncompton\\ndmenu\\n
 	"ncmpcpp-conf") $TERMINAL -e $EDITOR ~/.config/ncmpcpp/config ;;
 	"neomutt") $TERMINAL -e $EDITOR ~/.config/mutt/muttrc ;;
 	"neovim") $TERMINAL -e $EDITOR ~/.config/nvim/init.vim ;;
+	"picom") $TERMINAL -e $EDITOR ~/.config/appearance/picom.conf ;;
 	"polybar") $TERMINAL -e $EDITOR ~/.config/polybar/config ;;
 	"qutebrowser-conf") $TERMINAL -e $EDITOR ~/.config/qutebrowser/config.py ;;
 	"qutebrowser-startpage") $TERMINAL -e $EDITOR ~/.config/qutebrowser/local/startpage.html ;;

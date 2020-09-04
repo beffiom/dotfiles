@@ -661,7 +661,8 @@ c.fonts.statusbar = 'bold 14pt monospace'
 
 ## Font used in the tab bar.
 ## [QtFont]
-c.fonts.tabs = 'bold 14pt monospace'
+c.fonts.tabs.selected = 'bold 16pt monospace'
+c.fonts.tabs.unselected = 'bold 12pt monospace'
 
 ## Font family for cursive fonts.
 ## [FontFamily]
@@ -807,7 +808,7 @@ c.input.partial_timeout = 5000
 
 ## Enable Opera-like mouse rocker gestures. This disables the context menu.
 ## [Bool]
-c.input.rocker_gestures = False
+c.input.mouse.rocker_gestures = False
 
 ## Enable spatial navigation. Spatial navigation consists in the ability to navigate between focusable elements in a Web page, such as hyperlinks and form controls, by using Left, Right, Up and Down arrow keys. For example, if the user presses the Right key, heuristics determine whether there is an element he might be trying to reach towards the right and which element he probably wants.
 ## This setting supports URL patterns.
@@ -917,8 +918,8 @@ c.session.lazy_restore = False
 #################################################################
 
 ## Hide the statusbar unless a message is shown.
-## [Bool]
-c.statusbar.hide = False
+## [String]
+c.statusbar.show = 'in-mode'
 
 ## Padding (in pixels) for the statusbar.
 ## [Padding]

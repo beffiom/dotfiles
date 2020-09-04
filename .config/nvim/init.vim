@@ -8,6 +8,7 @@ endif
 
 call plug#begin('~/.config/nvim/plugged/')
 Plug 'tpope/vim-surround'
+Plug 'powerline/powerline'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'jreybert/vimagit'
@@ -21,6 +22,7 @@ Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 call plug#end()
 
+colorscheme peachpuff
 set tabstop=4 shiftwidth=4 expandtab
 set bg=light
 set go=a
@@ -36,12 +38,12 @@ map J :tabn<Enter>
 map K :tabp<Enter>
 
 " autoupdate programs
-    	autocmd BufWritePost config.h !sudo make install
+    	autocmd BufWritePost config.h !doas make install
     	autocmd BufWritePost *.html !qutebrowser :reload
     	autocmd BufWritePost ~/.config/appearance/Xresources !xrdb %
     	autocmd BufWritePost bspwmrc !bspc wm -r
     	autocmd BufWritePost sxhkdrc !bspc wm -r
-    	autocmd BufWritePost compton.conf !bspc wm -r
+    	autocmd BufWritePost picom.conf !bspc wm -r
     	autocmd BufWritePost .bashrc,.bash_profile,.profile !source ~/.bash_profile
     	autocmd BufWritePost .Xresources !xrdb ~/.Xresources
     	autocmd BufWritePost *ncmpcpp/config,*ncmpcpp/bindings !killall ncmpcpp ; st -e ncmpcpp &

@@ -9,6 +9,9 @@ super + Return
 super + d
 	$LAUNCHER
 
+super + g
+	games-menu
+
 super + e
   	$EMAIL
 
@@ -72,16 +75,13 @@ super + {F9,F10}
 
 ## audio control
 XF86Audio{LowerVolume,RaiseVolume}
-	pulsemixer --unmute ; pulsemixer --change-volume {-,+}2
-#; volumenotify
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5; volumenotify
 
 super + {minus,equal}
-	pulsemixer --unmute ; pulsemixer --change-volume {-,+}2
-#; volumenotify
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5; volumenotify
 
 XF86AudioMute
-	pulsemixer --toggle-mute
-#; volumenotify
+	pulsemixer --toggle-mute; volumenotify
 
 #super + m
 #	pulsemixer --toggle-mute
@@ -103,7 +103,7 @@ super + p
 
 ## display backlight control
 XF86MonBrightness{Down,Up}
-	xbacklight {-,+} 2 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
+	xbacklight {-,+} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
 
 
 ## keyboard backlight control

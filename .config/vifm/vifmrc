@@ -15,7 +15,7 @@ nnoremap gh :cd ~/<cr>
 nnoremap gt :cd ~/.trash<cr>
 nnoremap gc :cd ~/.config<cr>
 nnoremap gd :cd ~/Downloads/<cr>
-nnoremap ge :cd ~/Devices/A:A_Drive<cr>
+nnoremap ge :cd /mnt/A:A_Drive<cr>
 nnoremap gm :cd ~/Music/<cr>
 nnoremap gp :cd ~/Pictures<cr>
 nnoremap gv :cd ~/Videos/<cr>
@@ -34,7 +34,8 @@ nnoremap yf :!echo %c:p | xclip -selection clipboard<cr>
 " nnoremap P  :move!<cr>
 
 " move to trash/delete files
-nnoremap dd :delete<cr>
+nnoremap dd :trash!<cr>
+nnoremap dt :trash!<cr>
 nnoremap D  :delete!<cr>
 
 " renaming

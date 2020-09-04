@@ -18,7 +18,7 @@ getmount() { \
 mountusb() { \
 	chosen="$(echo "$usbdrives" | dmenu -p "Mount which drive?" | awk '{print $1}')"
 	mount "$chosen" && exit 0
-	getmount "/mnt /media /mount /home -maxdepth 5 -type d"
+	getmount "/mnt -maxdepth 5 -type d"
 	partitiontype="$(lsblk -no "fstype" "$chosen")"
 	case "$partitiontype" in
 		"vfat") doas mount -t vfat "$chosen" "$mp" -o rw,umask=0000;;
