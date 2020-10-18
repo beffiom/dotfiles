@@ -1097,10 +1097,10 @@ c.url.open_base_url = True
 
 ## Search engines which can be used via the address bar. Maps a search engine name (such as DEFAULT, or ddg) to a URL with a {} placeholder. The placeholder will be replaced by the search term, use {{ and }} for literal {/} signs. The search engine named DEFAULT is used when url.auto_search is turned on and something else than a URL was entered to be opened. Other search engines can be used by prepending the search engine name to the search term, e.g. :open google qutebrowser.
 ## [Dict]
-c.url.searchengines = {"DEFAULT": "https://searx.tuxcloud.net/?q={}",
+c.url.searchengines = {"DEFAULT": "https://searx.ninja/?q={}",
         'w':       'https://en.wikipedia.org/wiki/{}',
         'v':       'https://invidious.snopyta.org/search?q={}',
-        'i':       'https://searx.tuxcloud.net/?q=!images+{}',
+        'i':       'https://searx.ninja/?q=!images+{}',
         'tw':      'https://nitter.snopyta.org/{}',
         'tws':      'https://nitter.snopyta.org/search?f=tweets&q={}&since=&until=&near=',
         '4':       'https://4channel.org/{}/catalog',

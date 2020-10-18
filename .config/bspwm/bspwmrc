@@ -8,6 +8,7 @@ pkill redshift
 pkill dunst
 pkill polybar
 pkill unclutter
+doas rfkill unblock bluetooth &
 dunst &
 sxhkd &
 polybar main &
