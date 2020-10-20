@@ -15,7 +15,7 @@ ncmpcpp
 
 vifm
 ![vifm](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/vifm.png)
-
+**[wallpaper](https://raw.githubusercontent.com/beffiom/dotfiles/master/.config/appearance/wallpapers/%23city/purple_clouds.jpg)**
 ## system information
 
 * **distribution:** arch linux
