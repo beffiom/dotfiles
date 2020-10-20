@@ -36,7 +36,7 @@ super+shift+enter | vifm | file browser
 super+w | ungoogled-chromium | web browser
 super+d | dmenu (key programs) | program launcher
 super+shift+d | dmenu (all programs) | program launcher
-super+n | ncmpcpp | music client
+super+m | ncmpcpp | music client
 super+t | rtorrent | torrent client
 super+s | htop | system processes
 super+a | pulsemixer | audio mixer
@@ -48,6 +48,7 @@ super+shift+r | reloads bspwm
 super+shift+x | menu prompt to lockscreen, logout, reboot, or shutdown
 super+shift+w | wifi menu
 super+shift+b | bluetooth menu
+super+shift+m | start/kill mpd
 super+F6 | keepmenu
 super+F7 | configure multi-monitor displays
 super+{F9,F10} | {mount,unmount} devices
