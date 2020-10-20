@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "    $(playerctl metadata title)  "

@@ -1,19 +1,23 @@
 # dotfiles
 
 ## screenshots
+
+chromium
+![chromium](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium.png)
+
+chromium-player
+![chromium-player](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium-player.png)
+mpris polybar script to display media content from chromium/mpv/freetube in the status bar
+
 ncmpcpp
 ![ncmpcpp](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/ncmpcpp.png)
-
-qutebrowser
-![qutebrowser](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/qutebrowser.png)
-**source: [beffiom.github.io/site/blog.html](https://beffiom.github.io/site/blog.html)**
 
 vifm
 ![vifm](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/vifm.png)
 
 ## system information
 
-* **distribution:** void linux
+* **distribution:** arch linux
 * **window manager:** bspwm
 * **panel:** polybar
 * **keybinding daemon:** sxhkd
@@ -28,7 +32,7 @@ keybinding | function | description
 ---------- | -------- | -----------
 super+enter | st | terminal emulator
 super+shift+enter | vifm | file browser
-super+w | qutebrowser | web browser
+super+w | ungoogled-chromium | web browser
 super+d | dmenu (key programs) | program launcher
 super+shift+d | dmenu (all programs) | program launcher
 super+n | ncmpcpp | music client
@@ -39,13 +43,12 @@ super+a | pulsemixer | audio mixer
 ### system processes
 keybinding | description
 ---------- | -----------
-super+? | help (opens this document)
 super+shift+r | reloads bspwm
 super+shift+x | menu prompt to lockscreen, logout, reboot, or shutdown
 super+shift+w | wifi menu
+super+shift+b | bluetooth menu
 super+F6 | keepmenu
 super+F7 | configure multi-monitor displays
-super+F8 | configure protonvpn
 super+{F9,F10} | {mount,unmount} devices
 XF86{LowerVolume,RaiseVoleume} | volume {down,up}
 XF86AudioMute | mute audio

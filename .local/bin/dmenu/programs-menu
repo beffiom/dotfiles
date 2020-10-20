@@ -5,6 +5,7 @@ case "$(printf "automation\\ncoverart\\nddspawn\\nseriestitles.py\\nsetbg\\nshow
 	"ddspawn") $TERMINAL -e $EDITOR ~/.local/bin/programs/ddspawn ;;
 	"seriestitles.py") $TERMINAL -e $EDITOR ~/.local/bin/programs/seriestitles.py ;;
 	"setbg") $TERMINAL -e $EDITOR ~/.local/bin/programs/setbg ;;
+	"show_art") $TERMINAL -e $EDITOR ~/.local/bin/programs/show_art ;;
 	"tordone") $TERMINAL -e $EDITOR ~/.local/bin/programs/tordone ;;
 	"transadd") $TERMINAL -e $EDITOR ~/.local/bin/programs/transadd ;;
 	"umpv") $TERMINAL -e $EDITOR ~/.local/bin/programs/umpv ;;

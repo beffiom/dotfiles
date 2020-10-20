@@ -15,7 +15,7 @@ nnoremap gh :cd ~/<cr>
 nnoremap gt :cd ~/.trash<cr>
 nnoremap gc :cd ~/.config<cr>
 nnoremap gd :cd ~/Downloads/<cr>
-nnoremap ge :cd /mnt/A:A_Drive<cr>
+nnoremap ge :cd /mnt/ext-hdd/<cr>
 nnoremap gm :cd ~/Music/<cr>
 nnoremap gp :cd ~/Pictures<cr>
 nnoremap gv :cd ~/Videos/<cr>

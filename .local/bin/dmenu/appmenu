@@ -1,7 +1,8 @@
 #!/bin/sh
-case "$(printf "productivity\\ninternet\\ngames\\nsettings" | dmenu)" in
-	"productivity") productivity-menu ;;
-	"internet") internet-menu ;;
-	"games") games-menu ;;
-	"settings") settings-menu ;;
+case "$(printf "animix\\noffice\\nfreetube\\nkodi\\nmullvad" | dmenu)" in
+	"animix") anime ;;
+	"office") onlyoffice-desktopeditors ;;
+	"freetube") freetube-bin ;;
+	"kodi") kodi ;;
+	"mullvad") mullvad-vpn ;;
 esac

@@ -1,13 +1,13 @@
 [global]
 follow = keyboard
-geometry = "450x120-25+60"
+geometry = "450x120-50+60"
 indicate_hidden = yes
 shrink = no
 transparency = 0
 notification_height = 5
 separator_height = 4
-padding = 16
-horizontal_padding = 16
+padding = 15
+horizontal_padding = 15
 background = "#14161F"
 foreground = "#fdf6e3"
 frame_width = 3

@@ -12,7 +12,7 @@ st.alpha:	1
 st.font:	Monospace-12;
 st.borderpx:	2
 
-!! Colors
+! special
 *.background:	#14161F
 *.foreground:	#bbc5ff
 *.cursorColor:	#bbc5ff

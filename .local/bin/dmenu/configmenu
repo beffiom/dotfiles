@@ -15,7 +15,7 @@ case "$(printf "userscripts\\nbash_profile\\nbashrc\\nbspwm\\ndmenu\\ndunst\\nfo
 	"neomutt") $TERMINAL -e $EDITOR ~/.config/mutt/muttrc ;;
 	"neovim") $TERMINAL -e $EDITOR ~/.config/nvim/init.vim ;;
 	"picom") $TERMINAL -e $EDITOR ~/.config/appearance/picom.conf ;;
-	"polybar") $TERMINAL -e $EDITOR ~/.config/polybar/config ;;
+	"polybar") $TERMINAL -e $EDITOR ~/.config/polybar/config.ini ;;
 	"qutebrowser-conf") $TERMINAL -e $EDITOR ~/.config/qutebrowser/config.py ;;
 	"qutebrowser-startpage") $TERMINAL -e $EDITOR ~/.config/qutebrowser/local/startpage.html ;;
 	"qutebrowser-theme") $TERMINAL -e $EDITOR ~/.config/qutebrowser/themes/darkstar.css ;;

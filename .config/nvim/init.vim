@@ -47,7 +47,7 @@ map K :tabp<Enter>
     	autocmd BufWritePost .bashrc,.bash_profile,.profile !source ~/.bash_profile
     	autocmd BufWritePost .Xresources !xrdb ~/.Xresources
     	autocmd BufWritePost *ncmpcpp/config,*ncmpcpp/bindings !killall ncmpcpp ; st -e ncmpcpp &
-    	autocmd BufWritePost *polybar/config !bspc wm -r
+    	autocmd BufWritePost *polybar/* !bspc wm -r
     	autocmd BufWritePost config.py !qutebrowser :config-source
     	autocmd BufWritePost darkstar.css !qutebrowser :'set content.user_stylesheets themes/darkstar.css'
     	autocmd BufWritePost darkstar-alt.css !qutebrowser :'set content.user_stylesheets themes/darkstar-alt.css'

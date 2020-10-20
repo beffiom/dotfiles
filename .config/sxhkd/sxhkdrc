@@ -7,6 +7,9 @@ super + Return
 	$TERMINAL
 
 super + d
+	appmenu
+
+super + shift + d
 	$LAUNCHER
 
 super + g
@@ -24,8 +27,11 @@ super + shift + Return
 super + m
     	$MUSIC
 
+super + shift + m
+		mpd-control
+
 super + v
-	mpv $(xclip -selection clipboard -o)
+	umpv $(xclip -selection clipboard -o)
 super + t
     	$TORRENT
 
@@ -55,7 +61,11 @@ super + shift + x
 
 ## wifi menu
 super + shift + w
-	connmenu
+	networkmanager_dmenu
+
+## bluetooth menu
+super + shift + b
+	btmenu
 
 ## manage passwords
 super + F6
@@ -75,13 +85,13 @@ super + {F9,F10}
 
 ## audio control
 XF86Audio{LowerVolume,RaiseVolume}
-	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5; volumenotify
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5
 
 super + {minus,equal}
-	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5; volumenotify
+	pulsemixer --unmute ; pulsemixer --change-volume {-,+}5
 
 XF86AudioMute
-	pulsemixer --toggle-mute; volumenotify
+	pulsemixer --toggle-mute
 
 #super + m
 #	pulsemixer --toggle-mute
@@ -96,14 +106,14 @@ super + {comma,period}
 
 ## play/pause music
 XF86AudioPlay
-	mpc {play ; notify_currenttrack,pause ; dunstify -r 1 -u low -i ~/.config/appearance/icons/pause.png "Music Paused!"}
+	mpc {toggle ; notify_currenttrack,pause ; dunstify -r 1 -u low -i ~/.config/appearance/icons/pause.png "Music Paused!"}
 
 super + p
-	mpc {play ; notify_currenttrack,pause ; dunstify -r 1 -u low -i ~/.config/appearance/icons/pause.png "Music Paused!"}
+	mpc {toggle ; notify_currenttrack,pause ; dunstify -r 1 -u low -i ~/.config/appearance/icons/pause.png "Music Paused!"}
 
 ## display backlight control
 XF86MonBrightness{Down,Up}
-	xbacklight {-,+} 5 ; dunstify -u low -r 6 -i ~/.config/appearance/icons/preferences-system-brightness-lock.svg "Brightness: $(xbacklight -get)%"
+	xbacklight {-,+} 5
 
 
 ## keyboard backlight control
