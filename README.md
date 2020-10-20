@@ -4,6 +4,7 @@
 
 chromium
 ![chromium](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium.png)
+**source**: [beffiom.tech](https://beffiom/tech)
 
 chromium-player
 ![chromium-player](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium-player.png)
