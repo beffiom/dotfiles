@@ -6,9 +6,9 @@ chromium
 ![chromium](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium.png)
 **source**: [beffiom.tech](https://beffiom.tech)
 
-chromium-player
-![chromium-player](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium-player.png)
-mpris polybar script to display media content from chromium/mpv/freetube in the status bar
+mpv
+![mpv](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/mpv.png)
+mpris script to display media content from chromium/mpv/freetube in polybar
 
 ncmpcpp
 ![ncmpcpp](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/ncmpcpp.png)
