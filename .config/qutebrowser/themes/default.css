@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+	color: #292d3e !important;
+}
+
+input,
+text-area,
+input *,
+select *,
+::-webkit-input-placeholder {
+  	padding: 2px !important;
+  	text-align: center;
+  	border-bottom-color: #c792ea !important;
+  	border-radius: 25px !important;
+}
+
+img,
+video {
+	background-color:  transparent !important;
+	border-radius: 10px !important;
+}
+
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  	border-color: #c792ea !important;
+	border-radius: 10px !important;
+}

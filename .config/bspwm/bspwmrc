@@ -23,8 +23,8 @@ setbg
 ################
 ### MONITORS ###
 ################
-bspc monitor HDMI1 -d 6
 bspc monitor eDP1 -d 1 2 3 4 5
+bspc monitor HDM1 -d 6
 
 ############################
 #### BSPWM configuration ###

@@ -31,11 +31,10 @@ alias kiwix-start="kiwix-serve --port=8000 ~/Devices/A\:A_Drive/Multimedia/Books
 alias dv="youtube-dl --add-metadata --embed-subs -i -o '[%(uploader)s] %(title)s.%(ext)s'"
 alias da="youtube-dl --add-metadata -i -o '%(title)s.%(ext)s' -x -f bestaudio/best"
 alias dl="wget --backups"
-alias apu='doas pacman -Sy'
-alias api='doas pacman -Syu'
-alias apr='doas pacman -Rcns'
-alias apq='doas pacman -Ss'
-alias apc='doas pacman -Sc'
+alias vpu='doas xbps-install -u'
+alias vpi='doas xbps-install'
+alias vpr='doas xbps-remove -RyfOo'
+alias vpq='doas xbps-query --regex -v'
 alias bt-start='pactl load-module module-bluetooth-discover; pactl load-module module-bluetooth-policy; doas sv restart bluetoothd'
 alias ffmpeg="ffmpeg -hide_banner"
 alias file-metadata="for file in *; do mkvpropedit "$file" -s title=$filename; done"

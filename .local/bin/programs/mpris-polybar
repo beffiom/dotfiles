@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "    $(playerctl metadata title)  "
+printf "     $(playerctl metadata title | sed 's/.mkv.*//')  "

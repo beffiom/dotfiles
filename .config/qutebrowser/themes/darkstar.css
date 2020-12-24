@@ -1,0 +1,251 @@
+:root {
+	--bg-color: #14161F !important;
+	--bg-alt-color: #434758 !important;
+	--fg-color: #bbc5ff !important;
+	--link-color: #82aaff !important;
+	--link-hover-cover: #c792ea !important;
+	--border-color: #c792ea !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+	color: #14161F !important;
+}
+
+* {
+  	color: #bbc5ff !important;
+ 	background-color: transparent !important;
+  	border-color: transparent !important;
+}
+
+a,
+a:visited,
+span a,
+.d-flex a,
+clipboard-copy,
+.btn,
+.btn i {
+	color: #82aaff !important;
+}
+
+a:hover,
+.d-flex a:hover {
+	color: #c792ea !important;
+	text-decoration: none !important;
+}
+
+html,
+body,
+div,
+div.commit-branches *,
+div.commit.full-commit p.commit-title *,
+qul.branches-list *,
+.d-flex,
+header,
+#header,
+footer,
+#footer,
+button,
+a.button,
+a.submit,
+a.BigButton,
+a.TabLink,
+.install[onclick],
+a[href="javascript:;"],
+a[class*="button"]:not(:empty),
+a[id*="button"]:not(:empty),
+a[id*="Button"]:not(:empty),
+div[class*="button"][onclick],
+.fbNubFlyoutBodyContent,
+[type|="submit"] {
+	background-color: #14161F !important;
+  	color: #bbc5ff !important;
+}
+
+iframe,
+embed,
+header,
+nav,
+footer,
+label [onclick],
+nav ul,
+div[style*="position:"][style*="left:"][style*="visible"],
+div[style*="z-index:"][style*="left:"][style*="visible"],
+div[style*="-moz-user-select"],
+div[role="menu"],
+div[role="dialog"],
+div[id="task details"],
+span[class*="script"] div,
+[id*="menu"],
+[class*="dropdown"],
+[class*="popup"],
+[class="title"],
+[class="search__autocomplete"],
+[class="top-matter"],
+ul[style*="display:"],
+ul[style*="visibility:"] ul,
+[id*="nav"] ul,
+[class*="nav"] ul,
+ul[class*="menu"],
+a[onclick][style*="display"],
+a[id*="ghosteryfirefox"],
+#ghostery-purple-bubble,
+#translator-popup,
+.menu,
+.tooltip,
+.hovercard,
+.vbmenu_popup,
+* .navigation,
+* .navigation a,
+menu,
+dir,
+.openData .odGradient,
+.stable-head td div,
+.rplm-alert .content-wrap,
+#navbar *,
+#sondage,
+div.dlg-window,
+.modal-container .modal-content .modal-box .once-modal,
+.tabs_main ul li a,
+.tabs_main ul li span,
+.module-actionbar .module-actionbar-action,
+.bg_01,
+.bg-default,
+.box-highlight,
+.bg-brighter,
+.mvxl,
+#downloads,
+.questions-ovl,
+.ovl-frame,
+.messenger__contacts .scroll,
+.messenger__contacts .scroll_,
+.messenger__content .scroll,
+.messenger__content .scroll_,
+.st_error .messenger__content-inner .scroll__,
+a.info:hover span,
+a.info:focus span,
+#system,
+#product,
+.clicked,
+.notClicked,
+.notClicked:hover,
+#ident_div_ident,
+.idAbonne,
+#pageFacture .tab-content,
+span.conteneurTips,
+.ligneOption,
+.ligneMevo td,
+[id*="footer"],
+.modal-dialog,
+.cadre-contenu,
+#cart_summary,
+#loyalty-target,
+#cont-subnav,
+.wrapper,
+.filtre-thematiques-selected,
+.filtre-thematiques,
+ul.thematiques,
+li.thematique.sans-chaines,
+a.voir-thematique,
+[class*="progTrigger"],
+#connexion,
+.sub-menu .sub-nav-article-wrapper,
+#navMain ul li,
+.SMainRack,
+.STopRack,
+.STopFirst,
+.SBotRack {
+  background: #14161F !important;
+  border-top-color: #c792ea !important;
+}
+
+.pagination .disable:hover,
+.pagination a,
+.markdown-body code,
+.markdown-body table * code,
+.markdown-body pre,
+.markdown-body table * pre,
+.subnav-links a:hover,
+.user-profile-sticky-bar:after,
+tr.Even,
+div.thumbinner,
+table.wikitable > * > tr > th,
+.post h2,
+.post div.entry blockquote,
+.post div.entry kbd,
+tr:hover,
+blockquote,
+pre,
+.bottom-notice,
+.question-status,
+pre code,
+.topbar-dialog .header,
+.new-post-activity,
+#sidebar .module.community-bulletin,
+.newuser,
+#ad502-room,
+.post-signature,
+.vote {
+	background-color: #434758 !important;
+}
+
+input,
+text-area,
+input *,
+select *,
+::-webkit-input-placeholder {
+	background-color: #434758 !important;
+  	padding: 2px !important;
+  	color: #bbc5ff !important;
+  	text-align: center;
+  	border-bottom-color: #c792ea !important;
+  	border-radius: 25px !important;
+}
+
+img,
+video {
+	background-color:  transparent !important;
+	border-radius: 10px !important;
+}
+
+.HeartAnimation,
+.search-icon,
+.css-truncate-target {
+  background-color: transparent !important;
+  color: #82aaff !important;
+}
+
+.stream-item {
+  padding: 5px 10px 5px 10px !important;
+  border-radius: 0px !important;
+}
+
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  	border-color: #c792ea !important;
+	border-radius: 10px !important;
+}
+
+.file-wrap,
+.pl-mi1,
+.pl-md,
+.commit-desc pre,
+.commit-meta.commit-author-section,
+.table-list-cell .commit-title,
+a.tabnav-tab,
+.tabnav-tab,
+input#lst-ib,
+#sb_ifc0.sbib_b,
+#gs_taif0,
+div.vectorTabs li.selected,
+div.vectorTabs li.selected span,
+.bg-black-050,
+.val-info,
+#tabs a {
+	background-color: transparent !important;
+}

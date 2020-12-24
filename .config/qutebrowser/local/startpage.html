@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>スタートページ</title>
+    <link href="img/icon.png" rel="icon" type="image/x-icon" />
+
+    <style>
+
+    body {
+        font-family: monospace;
+        background-color: #f8f8ff;
+        margin: 0px;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #clock {
+        font-family: monospace;
+        font-size: 4.0rem;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: .25em;
+    }
+
+    #search {
+        width: 100%;
+        height: 100vh;
+        background-color: #000000;
+        display: none;
+        position: absolute;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #search-field {
+        width: 90%;
+        padding: .75em 1em;
+        box-sizing: border-box;
+        background-color: #000000;
+        border: solid 0px #000000;
+        font-size: 4rem;
+        color: #f2f2f2;
+        outline: none;
+        border-radius: 3px;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+   .inline {
+        display: inline-block;
+    }
+
+    .bookmark-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 60%;
+        margin: 1em 0em;
+    }
+
+    @media only screen and (max-width: 960px) {
+        .container {
+            height: auto;
+        }
+        #clock {
+            margin-top: 1em;
+        }
+        .container > .bookmark-container {
+            flex-direction: column;
+            width: 60%;
+        }
+        .bookmark-container > .bookmark-set {
+            width: auto;
+            margin: 1em 0em;
+        }
+    }
+
+    .bookmark-set{
+        padding: 1em;
+        background-color: #000000;
+        border-radius: 3px;
+        font-size: .85rem;
+        text-align: center;
+        min-width: 12rem;
+        height: 16em;
+        margin: 0em .5em;
+    }
+    .bookmark-inner-container {
+        overflow-y: scroll;
+        height: 80%;
+        vertical-align: top;
+    }
+    .bookmark-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #f8f8ff;
+        margin: 0em 0em .35em 0em;
+    }
+    .bookmark {
+        text-decoration: none;
+        color: #f8f8ff;
+        display: block;
+        margin: .4em 0em;
+    }
+    .bookmark:hover {
+        color: #fff;
+    }
+    .link-list {
+        text-decoration: none;
+        color: #000000;
+    }
+    </style>
+</head>
+<body>
+    <div id="search">
+        <input id="search-field" type="text" name="search-field"/>
+    </div>
+    <div class="container">
+        <div id="clock"></div>
+        <div class="bookmark-container">
+            <div class="bookmark-set">
+                <div class="bookmark-title">ワーク </div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://sso.spcollege.edu/adfs/ls/?wa=wsignin1.0&wtrealm=https%3A%2F%2Fone.spcollege.edu%2F&wctx=rm%3D0%26id%3Dpassive%26ru%3D%252f&wct=2019-01-10T20%3A10%3A36Z&wreply=https%3A%2F%2Fone.spcollege.edu%2F">skool</a></li>
+                    <a class="bookmark" href="https://github.com/beffiom">github</a>
+                    <a class="bookmark" href="https://mail.protonmail.com/login">mail</a>
+                    <a class="bookmark"href="https://www.linkedin.com/">linkedin</a>
+                    <a class="bookmark" href="https://lobste.rs/">lobsters</a>
+                    <a class="bookmark" href="https://news.ycombinator.com/">hackernews</a>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">youtube</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UClnDI2sdehVm1zm_LmUHsjQ">biographics</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCybBViio_TH_uiFFDJuz5tg">einzelganger</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCMmaBzfCCwZ2KqaBJjkj0fw">kings and generals</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCqYPhGiB9tkShZorfgcL2lA">what i've learned</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC6rV0GDL4Y6Uo1Vql6u56xw">therealizedman</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC7IcJI8PUf5Z3zKxnZvTBog">the school of life</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCBIt1VN5j37PVM8LLSuTTlw">improvement pill</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCXD5aOFDPO1W264sJvYc85Q">redfrost motivation</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UClHVl2N3jPEbkNJVx-ItQIQ">healthygamergg</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC1E-JS8L0j1Ei70D9VEFrPQ">vaush</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCepkun0sH16b-mqxBN22ogA">mexie</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC554eY5jNUfDq3yDOJYirOQ">destiny</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCGog4JPn5-W3_XIKccENysg">halim alrah</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCaN8DZdc8EHo5y1LsQWMiig">big joel</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCarEovlrD9QY-fy-Z6apIDQ">patriot act</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCGSGPehp0RWfca-kENgBJ9Q">jreg</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC2-_WWPT_124iN6jiym4fOw">asian boss</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCHL9bfHTxCMi-7vfxQ-AYtg">abroad in japan</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCgNg3vwj3xt7QOrcIDaHdFg">polymatter</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCoNTMWgGuXtGPLv9UeJZwBw">living big in a tiny house</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCqwxJts-6yF33rupyF_DCsA">life where i'm from</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC9RM-iSvTu1uPJb8X5yp3EQ">wendover productions</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCuCkxoKLYO_EQ2GeFtbM_bw">half as interesting</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCtMVHI3AJD4Qk4hcbZnI9ZQ">someordinarygamers</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCL44k-cLrlsdr7PYuMU4yIw">thatchapter</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCpFFItkfZz1qz5PpHpqzYBw">nexpo</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCchWU8ta6L-Dy3rGIxPINzw">reignbot</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC9PIn6-XuRKZ5HmYeu46AIw">barely sociable</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCT3EznhW_CNFcfOlyDNTLLw">minority mindset</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UClcE-kVhqyiHCcjYwcpfj9w">liveoverflow</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCDbWhUnMdhxi2bo-oZQ1m3Q">michael gillespie</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC9-y-6csu5WGm29I7JiwpnA">computerphile</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCCkVMojdBWS-JtH7TliWkVg">gynvaelen</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC2eYFnH61tmytImy1mTYvhA">luke smith</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC3ETCazlHenpXEsrEJH-k5A">the anime man</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC7dF9qfBMXrSlaaFFDvV_Yg">gigguk</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCRdyjE3lE7dtCOxU4rTsXVA">tekking101</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCBs2Y3i14e1NWQxOGliatmg">mother's basement</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCBBU7zUOhR_qShfMV26UUCA">nux taku</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCexls6lVQMZT6aSfLPNTonA">bonsai pop</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCtGoikgbxP4F3rgI9PldI9g">super eyepatch wolf</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCj8mAcR6Mu1dvaXQ6BdShRQ">the masked man</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC2msEzmNU3Um7KF2EnXJBFA">grandlinereview</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCdSnjmLUUe_NT4ml9OkUi1A">newworldreview</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ">wisecrack</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UC4jJLUOBhHi3kT3zSuyn28g">manga workout</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCGJq0eQZoFSwgcqgxIE9MHw">mic the vegan</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCpyhJZhJQWKDdJCR07jPY-Q">simnett nutrition</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCVRrGAcUc7cblUzOhI1KfFg">earthlinged</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCLqH-U2TXzj1h7lyYQZLNQQ">greg doucette</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCXrqErU_TjqiHAHJkzITAvg">shredded sports science</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCq6VFHwMzcMXbuKyG7SQYIg">penguinz0</a>
+                    <a class="bookmark" href="https://invidious.snopyta.org/channel/UCI9f0Yq6Om7Q8HWZdncJ2Ng">birdman</a>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">twitter</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://nitter.snopyta.org/ajdhenry">@ajdhenry</a>
+                    <a class="bookmark" href="https://bibliogram.art/u/dailystoic">@dailystoic</a>
+                    <a class="bookmark" href="https://bibliogram.art/u/theexaminedstoic">@theexaminedstoic</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/jmemc55">@jmemc55</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/internetofshit">@internetofshit</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/lporiginalg">@lporiginalg</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/FreeWenger">@freewenger</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/SavinTheBees">@savinthebees</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/jprinceq">@jprinceq</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/vaushv">@vaushv</a>
+                    <a class="bookmark" href="https://nitter.snopyta.org/shaun_vids">@shaun_vids</a>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">boards</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://4channel.org/g/catalog">/g/</a>
+                    <a class="bookmark" href="https://4channel.org/fit/catalog">/fit/</a>
+                    <a class="bookmark" href="https://4channel.org/out/catalog">/out/</a>
+                    <a class="bookmark" href="https://4channel.org/his/catalog">/his/</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/cleanlivingkings/">r/cleanlivingkings</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/Stoicism/">r/Stoicism</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/Anticonsumption/">r/Anticonsumption</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/simpleliving/">r/simpleliving</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/nosurf/">r/nosurf</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/fatlogic/">r/fatlogic</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/ConsumeProduct/">r/ConsumeProduct</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/SmugIdeologyMan/">r/SmugIdeologyMan</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/averageredditor/">r/averageredditor</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/smuggies/">r/smuggies</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/vegancirclejerk/">r/vegancirclejerk</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/bodyweightfitness/">r/bodyweightfitness</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/eatcheapandhealthy/">r/eatcheapandhealthy</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/eatcheapandvegan/">r/eatcheapandvegan</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/soccercirclejerk/">r/soccercirclejerk</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/soccer/">r/soccer</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/askreddit/">r/askreddit</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/books/">r/books</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/dankchristianmemes/">r/dankchristianmemes</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/catholicmemes/">r/catholicmemes</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/latestagecapitalism/">r/latestagecapitalism</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/toiletpaperusa/">r/toiletpaperusa</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/letsnotmeet/">r/letsnotmeet</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/nosleep/">r/nosleep</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/greentext/">r/greentext</a>
+                    <a class="bookmark" href="https://old.reddit.com/r/4chan/">r/4chan</a>
+                </div>
+            </div>
+    </div>
+
+    <div><a class="link-list" href="link-list.html"><br>full link list</a></div>
+
+    <script>
+        // Search on enter key event
+        document.getElementById("search-field").addEventListener("keydown",  event => {
+            if (event.keyCode === 13) {
+                var val = document.getElementById("search-field").value;
+                window.open("https://google.com/search?q=" + val);
+            }
+        });
+        // Get current time and format
+        getTime = () => {
+            let date = new Date(),
+                min = date.getMinutes(),
+                sec = date.getSeconds(),
+                hour = date.getHours();
+
+            return "" +
+                (hour < 10 ? ("0" + hour) : hour) + ":" +
+                (min < 10 ? ("0" + min) : min) + ":" +
+                (sec < 10 ? ("0" + sec) : sec);
+        }
+
+        window.onload = () => {
+            let xhr = new XMLHttpRequest();
+            // Request to open weather map
+            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
+            xhr.onload = () => {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        let json = JSON.parse(xhr.responseText);
+                        console.log(json);
+                        document.getElementById("temp").innerHTML = json.main.temp.toFixed(0) + " F";
+                        document.getElementById("weather-description").innerHTML = json.weather[0].description;
+                    } else {
+                        console.log('error msg: ' + xhr.status);
+                    }
+                }
+            }
+            xhr.send();
+            // Set up the clock
+            document.getElementById("clock").innerHTML = getTime();
+            // Set clock interval to tick clock
+            setInterval( () => {
+                document.getElementById("clock").innerHTML = getTime();
+            },100);
+        }
+
+        document.addEventListener("keydown", event => {
+            if (event.keyCode == 32) {          // Spacebar code to open search
+                document.getElementById('search').style.display = 'flex';
+                document.getElementById('search-field').focus();
+            } else if (event.keyCode == 27) {   // Esc to close search
+                document.getElementById('search-field').value = '';
+                document.getElementById('search-field').blur();
+                document.getElementById('search').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+

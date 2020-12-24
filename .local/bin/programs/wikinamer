@@ -21,7 +21,7 @@ read -p "Enter episode number to start at: " START_NUM
 
 # read wikipedia url from second argument
 read -p "Enter sauce: " WIKI_SAUCE
-mapfile -t titles < <(python ~/.scripts/tools/seriestitles.py $WIKI_SAUCE $START_NUM)
+mapfile -t titles < <(python ~/.local/bin/programs/seriestitles.py $WIKI_SAUCE $START_NUM)
 
 # iterate through directory creating a newFileName and use it to rename each file in the directory
 for ((i=0; i<${#DIR[@]}; i++))
@@ -43,7 +43,7 @@ do
 	fi
 
 	newFileName="$season$episode ${titles[i]}"
-	#newFileName+=".mkv"
+	newFileName+=".mkv"
 
 	mv -v "${DIR[i]}" "$INPUT_DIR$newFileName"
 done

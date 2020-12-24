@@ -31,7 +31,8 @@ super + shift + m
 		mpd-control
 
 super + v
-	umpv $(xclip -selection clipboard -o)
+		umpv $(xclip -selection clipboard -o)
+
 super + t
     	$TORRENT
 
@@ -74,10 +75,6 @@ super + F6
 ## configure multi-monitor displays
 super + F7
     	displaymenu
-
-## configure protonvpn
-super + F8
-    	vpnmenu
 
 ## mount/unmount devices using dmenu
 super + {F9,F10}

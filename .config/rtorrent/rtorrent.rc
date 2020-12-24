@@ -14,7 +14,7 @@ throttle.global_up.max_rate.set = 28
 pieces.hash.on_completion.set = yes
 
 ### Default Directories ###
-directory.default.set = ~/.config/rtorrent/downloads
+directory.default.set = /mnt/ext-hdd/Multimedia/Videos/Torrents/
 session.path.set = ~/.config/rtorrent/.session
 schedule2 = watch_directory,5,5,load.start=~/.config/rtorrent/watch/*.torrent
 

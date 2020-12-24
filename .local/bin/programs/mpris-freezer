@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "     $(playerctl metadata artist) - $(playerctl metadata title | sed 's/.mkv.*//')  "

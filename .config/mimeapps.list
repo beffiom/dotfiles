@@ -1,11 +1,11 @@
 [Default Applications]
 x-scheme-handler/magnet=torrent.desktop
 application/x-bittorrent=torrent.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
 x-scheme-handler/ftp=firefox.desktop
 x-scheme-handler/chrome=firefox.desktop
-text/html=firefox.desktop
+text/html=chromium.desktop
 application/x-extension-htm=firefox.desktop
 application/x-extension-html=firefox.desktop
 application/x-extension-shtml=firefox.desktop
@@ -26,6 +26,10 @@ image/jpeg=img.desktop;
 image/gif=img.desktop;
 x-scheme-handler/discord-431872723946438658=discord-431872723946438658.desktop
 x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_usr_lib_eclipse_.desktop
+x-scheme-handler/msteams=teams.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -39,3 +43,4 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+text/calendar=teams.desktop;

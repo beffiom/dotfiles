@@ -1,0 +1,59 @@
+# WARNING: This file can be overwritten easily with the :jmatrix-write-rules command
+# When data is overwritten, formatting and comments will be lost.
+# Please exercise caution when editing this file directly, and make sure to keep backups.
+
+
+https-strict: behind-the-scene true
+matrix-off: behind-the-scene true
+matrix-off: about-scheme true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: moz-extension-scheme true
+matrix-off: opera-scheme true
+matrix-off: vivaldi-scheme true
+matrix-off: wyciwyg-scheme true
+matrix-off: qute-scheme true
+* * * block
+* * frame block
+* * image allow
+* * css allow
+* 1st-party * allow
+* 1st-party frame allow
+github.com assets-cdn.github.com css allow
+github.com assets-cdn.github.com image allow
+github.com assets-cdn.github.com script allow
+github.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com xhr allow
+github.com github-production-user-asset-6210df.s3.amazonaws.com xhr allow
+github.com raw.githubusercontent.com xhr allow
+github.com render.githubusercontent.com frame allow
+github.com render.githubusercontent.com script allow
+github.com render.githubusercontent.com xhr allow
+gitlab.com assets.gitlab-static.net script allow
+stackoverflow.com ajax.googleapis.com script allow
+stackoverflow.com cdn.sstatic.net script allow
+linkedin.com linkedin.com * allow
+linkedin.com static.licdn.com script allow
+linkedin.com static.licdn.com xhr allow
+boards.4chan.org s.4cdn.org css allow
+boards.4chan.org s.4cdn.org image allow
+boards.4chan.org s.4cdn.org script allow
+boards.4chan.org www.google.com script block
+boards.4chan.org i.4cdn.org image allow
+boards.4chan.org i.4cdn.org media allow
+hockeynews.site cdn.jsdelivr.net script allow
+hockeynews.site cdn.jsdelivr.net other allow
+hockeynews.site lg3.media.net script allow
+hockeynews.site contextual.media.net script block
+hockeynews.site fonts.googleapis.com css block
+hockeynews.site a.vdo.ai script allow
+hockeynews.site a.vdo.ai other allow
+hockeynews.site track.vdo.ai image block
+hockeynews.site dt.clnmde.com other allow
+hockeynews.site 103.194.171.52 xhr allow
+boards.4channel.org s.4cdn.org script allow
+old.reddit.com www.redditstatic.com script allow
+np.reddit.com www.redditstatic.com script allow
+beffiom.github.io fontlibrary.org other allow
+www.twitch.tv static.twitchcdn.net other allow
+www.twitch.tv static.twitchcdn.net script allow
+beffiom.tech fontlibrary.org other allow
