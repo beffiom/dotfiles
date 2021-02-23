@@ -33,9 +33,7 @@ from qutebrowser.misc import editor
 config = config  # type: ConfigAPI # noqa: F821 pylint: disable=E0602,C0103
 c = c  # type: ConfigContainer # noqa: F821 pylint: disable=E0602,C0103
 
-MYPY = False
-if MYPY:
-	from qutebrowser.config import configcommands
+from qutebrowser.config import configcommands
 
 # If false, disable blocking. Usually changed via the jmatrix-toggle command
 JMATRIX_ENABLED = True

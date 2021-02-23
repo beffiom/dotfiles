@@ -57,3 +57,5 @@ beffiom.github.io fontlibrary.org other allow
 www.twitch.tv static.twitchcdn.net other allow
 www.twitch.tv static.twitchcdn.net script allow
 beffiom.tech fontlibrary.org other allow
+beffiom.tech ajax.googleapis.com script allow
+beffiom.tech graphql.anilist.co xhr allow

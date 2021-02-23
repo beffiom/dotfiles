@@ -88,7 +88,7 @@ else:
     os.mkfifo(FIFO, 0o600)
 
     opts = (os.getenv("MPV") or "mpv").split()
-    opts.extend(["--no-terminal", "--force-window", "--input-ipc-server=" + FIFO,
+    opts.extend(["--no-terminal", "--force-window", "--input-ipc-server=/tmp/mpvsocket",
                  "--"])
     opts.extend(files)
 

@@ -18,6 +18,7 @@ https://nitter.snopyta.org/esaagar
 #chaine youtube
 wiloo https://invidious.snopyta.org/watch?v=kze8-aV2DF8
 
+
 #imageboards
 lainchan https://lainchan.org/
 arisuchan https://arisuchan.jp/

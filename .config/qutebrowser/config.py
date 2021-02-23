@@ -1,3 +1,8 @@
+#################################################################
+# AUTOCONFIG
+#################################################################
+config.load_autoconfig()
+
 ################################################################
 # GENERAL
 #################################################################
@@ -320,7 +325,7 @@ c.completion.use_best_match = False
 
 ## Number of URLs to show in the web history. 0: no history / -1: unlimited
 ## [Int]
-c.completion.web_history.max_items = 0
+c.completion.web_history.max_items = -1
 
 #################################################################
 # content
@@ -398,14 +403,14 @@ c.content.headers.do_not_track = True
 ## Enable host blocking aka adblock.
 ## This setting supports URL patterns.
 ## [Bool]
-c.content.host_blocking.enabled = False
+c.content.blocking.enabled = False
 
 ## List of URLs of lists which contain hosts to block.
 ## The file can be in one of the following formats: An /etc/hosts-like file; One host per line; A zip-file of any of the above, with either only one file, or a file named hosts (with any extension).
 ## It’s also possible to add a local file or directory via a file:// URL. In case of a directory, all files in the directory are read as adblock lists.
 ## The file ~/.config/qutebrowser/blocked-hosts is always read if it exists.
 ## [List of Url]
-c.content.host_blocking.lists = [
+c.content.blocking.hosts.lists = [
                     "file:///blocklist/",
                     "https://www.malwaredomainlist.com/hostslist/hosts.txt",
                     "https://someonewhocares.org/hosts/ipv6/hosts",
@@ -491,7 +496,7 @@ c.content.local_storage = True
 ## This setting supports URL patterns.
 ## This setting is only available with the QtWebEngine backend.
 ## [BoolAsk]
-c.content.media_capture = False
+# c.content.media_capture = False
 
 ## Netrc-file for HTTP authentication. If unset, ~/.netrc is used.
 ## [File]
@@ -501,7 +506,7 @@ c.content.media_capture = False
 ## [BoolAsk]
 c.content.notifications = False
 
-## Enable plugins in Web pages.
+## Enable plugiZZns in Web pages.
 ## This setting supports URL patterns.
 ## [Bool]
 c.content.plugins = False
@@ -1097,7 +1102,8 @@ c.url.open_base_url = True
 
 ## Search engines which can be used via the address bar. Maps a search engine name (such as DEFAULT, or ddg) to a URL with a {} placeholder. The placeholder will be replaced by the search term, use {{ and }} for literal {/} signs. The search engine named DEFAULT is used when url.auto_search is turned on and something else than a URL was entered to be opened. Other search engines can be used by prepending the search engine name to the search term, e.g. :open google qutebrowser.
 ## [Dict]
-c.url.searchengines = {"DEFAULT": "https://searx.ninja/?q={}",
+c.url.searchengines = {"DEFAULT": "https://duckduckgo.com/?q={}",
+        's':     'https://searx.ninja/?q={}',
         'w':       'https://en.wikipedia.org/wiki/{}',
         'v':       'https://invidious.snopyta.org/search?q={}',
         'i':       'https://searx.ninja/?q=!images+{}',

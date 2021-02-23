@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if pidof mpv > /dev/null
+    then
+	    METADATA=$(echo '{ "command": ["get_property", "media-title"] }' | socat - /tmp/mpvsocket | jq '. | .data' | tr -d '"')
+
+		printf "    $METADATA "
+    else
+	    exit
+fi

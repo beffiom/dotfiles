@@ -149,8 +149,8 @@ super + shift + f
 	bspc desktop -l next
 
 ## hide/show bars
-super + b
-    	{killall polybar ; bspc config top_padding 0,bspc config top_padding 25}
+# super + b
+#    	{killall polybar ; bspc config top_padding 0,bspc config top_padding 25}
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}

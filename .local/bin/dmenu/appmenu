@@ -1,6 +1,5 @@
 #!/bin/sh
 case "$(printf "animix\\noffice\\nfreetube\\nfreezer\\nkodi\\nmullvad" | dmenu)" in
-	"animix") anime ;;
 	"office") onlyoffice-desktopeditors ;;
 	"freetube") freetube-bin ;;
 	"freezer") Freezer.AppImage ;;

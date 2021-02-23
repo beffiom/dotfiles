@@ -6,5 +6,9 @@
 
 config_version: 2
 settings:
+  colors.webpage.darkmode.enabled:
+    global: false
+  colors.webpage.prefers_color_scheme_dark:
+    global: true
   content.user_stylesheets:
-    global: themes/default.css
+    global: themes/darkstar.css
