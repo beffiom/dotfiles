@@ -1,5 +1,5 @@
 # dotfiles
-
+this is outdated but I really like this repo, my dotfiles are currently differently and will schedule some time shortly to update the repo
 ## screenshots
 
 chromium
