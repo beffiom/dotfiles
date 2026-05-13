@@ -1,5 +1,5 @@
 # dotfiles
-this is outdated but I really like this repo, my dotfiles are currently differently and will schedule some time shortly to update the repo
+this is outdated but I really like this repo, my dotfiles are currently different (on fedora and hyprland at the most - these configurations mostly assume X11 display so server so this repo doesn't play nice with my current dotfiles using Wayland) and will schedule some time shortly to update the repo
 ## screenshots
 
 chromium
