@@ -4,7 +4,7 @@
 
 chromium
 ![chromium](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/chromium.png)
-**source**: [beffiom.tech](https://beffiom.tech)
+**source**: [https://beffiom.github.io/site/](https://beffiom.github.io/site/)
 
 mpv
 ![mpv](https://raw.github.com/beffiom/linux-dotfiles/master/Pictures/Screenshots/mpv.png)
